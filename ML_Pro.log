@@ -1,0 +1,20 @@
+nohup: ignoring input
+cifar100 0/20 done
+cifar100 0/10 done
+cifar100 0/5 done
+cifar100 40/3 done
+run_bash.sh: line 22: n: command not found
+cifar100 50/10 done
+cifar100 50/5 done
+cifar100 done
+imagnet100 0/20 done
+imagnet100 0/10 done
+imagnet100 0/5 done
+imagnet100 40/3 done
+imagnet100 50/10 done
+imagnet100 50/5 done
+imagnet100 done
+imagnet100 100/20 done
+imagnet100 100/10 done
+imagnet100 100/5 done
+tinyimagenet done

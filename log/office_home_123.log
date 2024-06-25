@@ -1,0 +1,233 @@
+2024-05-18 05:03:58,505 [trainer.py] => config: exps/FeCAM_office_home.json
+2024-05-18 05:03:58,505 [trainer.py] => prefix: train
+2024-05-18 05:03:58,505 [trainer.py] => dataset: office_home
+2024-05-18 05:03:58,505 [trainer.py] => memory_size: 0
+2024-05-18 05:03:58,505 [trainer.py] => shuffle: True
+2024-05-18 05:03:58,505 [trainer.py] => init_cls: 10
+2024-05-18 05:03:58,505 [trainer.py] => increment: 10
+2024-05-18 05:03:58,505 [trainer.py] => model_name: fecam
+2024-05-18 05:03:58,505 [trainer.py] => convnet_type: resnet18
+2024-05-18 05:03:58,505 [trainer.py] => device: [device(type='cuda', index=1), device(type='cuda', index=2), device(type='cuda', index=3)]
+2024-05-18 05:03:58,505 [trainer.py] => seed: 1993
+2024-05-18 05:03:58,505 [trainer.py] => init_epochs: 10
+2024-05-18 05:03:58,505 [trainer.py] => init_lr: 0.1
+2024-05-18 05:03:58,505 [trainer.py] => init_weight_decay: 0.0005
+2024-05-18 05:03:58,505 [trainer.py] => batch_size: 64
+2024-05-18 05:03:58,505 [trainer.py] => num_workers: 8
+2024-05-18 05:03:58,505 [trainer.py] => T: 2
+2024-05-18 05:03:58,505 [trainer.py] => beta: 0.5
+2024-05-18 05:03:58,505 [trainer.py] => alpha1: 1
+2024-05-18 05:03:58,505 [trainer.py] => alpha2: 1
+2024-05-18 05:03:58,505 [trainer.py] => ncm: False
+2024-05-18 05:03:58,505 [trainer.py] => tukey: True
+2024-05-18 05:03:58,505 [trainer.py] => diagonal: False
+2024-05-18 05:03:58,505 [trainer.py] => per_class: True
+2024-05-18 05:03:58,505 [trainer.py] => full_cov: True
+2024-05-18 05:03:58,506 [trainer.py] => shrink: True
+2024-05-18 05:03:58,506 [trainer.py] => norm_cov: True
+2024-05-18 05:03:58,506 [trainer.py] => source_index: 1
+2024-05-18 05:03:58,506 [trainer.py] => target_index: 3
+0 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Alarm_Clock/00001.jpg
+1 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Backpack/00001.jpg
+2 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Batteries/00001.jpg
+3 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Bed/00001.jpg
+4 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Bike/00001.jpg
+5 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Bottle/00001.jpg
+6 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Bucket/00001.jpg
+7 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Calculator/00001.jpg
+8 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Calendar/00001.jpg
+9 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Candles/00001.jpg
+10 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Chair/00001.jpg
+11 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Clipboards/00001.jpg
+12 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Computer/00001.jpg
+13 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Couch/00001.jpg
+14 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Curtains/00001.jpg
+15 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Desk_Lamp/00001.jpg
+16 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Drill/00001.jpg
+17 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Eraser/00001.jpg
+18 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Exit_Sign/00001.jpg
+19 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Fan/00001.jpg
+20 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/File_Cabinet/00001.jpg
+21 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Flipflops/00001.jpg
+22 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Flowers/00001.jpg
+23 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Folder/00001.jpg
+24 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Fork/00001.jpg
+25 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Glasses/00001.jpg
+26 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Hammer/00001.jpg
+27 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Helmet/00001.jpg
+28 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Kettle/00001.jpg
+29 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Keyboard/00001.jpg
+30 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Knives/00001.jpg
+31 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Lamp_Shade/00001.jpg
+32 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Laptop/00001.jpg
+33 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Marker/00001.jpg
+34 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Monitor/00001.jpg
+35 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Mop/00001.jpg
+36 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Mouse/00001.jpg
+37 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Mug/00001.jpg
+38 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Notebook/00001.jpg
+39 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Oven/00001.jpg
+40 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Pan/00001.jpg
+41 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Paper_Clip/00001.jpg
+42 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Pen/00001.jpg
+43 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Pencil/00001.jpg
+44 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Postit_Notes/00001.jpg
+45 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Printer/00001.jpg
+46 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Push_Pin/00001.jpg
+47 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Radio/00001.jpg
+48 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Refrigerator/00001.jpg
+49 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Ruler/00001.jpg
+50 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Scissors/00001.jpg
+51 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Screwdriver/00001.jpg
+52 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Shelf/00001.jpg
+53 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Sink/00001.jpg
+54 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Sneakers/00001.jpg
+55 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Soda/00001.jpg
+56 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Speaker/00001.jpg
+57 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Spoon/00001.jpg
+58 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/TV/00001.jpg
+59 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Table/00001.jpg
+60 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Telephone/00001.jpg
+61 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/ToothBrush/00001.jpg
+62 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Toys/00001.jpg
+63 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Trash_Can/00001.jpg
+64 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Webcam/00001.jpg
+0 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Alarm_Clock/00001.jpg
+1 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Backpack/00001.jpg
+2 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Batteries/00001.jpg
+3 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Bed/00001.jpg
+4 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Bike/00001.jpg
+5 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Bottle/00001.jpg
+6 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Bucket/00001.jpg
+7 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Calculator/00001.jpg
+8 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Calendar/00001.jpg
+9 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Candles/00001.jpg
+10 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Chair/00001.jpg
+11 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Clipboards/00001.jpg
+12 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Computer/00001.jpg
+13 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Couch/00001.jpg
+14 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Curtains/00001.jpg
+15 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Desk_Lamp/00001.jpg
+16 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Drill/00001.jpg
+17 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Eraser/00001.jpg
+18 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Exit_Sign/00001.jpg
+19 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Fan/00001.jpg
+20 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/File_Cabinet/00001.jpg
+21 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Flipflops/00001.jpg
+22 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Flowers/00001.jpg
+23 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Folder/00001.jpg
+24 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Fork/00001.jpg
+25 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Glasses/00001.jpg
+26 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Hammer/00001.jpg
+27 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Helmet/00001.jpg
+28 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Kettle/00001.jpg
+29 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Keyboard/00001.jpg
+30 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Knives/00001.jpg
+31 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Lamp_Shade/00001.jpg
+32 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Laptop/00001.jpg
+33 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Marker/00001.jpg
+34 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Monitor/00001.jpg
+35 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Mop/00001.jpg
+36 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Mouse/00001.jpg
+37 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Mug/00001.jpg
+38 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Notebook/00001.jpg
+39 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Oven/00001.jpg
+40 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Pan/00001.jpg
+41 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Paper_Clip/00001.jpg
+42 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Pen/00001.jpg
+43 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Pencil/00001.jpg
+44 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Postit_Notes/00001.jpg
+45 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Printer/00001.jpg
+46 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Push_Pin/00001.jpg
+47 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Radio/00001.jpg
+48 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Refrigerator/00001.jpg
+49 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Ruler/00001.jpg
+50 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Scissors/00001.jpg
+51 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Screwdriver/00001.jpg
+52 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Shelf/00001.jpg
+53 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Sink/00001.jpg
+54 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Sneakers/00001.jpg
+55 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Soda/00001.jpg
+56 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Speaker/00001.jpg
+57 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Spoon/00001.jpg
+58 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/TV/00001.jpg
+59 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Table/00001.jpg
+60 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Telephone/00001.jpg
+61 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/ToothBrush/00001.jpg
+62 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Toys/00001.jpg
+63 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Trash_Can/00001.jpg
+64 /public/home/imgbreaker/CIUDA/ProCA-main/ProCA-main/dataset/office-home/World/Webcam/00001.jpg
+2024-05-18 05:03:58,734 [data_manager.py] => [22, 56, 44, 45, 13, 8, 23, 54, 35, 52, 34, 61, 16, 6, 55, 20, 14, 38, 17, 63, 42, 10, 59, 43, 24, 2, 62, 21, 1, 15, 0, 37, 53, 27, 18, 46, 12, 25, 40, 30, 19, 47, 26, 36, 7, 28, 11, 5, 32, 41, 50, 4, 51, 58, 9, 60, 39, 31, 48, 3, 29, 64, 49, 57, 33]
+2024-05-18 05:03:58,947 [fecam.py] => Learning on 0-10
+  0%|          | 0/10 [00:00<?, ?it/s]Task 0, Epoch 1/10 => Loss 2.247, Train_accy 9.02, Test_accy 8.14:   0%|          | 0/10 [00:33<?, ?it/s]2024-05-18 05:04:37,651 [fecam.py] => Task 0, Epoch 1/10 => Loss 2.247, Train_accy 9.02, Test_accy 8.14
+Task 0, Epoch 1/10 => Loss 2.247, Train_accy 9.02, Test_accy 8.14:  10%|█         | 1/10 [00:33<05:03, 33.76s/it]Task 0, Epoch 2/10 => Loss 2.161, Train_accy 8.58:  10%|█         | 1/10 [00:41<05:03, 33.76s/it]                2024-05-18 05:04:45,137 [fecam.py] => Task 0, Epoch 2/10 => Loss 2.161, Train_accy 8.58
+Task 0, Epoch 2/10 => Loss 2.161, Train_accy 8.58:  20%|██        | 2/10 [00:41<02:26, 18.31s/it]Task 0, Epoch 3/10 => Loss 2.126, Train_accy 11.98:  20%|██        | 2/10 [00:49<02:26, 18.31s/it]2024-05-18 05:04:53,028 [fecam.py] => Task 0, Epoch 3/10 => Loss 2.126, Train_accy 11.98
+Task 0, Epoch 3/10 => Loss 2.126, Train_accy 11.98:  30%|███       | 3/10 [00:49<01:34, 13.55s/it]Task 0, Epoch 4/10 => Loss 2.064, Train_accy 13.91:  30%|███       | 3/10 [00:56<01:34, 13.55s/it]2024-05-18 05:05:00,040 [fecam.py] => Task 0, Epoch 4/10 => Loss 2.064, Train_accy 13.91
+Task 0, Epoch 4/10 => Loss 2.064, Train_accy 13.91:  40%|████      | 4/10 [00:56<01:05, 10.97s/it]Task 0, Epoch 5/10 => Loss 2.009, Train_accy 15.24:  40%|████      | 4/10 [01:02<01:05, 10.97s/it]2024-05-18 05:05:06,845 [fecam.py] => Task 0, Epoch 5/10 => Loss 2.009, Train_accy 15.24
+Task 0, Epoch 5/10 => Loss 2.009, Train_accy 15.24:  50%|█████     | 5/10 [01:02<00:47,  9.47s/it]Task 0, Epoch 6/10 => Loss 2.021, Train_accy 13.91, Test_accy 13.02:  50%|█████     | 5/10 [01:24<00:47,  9.47s/it]2024-05-18 05:05:28,699 [fecam.py] => Task 0, Epoch 6/10 => Loss 2.021, Train_accy 13.91, Test_accy 13.02
+Task 0, Epoch 6/10 => Loss 2.021, Train_accy 13.91, Test_accy 13.02:  60%|██████    | 6/10 [01:24<00:54, 13.68s/it]Task 0, Epoch 7/10 => Loss 1.992, Train_accy 11.98:  60%|██████    | 6/10 [01:33<00:54, 13.68s/it]                 2024-05-18 05:05:37,507 [fecam.py] => Task 0, Epoch 7/10 => Loss 1.992, Train_accy 11.98
+Task 0, Epoch 7/10 => Loss 1.992, Train_accy 11.98:  70%|███████   | 7/10 [01:33<00:36, 12.09s/it]Task 0, Epoch 8/10 => Loss 1.961, Train_accy 13.31:  70%|███████   | 7/10 [01:40<00:36, 12.09s/it]2024-05-18 05:05:44,658 [fecam.py] => Task 0, Epoch 8/10 => Loss 1.961, Train_accy 13.31
+Task 0, Epoch 8/10 => Loss 1.961, Train_accy 13.31:  80%|████████  | 8/10 [01:40<00:21, 10.52s/it]Task 0, Epoch 9/10 => Loss 2.018, Train_accy 12.43:  80%|████████  | 8/10 [01:49<00:21, 10.52s/it]2024-05-18 05:05:53,636 [fecam.py] => Task 0, Epoch 9/10 => Loss 2.018, Train_accy 12.43
+Task 0, Epoch 9/10 => Loss 2.018, Train_accy 12.43:  90%|█████████ | 9/10 [01:49<00:10, 10.03s/it]Task 0, Epoch 10/10 => Loss 1.978, Train_accy 13.17:  90%|█████████ | 9/10 [01:56<00:10, 10.03s/it]2024-05-18 05:06:00,668 [fecam.py] => Task 0, Epoch 10/10 => Loss 1.978, Train_accy 13.17
+Task 0, Epoch 10/10 => Loss 1.978, Train_accy 13.17: 100%|██████████| 10/10 [01:56<00:00,  9.11s/it]Task 0, Epoch 10/10 => Loss 1.978, Train_accy 13.17: 100%|██████████| 10/10 [01:56<00:00, 11.68s/it]
+10
+2024-05-18 05:13:09,304 [trainer.py] => CNN: {'total': 13.46, '00-09': 13.46, 'old': 0, 'new': 13.46}
+2024-05-18 05:13:09,305 [trainer.py] => No NME accuracy
+2024-05-18 05:13:09,305 [trainer.py] => FeCAM: {'total': 13.46, '00-09': 13.46, 'old': 0, 'new': 13.46}
+2024-05-18 05:13:09,305 [trainer.py] => CNN top1 curve: [13.46]
+2024-05-18 05:13:09,305 [trainer.py] => CNN top5 curve: [51.04]
+2024-05-18 05:13:09,305 [trainer.py] => FeCAM top1 curve: [13.46]
+2024-05-18 05:13:09,305 [trainer.py] => FeCAM top5 curve: [51.04]
+
+2024-05-18 05:13:09,305 [fecam.py] => Learning on 10-20
+20
+/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/models/base.py:198: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  x = torch.tensor(x)
+2024-05-18 05:26:00,421 [trainer.py] => CNN: {'total': 13.94, '00-09': 0.0, '10-19': 27.93, 'old': 0.0, 'new': 27.93}
+2024-05-18 05:26:00,421 [trainer.py] => No NME accuracy
+2024-05-18 05:26:00,421 [trainer.py] => FeCAM: {'total': 37.06, '00-09': 39.94, '10-19': 34.18, 'old': 39.94, 'new': 34.18}
+2024-05-18 05:26:00,421 [trainer.py] => CNN top1 curve: [13.46, 13.94]
+2024-05-18 05:26:00,421 [trainer.py] => CNN top5 curve: [51.04, 39.73]
+2024-05-18 05:26:00,421 [trainer.py] => FeCAM top1 curve: [13.46, 37.06]
+2024-05-18 05:26:00,421 [trainer.py] => FeCAM top5 curve: [51.04, 79.47]
+
+2024-05-18 05:26:00,423 [fecam.py] => Learning on 20-30
+30
+2024-05-18 05:44:42,118 [trainer.py] => CNN: {'total': 10.93, '00-09': 0.0, '10-19': 17.68, '20-29': 15.03, 'old': 8.82, 'new': 15.03}
+2024-05-18 05:44:42,118 [trainer.py] => No NME accuracy
+2024-05-18 05:44:42,118 [trainer.py] => FeCAM: {'total': 29.35, '00-09': 36.69, '10-19': 28.53, '20-29': 22.98, 'old': 32.62, 'new': 22.98}
+2024-05-18 05:44:42,118 [trainer.py] => CNN top1 curve: [13.46, 13.94, 10.93]
+2024-05-18 05:44:42,118 [trainer.py] => CNN top5 curve: [51.04, 39.73, 35.03]
+2024-05-18 05:44:42,118 [trainer.py] => FeCAM top1 curve: [13.46, 37.06, 29.35]
+2024-05-18 05:44:42,118 [trainer.py] => FeCAM top5 curve: [51.04, 79.47, 65.31]
+
+2024-05-18 05:44:42,119 [fecam.py] => Learning on 30-40
+40
+2024-05-18 06:07:55,929 [trainer.py] => CNN: {'total': 10.21, '00-09': 0.0, '10-19': 14.12, '20-29': 13.87, '30-39': 12.88, 'old': 9.36, 'new': 12.88}
+2024-05-18 06:07:55,930 [trainer.py] => No NME accuracy
+2024-05-18 06:07:55,930 [trainer.py] => FeCAM: {'total': 25.25, '00-09': 33.43, '10-19': 24.07, '20-29': 20.09, '30-39': 23.47, 'old': 25.82, 'new': 23.47}
+2024-05-18 06:07:55,930 [trainer.py] => CNN top1 curve: [13.46, 13.94, 10.93, 10.21]
+2024-05-18 06:07:55,930 [trainer.py] => CNN top5 curve: [51.04, 39.73, 35.03, 30.6]
+2024-05-18 06:07:55,930 [trainer.py] => FeCAM top1 curve: [13.46, 37.06, 29.35, 25.25]
+2024-05-18 06:07:55,930 [trainer.py] => FeCAM top5 curve: [51.04, 79.47, 65.31, 55.81]
+
+2024-05-18 06:07:55,931 [fecam.py] => Learning on 40-50
+50
+2024-05-18 06:36:09,655 [trainer.py] => CNN: {'total': 8.11, '00-09': 0.0, '10-19': 9.06, '20-29': 12.14, '30-39': 9.36, '40-49': 9.98, 'old': 7.65, 'new': 9.98}
+2024-05-18 06:36:09,655 [trainer.py] => No NME accuracy
+2024-05-18 06:36:09,655 [trainer.py] => FeCAM: {'total': 22.24, '00-09': 30.62, '10-19': 21.4, '20-29': 19.22, '30-39': 19.63, '40-49': 20.27, 'old': 22.73, 'new': 20.27}
+2024-05-18 06:36:09,655 [trainer.py] => CNN top1 curve: [13.46, 13.94, 10.93, 10.21, 8.11]
+2024-05-18 06:36:09,655 [trainer.py] => CNN top5 curve: [51.04, 39.73, 35.03, 30.6, 26.74]
+2024-05-18 06:36:09,655 [trainer.py] => FeCAM top1 curve: [13.46, 37.06, 29.35, 25.25, 22.24]
+2024-05-18 06:36:09,655 [trainer.py] => FeCAM top5 curve: [51.04, 79.47, 65.31, 55.81, 50.86]
+
+2024-05-18 06:36:09,656 [fecam.py] => Learning on 50-60
+60
+2024-05-18 07:10:06,241 [trainer.py] => CNN: {'total': 7.22, '00-09': 0.0, '10-19': 8.77, '20-29': 11.27, '30-39': 6.6, '40-49': 9.83, '50-59': 6.83, 'old': 7.3, 'new': 6.83}
+2024-05-18 07:10:06,242 [trainer.py] => No NME accuracy
+2024-05-18 07:10:06,242 [trainer.py] => FeCAM: {'total': 21.56, '00-09': 29.73, '10-19': 20.06, '20-29': 17.63, '30-39': 17.18, '40-49': 19.06, '50-59': 25.1, 'old': 20.75, 'new': 25.1}
+2024-05-18 07:10:06,242 [trainer.py] => CNN top1 curve: [13.46, 13.94, 10.93, 10.21, 8.11, 7.22]
+2024-05-18 07:10:06,242 [trainer.py] => CNN top5 curve: [51.04, 39.73, 35.03, 30.6, 26.74, 25.01]
+2024-05-18 07:10:06,242 [trainer.py] => FeCAM top1 curve: [13.46, 37.06, 29.35, 25.25, 22.24, 21.56]
+2024-05-18 07:10:06,242 [trainer.py] => FeCAM top5 curve: [51.04, 79.47, 65.31, 55.81, 50.86, 47.78]
+

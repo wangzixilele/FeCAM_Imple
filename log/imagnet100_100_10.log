@@ -1,0 +1,78 @@
+Traceback (most recent call last):
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/main.py", line 34, in <module>
+    main()
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/main.py", line 11, in main
+    param = load_json(args.config)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/main.py", line 20, in load_json
+    param = json.load(data_file)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/tllib/lib/python3.11/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/tllib/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/tllib/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/tllib/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 8 column 5 (char 137)
+2024-06-18 20:28:48,504 [trainer.py] => config: exps/FeCAM_imagnet100.json
+2024-06-18 20:28:48,504 [trainer.py] => prefix: train
+2024-06-18 20:28:48,504 [trainer.py] => dataset: imagenet100
+2024-06-18 20:28:48,504 [trainer.py] => memory_size: 0
+2024-06-18 20:28:48,504 [trainer.py] => shuffle: True
+2024-06-18 20:28:48,504 [trainer.py] => init_cls: 100
+2024-06-18 20:28:48,504 [trainer.py] => increment: 10
+2024-06-18 20:28:48,504 [trainer.py] => model_name: fecam
+2024-06-18 20:28:48,504 [trainer.py] => convnet_type: resnet18
+2024-06-18 20:28:48,504 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-06-18 20:28:48,504 [trainer.py] => seed: 1993
+2024-06-18 20:28:48,504 [trainer.py] => init_epochs: 200
+2024-06-18 20:28:48,504 [trainer.py] => init_lr: 0.1
+2024-06-18 20:28:48,504 [trainer.py] => init_weight_decay: 0.0005
+2024-06-18 20:28:48,504 [trainer.py] => batch_size: 128
+2024-06-18 20:28:48,504 [trainer.py] => num_workers: 8
+2024-06-18 20:28:48,504 [trainer.py] => T: 2
+2024-06-18 20:28:48,504 [trainer.py] => beta: 0.5
+2024-06-18 20:28:48,504 [trainer.py] => alpha1: 1
+2024-06-18 20:28:48,504 [trainer.py] => alpha2: 1
+2024-06-18 20:28:48,504 [trainer.py] => ncm: False
+2024-06-18 20:28:48,504 [trainer.py] => tukey: True
+2024-06-18 20:28:48,504 [trainer.py] => diagonal: False
+2024-06-18 20:28:48,504 [trainer.py] => per_class: True
+2024-06-18 20:28:48,504 [trainer.py] => full_cov: True
+2024-06-18 20:28:48,504 [trainer.py] => shrink: True
+2024-06-18 20:28:48,504 [trainer.py] => norm_cov: True
+Traceback (most recent call last):
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/main.py", line 34, in <module>
+    main()
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/main.py", line 15, in main
+    train(args)
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/trainer.py", line 18, in train
+    _train(args)
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/trainer.py", line 50, in _train
+    data_manager = DataManager(
+                   ^^^^^^^^^^^^
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/utils/data_manager.py", line 13, in __init__
+    self._setup_data(dataset_name, shuffle, seed)
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/utils/data_manager.py", line 145, in _setup_data
+    idata.download_data()
+  File "/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/utils/data.py", line 220, in download_data
+    train_dset = datasets.ImageFolder(train_dir)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/tllib/lib/python3.11/site-packages/torchvision/datasets/folder.py", line 309, in __init__
+    super().__init__(
+  File "/public/home/imgbreaker/anaconda3/envs/tllib/lib/python3.11/site-packages/torchvision/datasets/folder.py", line 144, in __init__
+    classes, class_to_idx = self.find_classes(self.root)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/tllib/lib/python3.11/site-packages/torchvision/datasets/folder.py", line 218, in find_classes
+    return find_classes(directory)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/public/home/imgbreaker/anaconda3/envs/tllib/lib/python3.11/site-packages/torchvision/datasets/folder.py", line 40, in find_classes
+    classes = sorted(entry.name for entry in os.scandir(directory) if entry.is_dir())
+                                             ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/imagenet100/train/'

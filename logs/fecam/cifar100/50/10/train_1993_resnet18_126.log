@@ -1,0 +1,645 @@
+2024-06-17 20:05:52,816 [trainer.py] => config: exps/FeCAM_cifar100.json
+2024-06-17 20:05:52,816 [trainer.py] => prefix: train
+2024-06-17 20:05:52,816 [trainer.py] => dataset: cifar100
+2024-06-17 20:05:52,816 [trainer.py] => memory_size: 0
+2024-06-17 20:05:52,816 [trainer.py] => shuffle: True
+2024-06-17 20:05:52,816 [trainer.py] => init_cls: 50
+2024-06-17 20:05:52,816 [trainer.py] => increment: 10
+2024-06-17 20:05:52,816 [trainer.py] => model_name: fecam
+2024-06-17 20:05:52,816 [trainer.py] => convnet_type: resnet18
+2024-06-17 20:05:52,817 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-06-17 20:05:52,817 [trainer.py] => seed: 1993
+2024-06-17 20:05:52,817 [trainer.py] => init_epochs: 200
+2024-06-17 20:05:52,817 [trainer.py] => init_lr: 0.1
+2024-06-17 20:05:52,817 [trainer.py] => init_weight_decay: 0.0005
+2024-06-17 20:05:52,817 [trainer.py] => batch_size: 128
+2024-06-17 20:05:52,817 [trainer.py] => num_workers: 8
+2024-06-17 20:05:52,817 [trainer.py] => T: 2
+2024-06-17 20:05:52,817 [trainer.py] => beta: 0.5
+2024-06-17 20:05:52,817 [trainer.py] => alpha1: 1
+2024-06-17 20:05:52,817 [trainer.py] => alpha2: 1
+2024-06-17 20:05:52,817 [trainer.py] => ncm: False
+2024-06-17 20:05:52,817 [trainer.py] => tukey: True
+2024-06-17 20:05:52,817 [trainer.py] => diagonal: False
+2024-06-17 20:05:52,817 [trainer.py] => per_class: True
+2024-06-17 20:05:52,817 [trainer.py] => full_cov: True
+2024-06-17 20:05:52,817 [trainer.py] => shrink: True
+2024-06-17 20:05:52,817 [trainer.py] => norm_cov: True
+2024-06-17 20:07:25,827 [trainer.py] => config: exps/FeCAM_cifar100.json
+2024-06-17 20:07:25,828 [trainer.py] => prefix: train
+2024-06-17 20:07:25,828 [trainer.py] => dataset: cifar100
+2024-06-17 20:07:25,828 [trainer.py] => memory_size: 0
+2024-06-17 20:07:25,828 [trainer.py] => shuffle: True
+2024-06-17 20:07:25,828 [trainer.py] => init_cls: 50
+2024-06-17 20:07:25,828 [trainer.py] => increment: 10
+2024-06-17 20:07:25,828 [trainer.py] => model_name: fecam
+2024-06-17 20:07:25,828 [trainer.py] => convnet_type: resnet18
+2024-06-17 20:07:25,828 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-06-17 20:07:25,828 [trainer.py] => seed: 1993
+2024-06-17 20:07:25,828 [trainer.py] => init_epochs: 200
+2024-06-17 20:07:25,828 [trainer.py] => init_lr: 0.1
+2024-06-17 20:07:25,828 [trainer.py] => init_weight_decay: 0.0005
+2024-06-17 20:07:25,828 [trainer.py] => batch_size: 128
+2024-06-17 20:07:25,828 [trainer.py] => num_workers: 8
+2024-06-17 20:07:25,828 [trainer.py] => T: 2
+2024-06-17 20:07:25,828 [trainer.py] => beta: 0.5
+2024-06-17 20:07:25,828 [trainer.py] => alpha1: 1
+2024-06-17 20:07:25,828 [trainer.py] => alpha2: 1
+2024-06-17 20:07:25,828 [trainer.py] => ncm: False
+2024-06-17 20:07:25,828 [trainer.py] => tukey: True
+2024-06-17 20:07:25,828 [trainer.py] => diagonal: False
+2024-06-17 20:07:25,828 [trainer.py] => per_class: True
+2024-06-17 20:07:25,828 [trainer.py] => full_cov: True
+2024-06-17 20:07:25,828 [trainer.py] => shrink: True
+2024-06-17 20:07:25,828 [trainer.py] => norm_cov: True
+2024-06-17 20:08:38,226 [trainer.py] => config: exps/FeCAM_cifar100.json
+2024-06-17 20:08:38,226 [trainer.py] => prefix: train
+2024-06-17 20:08:38,226 [trainer.py] => dataset: cifar100
+2024-06-17 20:08:38,226 [trainer.py] => memory_size: 0
+2024-06-17 20:08:38,226 [trainer.py] => shuffle: True
+2024-06-17 20:08:38,226 [trainer.py] => init_cls: 50
+2024-06-17 20:08:38,226 [trainer.py] => increment: 10
+2024-06-17 20:08:38,227 [trainer.py] => model_name: fecam
+2024-06-17 20:08:38,227 [trainer.py] => convnet_type: resnet18
+2024-06-17 20:08:38,227 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-06-17 20:08:38,227 [trainer.py] => seed: 1993
+2024-06-17 20:08:38,227 [trainer.py] => init_epochs: 200
+2024-06-17 20:08:38,227 [trainer.py] => init_lr: 0.1
+2024-06-17 20:08:38,227 [trainer.py] => init_weight_decay: 0.0005
+2024-06-17 20:08:38,227 [trainer.py] => batch_size: 128
+2024-06-17 20:08:38,227 [trainer.py] => num_workers: 8
+2024-06-17 20:08:38,227 [trainer.py] => T: 2
+2024-06-17 20:08:38,227 [trainer.py] => beta: 0.5
+2024-06-17 20:08:38,227 [trainer.py] => alpha1: 1
+2024-06-17 20:08:38,227 [trainer.py] => alpha2: 1
+2024-06-17 20:08:38,227 [trainer.py] => ncm: False
+2024-06-17 20:08:38,227 [trainer.py] => tukey: True
+2024-06-17 20:08:38,227 [trainer.py] => diagonal: False
+2024-06-17 20:08:38,227 [trainer.py] => per_class: True
+2024-06-17 20:08:38,227 [trainer.py] => full_cov: True
+2024-06-17 20:08:38,227 [trainer.py] => shrink: True
+2024-06-17 20:08:38,227 [trainer.py] => norm_cov: True
+2024-06-17 20:10:45,096 [trainer.py] => config: exps/FeCAM_cifar100.json
+2024-06-17 20:10:45,096 [trainer.py] => prefix: train
+2024-06-17 20:10:45,096 [trainer.py] => dataset: cifar100
+2024-06-17 20:10:45,096 [trainer.py] => memory_size: 0
+2024-06-17 20:10:45,096 [trainer.py] => shuffle: True
+2024-06-17 20:10:45,096 [trainer.py] => init_cls: 50
+2024-06-17 20:10:45,096 [trainer.py] => increment: 10
+2024-06-17 20:10:45,096 [trainer.py] => model_name: fecam
+2024-06-17 20:10:45,096 [trainer.py] => convnet_type: resnet18
+2024-06-17 20:10:45,096 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-06-17 20:10:45,096 [trainer.py] => seed: 1993
+2024-06-17 20:10:45,096 [trainer.py] => init_epochs: 200
+2024-06-17 20:10:45,096 [trainer.py] => init_lr: 0.1
+2024-06-17 20:10:45,096 [trainer.py] => init_weight_decay: 0.0005
+2024-06-17 20:10:45,096 [trainer.py] => batch_size: 128
+2024-06-17 20:10:45,096 [trainer.py] => num_workers: 8
+2024-06-17 20:10:45,096 [trainer.py] => T: 2
+2024-06-17 20:10:45,096 [trainer.py] => beta: 0.5
+2024-06-17 20:10:45,096 [trainer.py] => alpha1: 1
+2024-06-17 20:10:45,096 [trainer.py] => alpha2: 1
+2024-06-17 20:10:45,096 [trainer.py] => ncm: False
+2024-06-17 20:10:45,096 [trainer.py] => tukey: True
+2024-06-17 20:10:45,096 [trainer.py] => diagonal: False
+2024-06-17 20:10:45,096 [trainer.py] => per_class: True
+2024-06-17 20:10:45,096 [trainer.py] => full_cov: True
+2024-06-17 20:10:45,096 [trainer.py] => shrink: True
+2024-06-17 20:10:45,096 [trainer.py] => norm_cov: True
+2024-06-17 20:10:47,187 [data_manager.py] => [68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+2024-06-17 20:10:47,508 [fecam.py] => Learning on 0-50
+2024-06-17 20:11:03,346 [fecam.py] => Task 0, Epoch 1/200 => Loss 3.711, Train_accy 6.45, Test_accy 12.02
+2024-06-17 20:11:06,292 [fecam.py] => Task 0, Epoch 2/200 => Loss 3.339, Train_accy 13.77
+2024-06-17 20:11:09,248 [fecam.py] => Task 0, Epoch 3/200 => Loss 3.039, Train_accy 19.84
+2024-06-17 20:11:12,172 [fecam.py] => Task 0, Epoch 4/200 => Loss 2.743, Train_accy 25.66
+2024-06-17 20:11:15,101 [fecam.py] => Task 0, Epoch 5/200 => Loss 2.471, Train_accy 32.73
+2024-06-17 20:11:18,368 [fecam.py] => Task 0, Epoch 6/200 => Loss 2.252, Train_accy 37.83, Test_accy 40.72
+2024-06-17 20:11:21,299 [fecam.py] => Task 0, Epoch 7/200 => Loss 2.088, Train_accy 42.00
+2024-06-17 20:11:24,242 [fecam.py] => Task 0, Epoch 8/200 => Loss 1.944, Train_accy 45.35
+2024-06-17 20:11:27,167 [fecam.py] => Task 0, Epoch 9/200 => Loss 1.837, Train_accy 48.10
+2024-06-17 20:11:30,099 [fecam.py] => Task 0, Epoch 10/200 => Loss 1.744, Train_accy 50.63
+2024-06-17 20:11:33,432 [fecam.py] => Task 0, Epoch 11/200 => Loss 1.679, Train_accy 52.52, Test_accy 56.78
+2024-06-17 20:11:36,375 [fecam.py] => Task 0, Epoch 12/200 => Loss 1.619, Train_accy 53.91
+2024-06-17 20:11:39,290 [fecam.py] => Task 0, Epoch 13/200 => Loss 1.577, Train_accy 55.00
+2024-06-17 20:11:42,194 [fecam.py] => Task 0, Epoch 14/200 => Loss 1.528, Train_accy 56.40
+2024-06-17 20:11:45,151 [fecam.py] => Task 0, Epoch 15/200 => Loss 1.493, Train_accy 57.32
+2024-06-17 20:11:48,444 [fecam.py] => Task 0, Epoch 16/200 => Loss 1.468, Train_accy 58.28, Test_accy 59.86
+2024-06-17 20:11:51,354 [fecam.py] => Task 0, Epoch 17/200 => Loss 1.446, Train_accy 58.60
+2024-06-17 20:11:54,298 [fecam.py] => Task 0, Epoch 18/200 => Loss 1.417, Train_accy 59.63
+2024-06-17 20:11:57,236 [fecam.py] => Task 0, Epoch 19/200 => Loss 1.393, Train_accy 60.12
+2024-06-17 20:12:00,156 [fecam.py] => Task 0, Epoch 20/200 => Loss 1.368, Train_accy 60.58
+2024-06-17 20:12:03,436 [fecam.py] => Task 0, Epoch 21/200 => Loss 1.351, Train_accy 61.40, Test_accy 64.50
+2024-06-17 20:12:06,378 [fecam.py] => Task 0, Epoch 22/200 => Loss 1.340, Train_accy 61.68
+2024-06-17 20:12:09,332 [fecam.py] => Task 0, Epoch 23/200 => Loss 1.307, Train_accy 62.58
+2024-06-17 20:12:12,275 [fecam.py] => Task 0, Epoch 24/200 => Loss 1.284, Train_accy 63.04
+2024-06-17 20:12:15,229 [fecam.py] => Task 0, Epoch 25/200 => Loss 1.283, Train_accy 63.44
+2024-06-17 20:12:18,537 [fecam.py] => Task 0, Epoch 26/200 => Loss 1.274, Train_accy 63.62, Test_accy 61.22
+2024-06-17 20:12:21,465 [fecam.py] => Task 0, Epoch 27/200 => Loss 1.258, Train_accy 63.83
+2024-06-17 20:12:24,411 [fecam.py] => Task 0, Epoch 28/200 => Loss 1.230, Train_accy 64.68
+2024-06-17 20:12:27,371 [fecam.py] => Task 0, Epoch 29/200 => Loss 1.237, Train_accy 64.84
+2024-06-17 20:12:30,308 [fecam.py] => Task 0, Epoch 30/200 => Loss 1.222, Train_accy 64.92
+2024-06-17 20:12:33,604 [fecam.py] => Task 0, Epoch 31/200 => Loss 1.210, Train_accy 65.22, Test_accy 65.74
+2024-06-17 20:12:36,548 [fecam.py] => Task 0, Epoch 32/200 => Loss 1.204, Train_accy 65.22
+2024-06-17 20:12:39,494 [fecam.py] => Task 0, Epoch 33/200 => Loss 1.184, Train_accy 65.94
+2024-06-17 20:12:42,449 [fecam.py] => Task 0, Epoch 34/200 => Loss 1.186, Train_accy 65.70
+2024-06-17 20:12:45,394 [fecam.py] => Task 0, Epoch 35/200 => Loss 1.177, Train_accy 66.09
+2024-06-17 20:12:48,714 [fecam.py] => Task 0, Epoch 36/200 => Loss 1.168, Train_accy 66.62, Test_accy 64.00
+2024-06-17 20:12:51,654 [fecam.py] => Task 0, Epoch 37/200 => Loss 1.158, Train_accy 66.47
+2024-06-17 20:12:54,620 [fecam.py] => Task 0, Epoch 38/200 => Loss 1.151, Train_accy 66.71
+2024-06-17 20:12:57,561 [fecam.py] => Task 0, Epoch 39/200 => Loss 1.153, Train_accy 66.78
+2024-06-17 20:13:00,513 [fecam.py] => Task 0, Epoch 40/200 => Loss 1.124, Train_accy 67.76
+2024-06-17 20:13:03,823 [fecam.py] => Task 0, Epoch 41/200 => Loss 1.131, Train_accy 67.45, Test_accy 66.34
+2024-06-17 20:13:06,774 [fecam.py] => Task 0, Epoch 42/200 => Loss 1.108, Train_accy 68.12
+2024-06-17 20:13:09,735 [fecam.py] => Task 0, Epoch 43/200 => Loss 1.114, Train_accy 67.89
+2024-06-17 20:13:12,701 [fecam.py] => Task 0, Epoch 44/200 => Loss 1.108, Train_accy 67.82
+2024-06-17 20:13:15,641 [fecam.py] => Task 0, Epoch 45/200 => Loss 1.080, Train_accy 68.83
+2024-06-17 20:13:18,961 [fecam.py] => Task 0, Epoch 46/200 => Loss 1.100, Train_accy 68.36, Test_accy 67.32
+2024-06-17 20:13:21,899 [fecam.py] => Task 0, Epoch 47/200 => Loss 1.077, Train_accy 68.91
+2024-06-17 20:13:24,877 [fecam.py] => Task 0, Epoch 48/200 => Loss 1.067, Train_accy 69.10
+2024-06-17 20:13:27,861 [fecam.py] => Task 0, Epoch 49/200 => Loss 1.071, Train_accy 68.96
+2024-06-17 20:13:30,809 [fecam.py] => Task 0, Epoch 50/200 => Loss 1.046, Train_accy 69.55
+2024-06-17 20:13:34,134 [fecam.py] => Task 0, Epoch 51/200 => Loss 1.063, Train_accy 69.14, Test_accy 67.14
+2024-06-17 20:13:37,094 [fecam.py] => Task 0, Epoch 52/200 => Loss 1.041, Train_accy 69.70
+2024-06-17 20:13:40,059 [fecam.py] => Task 0, Epoch 53/200 => Loss 1.047, Train_accy 70.07
+2024-06-17 20:13:43,032 [fecam.py] => Task 0, Epoch 54/200 => Loss 1.047, Train_accy 70.13
+2024-06-17 20:13:45,986 [fecam.py] => Task 0, Epoch 55/200 => Loss 1.023, Train_accy 70.39
+2024-06-17 20:13:49,318 [fecam.py] => Task 0, Epoch 56/200 => Loss 1.030, Train_accy 70.24, Test_accy 66.76
+2024-06-17 20:13:52,306 [fecam.py] => Task 0, Epoch 57/200 => Loss 1.028, Train_accy 70.43
+2024-06-17 20:13:55,278 [fecam.py] => Task 0, Epoch 58/200 => Loss 1.017, Train_accy 70.65
+2024-06-17 20:13:58,263 [fecam.py] => Task 0, Epoch 59/200 => Loss 1.008, Train_accy 70.75
+2024-06-17 20:14:01,251 [fecam.py] => Task 0, Epoch 60/200 => Loss 1.004, Train_accy 70.95
+2024-06-17 20:14:04,576 [fecam.py] => Task 0, Epoch 61/200 => Loss 1.007, Train_accy 71.06, Test_accy 67.98
+2024-06-17 20:14:07,543 [fecam.py] => Task 0, Epoch 62/200 => Loss 0.997, Train_accy 71.36
+2024-06-17 20:14:10,500 [fecam.py] => Task 0, Epoch 63/200 => Loss 0.995, Train_accy 71.11
+2024-06-17 20:14:13,454 [fecam.py] => Task 0, Epoch 64/200 => Loss 0.986, Train_accy 71.68
+2024-06-17 20:14:16,399 [fecam.py] => Task 0, Epoch 65/200 => Loss 0.979, Train_accy 71.82
+2024-06-17 20:14:19,709 [fecam.py] => Task 0, Epoch 66/200 => Loss 0.971, Train_accy 72.00, Test_accy 68.60
+2024-06-17 20:14:22,675 [fecam.py] => Task 0, Epoch 67/200 => Loss 0.955, Train_accy 72.16
+2024-06-17 20:14:25,646 [fecam.py] => Task 0, Epoch 68/200 => Loss 0.967, Train_accy 71.93
+2024-06-17 20:14:28,608 [fecam.py] => Task 0, Epoch 69/200 => Loss 0.938, Train_accy 72.57
+2024-06-17 20:14:31,563 [fecam.py] => Task 0, Epoch 70/200 => Loss 0.951, Train_accy 72.55
+2024-06-17 20:14:34,914 [fecam.py] => Task 0, Epoch 71/200 => Loss 0.960, Train_accy 72.32, Test_accy 68.44
+2024-06-17 20:14:37,895 [fecam.py] => Task 0, Epoch 72/200 => Loss 0.926, Train_accy 72.89
+2024-06-17 20:14:40,883 [fecam.py] => Task 0, Epoch 73/200 => Loss 0.933, Train_accy 72.98
+2024-06-17 20:14:43,853 [fecam.py] => Task 0, Epoch 74/200 => Loss 0.926, Train_accy 73.20
+2024-06-17 20:14:46,829 [fecam.py] => Task 0, Epoch 75/200 => Loss 0.901, Train_accy 74.15
+2024-06-17 20:14:50,195 [fecam.py] => Task 0, Epoch 76/200 => Loss 0.906, Train_accy 73.82, Test_accy 67.70
+2024-06-17 20:14:53,180 [fecam.py] => Task 0, Epoch 77/200 => Loss 0.906, Train_accy 73.74
+2024-06-17 20:14:56,166 [fecam.py] => Task 0, Epoch 78/200 => Loss 0.899, Train_accy 73.98
+2024-06-17 20:14:59,156 [fecam.py] => Task 0, Epoch 79/200 => Loss 0.884, Train_accy 74.42
+2024-06-17 20:15:02,159 [fecam.py] => Task 0, Epoch 80/200 => Loss 0.889, Train_accy 74.11
+2024-06-17 20:15:05,500 [fecam.py] => Task 0, Epoch 81/200 => Loss 0.877, Train_accy 74.34, Test_accy 69.62
+2024-06-17 20:15:08,494 [fecam.py] => Task 0, Epoch 82/200 => Loss 0.852, Train_accy 75.43
+2024-06-17 20:15:11,468 [fecam.py] => Task 0, Epoch 83/200 => Loss 0.852, Train_accy 75.28
+2024-06-17 20:15:14,464 [fecam.py] => Task 0, Epoch 84/200 => Loss 0.866, Train_accy 74.75
+2024-06-17 20:15:17,428 [fecam.py] => Task 0, Epoch 85/200 => Loss 0.847, Train_accy 75.48
+2024-06-17 20:15:20,764 [fecam.py] => Task 0, Epoch 86/200 => Loss 0.844, Train_accy 75.40, Test_accy 65.84
+2024-06-17 20:15:23,727 [fecam.py] => Task 0, Epoch 87/200 => Loss 0.827, Train_accy 76.12
+2024-06-17 20:15:26,706 [fecam.py] => Task 0, Epoch 88/200 => Loss 0.828, Train_accy 76.10
+2024-06-17 20:15:29,685 [fecam.py] => Task 0, Epoch 89/200 => Loss 0.816, Train_accy 76.30
+2024-06-17 20:15:32,654 [fecam.py] => Task 0, Epoch 90/200 => Loss 0.814, Train_accy 76.51
+2024-06-17 20:15:35,979 [fecam.py] => Task 0, Epoch 91/200 => Loss 0.810, Train_accy 76.20, Test_accy 70.22
+2024-06-17 20:15:38,955 [fecam.py] => Task 0, Epoch 92/200 => Loss 0.820, Train_accy 76.36
+2024-06-17 20:15:41,948 [fecam.py] => Task 0, Epoch 93/200 => Loss 0.809, Train_accy 76.95
+2024-06-17 20:15:44,951 [fecam.py] => Task 0, Epoch 94/200 => Loss 0.785, Train_accy 77.21
+2024-06-17 20:15:47,951 [fecam.py] => Task 0, Epoch 95/200 => Loss 0.794, Train_accy 76.95
+2024-06-17 20:15:51,309 [fecam.py] => Task 0, Epoch 96/200 => Loss 0.772, Train_accy 77.76, Test_accy 72.98
+2024-06-17 20:15:54,263 [fecam.py] => Task 0, Epoch 97/200 => Loss 0.771, Train_accy 77.71
+2024-06-17 20:15:57,274 [fecam.py] => Task 0, Epoch 98/200 => Loss 0.768, Train_accy 77.56
+2024-06-17 20:16:00,296 [fecam.py] => Task 0, Epoch 99/200 => Loss 0.754, Train_accy 78.00
+2024-06-17 20:16:03,278 [fecam.py] => Task 0, Epoch 100/200 => Loss 0.737, Train_accy 78.84
+2024-06-17 20:16:06,598 [fecam.py] => Task 0, Epoch 101/200 => Loss 0.745, Train_accy 78.40, Test_accy 72.88
+2024-06-17 20:16:09,567 [fecam.py] => Task 0, Epoch 102/200 => Loss 0.733, Train_accy 78.73
+2024-06-17 20:16:12,543 [fecam.py] => Task 0, Epoch 103/200 => Loss 0.725, Train_accy 78.84
+2024-06-17 20:16:15,545 [fecam.py] => Task 0, Epoch 104/200 => Loss 0.713, Train_accy 79.43
+2024-06-17 20:16:18,536 [fecam.py] => Task 0, Epoch 105/200 => Loss 0.712, Train_accy 79.22
+2024-06-17 20:16:21,920 [fecam.py] => Task 0, Epoch 106/200 => Loss 0.705, Train_accy 79.76, Test_accy 74.08
+2024-06-17 20:16:24,895 [fecam.py] => Task 0, Epoch 107/200 => Loss 0.696, Train_accy 79.65
+2024-06-17 20:16:27,867 [fecam.py] => Task 0, Epoch 108/200 => Loss 0.676, Train_accy 80.48
+2024-06-17 20:16:30,844 [fecam.py] => Task 0, Epoch 109/200 => Loss 0.681, Train_accy 80.24
+2024-06-17 20:16:33,845 [fecam.py] => Task 0, Epoch 110/200 => Loss 0.656, Train_accy 80.95
+2024-06-17 20:16:37,199 [fecam.py] => Task 0, Epoch 111/200 => Loss 0.678, Train_accy 79.99, Test_accy 72.50
+2024-06-17 20:16:40,179 [fecam.py] => Task 0, Epoch 112/200 => Loss 0.650, Train_accy 81.39
+2024-06-17 20:16:43,204 [fecam.py] => Task 0, Epoch 113/200 => Loss 0.648, Train_accy 81.31
+2024-06-17 20:16:46,159 [fecam.py] => Task 0, Epoch 114/200 => Loss 0.629, Train_accy 81.79
+2024-06-17 20:16:49,156 [fecam.py] => Task 0, Epoch 115/200 => Loss 0.635, Train_accy 81.70
+2024-06-17 20:16:52,529 [fecam.py] => Task 0, Epoch 116/200 => Loss 0.628, Train_accy 81.69, Test_accy 75.90
+2024-06-17 20:16:55,481 [fecam.py] => Task 0, Epoch 117/200 => Loss 0.604, Train_accy 82.40
+2024-06-17 20:16:58,482 [fecam.py] => Task 0, Epoch 118/200 => Loss 0.598, Train_accy 82.93
+2024-06-17 20:17:01,475 [fecam.py] => Task 0, Epoch 119/200 => Loss 0.590, Train_accy 82.90
+2024-06-17 20:17:04,466 [fecam.py] => Task 0, Epoch 120/200 => Loss 0.602, Train_accy 82.42
+2024-06-17 20:17:07,836 [fecam.py] => Task 0, Epoch 121/200 => Loss 0.580, Train_accy 83.33, Test_accy 75.88
+2024-06-17 20:17:10,803 [fecam.py] => Task 0, Epoch 122/200 => Loss 0.572, Train_accy 83.64
+2024-06-17 20:17:13,761 [fecam.py] => Task 0, Epoch 123/200 => Loss 0.574, Train_accy 83.64
+2024-06-17 20:17:16,736 [fecam.py] => Task 0, Epoch 124/200 => Loss 0.548, Train_accy 84.28
+2024-06-17 20:17:19,734 [fecam.py] => Task 0, Epoch 125/200 => Loss 0.547, Train_accy 83.98
+2024-06-17 20:17:23,110 [fecam.py] => Task 0, Epoch 126/200 => Loss 0.545, Train_accy 84.14, Test_accy 76.00
+2024-06-17 20:17:26,078 [fecam.py] => Task 0, Epoch 127/200 => Loss 0.529, Train_accy 84.76
+2024-06-17 20:17:29,086 [fecam.py] => Task 0, Epoch 128/200 => Loss 0.532, Train_accy 84.94
+2024-06-17 20:17:32,036 [fecam.py] => Task 0, Epoch 129/200 => Loss 0.511, Train_accy 85.01
+2024-06-17 20:17:35,014 [fecam.py] => Task 0, Epoch 130/200 => Loss 0.536, Train_accy 84.50
+2024-06-17 20:17:38,395 [fecam.py] => Task 0, Epoch 131/200 => Loss 0.496, Train_accy 85.91, Test_accy 78.14
+2024-06-17 20:17:41,446 [fecam.py] => Task 0, Epoch 132/200 => Loss 0.481, Train_accy 86.25
+2024-06-17 20:17:44,440 [fecam.py] => Task 0, Epoch 133/200 => Loss 0.485, Train_accy 85.84
+2024-06-17 20:17:47,467 [fecam.py] => Task 0, Epoch 134/200 => Loss 0.487, Train_accy 86.10
+2024-06-17 20:17:50,472 [fecam.py] => Task 0, Epoch 135/200 => Loss 0.459, Train_accy 86.91
+2024-06-17 20:17:53,847 [fecam.py] => Task 0, Epoch 136/200 => Loss 0.461, Train_accy 86.95, Test_accy 77.06
+2024-06-17 20:17:56,856 [fecam.py] => Task 0, Epoch 137/200 => Loss 0.458, Train_accy 86.92
+2024-06-17 20:17:59,892 [fecam.py] => Task 0, Epoch 138/200 => Loss 0.430, Train_accy 87.88
+2024-06-17 20:18:02,924 [fecam.py] => Task 0, Epoch 139/200 => Loss 0.431, Train_accy 87.72
+2024-06-17 20:18:05,938 [fecam.py] => Task 0, Epoch 140/200 => Loss 0.426, Train_accy 87.88
+2024-06-17 20:18:09,291 [fecam.py] => Task 0, Epoch 141/200 => Loss 0.415, Train_accy 88.30, Test_accy 78.34
+2024-06-17 20:18:12,249 [fecam.py] => Task 0, Epoch 142/200 => Loss 0.411, Train_accy 88.20
+2024-06-17 20:18:15,199 [fecam.py] => Task 0, Epoch 143/200 => Loss 0.398, Train_accy 88.75
+2024-06-17 20:18:18,208 [fecam.py] => Task 0, Epoch 144/200 => Loss 0.394, Train_accy 88.81
+2024-06-17 20:18:21,201 [fecam.py] => Task 0, Epoch 145/200 => Loss 0.381, Train_accy 89.41
+2024-06-17 20:18:24,527 [fecam.py] => Task 0, Epoch 146/200 => Loss 0.370, Train_accy 89.62, Test_accy 78.18
+2024-06-17 20:18:27,488 [fecam.py] => Task 0, Epoch 147/200 => Loss 0.369, Train_accy 89.55
+2024-06-17 20:18:30,479 [fecam.py] => Task 0, Epoch 148/200 => Loss 0.363, Train_accy 89.86
+2024-06-17 20:18:33,487 [fecam.py] => Task 0, Epoch 149/200 => Loss 0.357, Train_accy 89.81
+2024-06-17 20:18:36,452 [fecam.py] => Task 0, Epoch 150/200 => Loss 0.334, Train_accy 90.49
+2024-06-17 20:18:39,801 [fecam.py] => Task 0, Epoch 151/200 => Loss 0.333, Train_accy 90.66, Test_accy 78.64
+2024-06-17 20:18:42,774 [fecam.py] => Task 0, Epoch 152/200 => Loss 0.340, Train_accy 90.51
+2024-06-17 20:18:45,764 [fecam.py] => Task 0, Epoch 153/200 => Loss 0.324, Train_accy 90.90
+2024-06-17 20:18:48,789 [fecam.py] => Task 0, Epoch 154/200 => Loss 0.311, Train_accy 91.32
+2024-06-17 20:18:51,781 [fecam.py] => Task 0, Epoch 155/200 => Loss 0.310, Train_accy 91.45
+2024-06-17 20:18:55,090 [fecam.py] => Task 0, Epoch 156/200 => Loss 0.312, Train_accy 91.40, Test_accy 80.38
+2024-06-17 20:18:58,062 [fecam.py] => Task 0, Epoch 157/200 => Loss 0.291, Train_accy 91.82
+2024-06-17 20:19:01,044 [fecam.py] => Task 0, Epoch 158/200 => Loss 0.294, Train_accy 91.65
+2024-06-17 20:19:04,039 [fecam.py] => Task 0, Epoch 159/200 => Loss 0.287, Train_accy 92.13
+2024-06-17 20:19:07,021 [fecam.py] => Task 0, Epoch 160/200 => Loss 0.259, Train_accy 92.94
+2024-06-17 20:19:10,439 [fecam.py] => Task 0, Epoch 161/200 => Loss 0.263, Train_accy 92.70, Test_accy 80.84
+2024-06-17 20:19:13,408 [fecam.py] => Task 0, Epoch 162/200 => Loss 0.258, Train_accy 92.80
+2024-06-17 20:19:16,402 [fecam.py] => Task 0, Epoch 163/200 => Loss 0.251, Train_accy 93.10
+2024-06-17 20:19:19,388 [fecam.py] => Task 0, Epoch 164/200 => Loss 0.248, Train_accy 93.07
+2024-06-17 20:19:22,374 [fecam.py] => Task 0, Epoch 165/200 => Loss 0.240, Train_accy 93.31
+2024-06-17 20:19:25,734 [fecam.py] => Task 0, Epoch 166/200 => Loss 0.232, Train_accy 93.68, Test_accy 82.14
+2024-06-17 20:19:28,723 [fecam.py] => Task 0, Epoch 167/200 => Loss 0.237, Train_accy 93.50
+2024-06-17 20:19:31,699 [fecam.py] => Task 0, Epoch 168/200 => Loss 0.223, Train_accy 94.02
+2024-06-17 20:19:34,673 [fecam.py] => Task 0, Epoch 169/200 => Loss 0.208, Train_accy 94.37
+2024-06-17 20:19:37,677 [fecam.py] => Task 0, Epoch 170/200 => Loss 0.213, Train_accy 94.16
+2024-06-17 20:19:41,015 [fecam.py] => Task 0, Epoch 171/200 => Loss 0.214, Train_accy 94.14, Test_accy 82.18
+2024-06-17 20:19:44,002 [fecam.py] => Task 0, Epoch 172/200 => Loss 0.205, Train_accy 94.38
+2024-06-17 20:19:46,996 [fecam.py] => Task 0, Epoch 173/200 => Loss 0.207, Train_accy 94.33
+2024-06-17 20:19:49,994 [fecam.py] => Task 0, Epoch 174/200 => Loss 0.200, Train_accy 94.49
+2024-06-17 20:19:52,960 [fecam.py] => Task 0, Epoch 175/200 => Loss 0.194, Train_accy 94.74
+2024-06-17 20:19:56,309 [fecam.py] => Task 0, Epoch 176/200 => Loss 0.194, Train_accy 94.70, Test_accy 83.02
+2024-06-17 20:19:59,332 [fecam.py] => Task 0, Epoch 177/200 => Loss 0.175, Train_accy 95.32
+2024-06-17 20:20:02,305 [fecam.py] => Task 0, Epoch 178/200 => Loss 0.180, Train_accy 95.09
+2024-06-17 20:20:05,266 [fecam.py] => Task 0, Epoch 179/200 => Loss 0.183, Train_accy 95.00
+2024-06-17 20:20:08,216 [fecam.py] => Task 0, Epoch 180/200 => Loss 0.179, Train_accy 95.12
+2024-06-17 20:20:11,562 [fecam.py] => Task 0, Epoch 181/200 => Loss 0.175, Train_accy 95.18, Test_accy 83.50
+2024-06-17 20:20:14,537 [fecam.py] => Task 0, Epoch 182/200 => Loss 0.183, Train_accy 94.95
+2024-06-17 20:20:17,531 [fecam.py] => Task 0, Epoch 183/200 => Loss 0.165, Train_accy 95.47
+2024-06-17 20:20:20,512 [fecam.py] => Task 0, Epoch 184/200 => Loss 0.171, Train_accy 95.46
+2024-06-17 20:20:23,471 [fecam.py] => Task 0, Epoch 185/200 => Loss 0.174, Train_accy 95.23
+2024-06-17 20:20:26,800 [fecam.py] => Task 0, Epoch 186/200 => Loss 0.170, Train_accy 95.46, Test_accy 83.42
+2024-06-17 20:20:29,773 [fecam.py] => Task 0, Epoch 187/200 => Loss 0.159, Train_accy 95.54
+2024-06-17 20:20:32,750 [fecam.py] => Task 0, Epoch 188/200 => Loss 0.157, Train_accy 95.81
+2024-06-17 20:20:35,735 [fecam.py] => Task 0, Epoch 189/200 => Loss 0.152, Train_accy 96.04
+2024-06-17 20:20:38,712 [fecam.py] => Task 0, Epoch 190/200 => Loss 0.153, Train_accy 95.85
+2024-06-17 20:20:42,078 [fecam.py] => Task 0, Epoch 191/200 => Loss 0.154, Train_accy 95.90, Test_accy 83.64
+2024-06-17 20:20:45,071 [fecam.py] => Task 0, Epoch 192/200 => Loss 0.149, Train_accy 96.04
+2024-06-17 20:20:48,049 [fecam.py] => Task 0, Epoch 193/200 => Loss 0.161, Train_accy 95.58
+2024-06-17 20:20:51,035 [fecam.py] => Task 0, Epoch 194/200 => Loss 0.155, Train_accy 95.83
+2024-06-17 20:20:53,996 [fecam.py] => Task 0, Epoch 195/200 => Loss 0.151, Train_accy 95.94
+2024-06-17 20:20:57,329 [fecam.py] => Task 0, Epoch 196/200 => Loss 0.148, Train_accy 96.09, Test_accy 83.94
+2024-06-17 20:21:00,283 [fecam.py] => Task 0, Epoch 197/200 => Loss 0.142, Train_accy 96.12
+2024-06-17 20:21:03,274 [fecam.py] => Task 0, Epoch 198/200 => Loss 0.148, Train_accy 95.99
+2024-06-17 20:21:06,287 [fecam.py] => Task 0, Epoch 199/200 => Loss 0.151, Train_accy 95.90
+2024-06-17 20:21:09,294 [fecam.py] => Task 0, Epoch 200/200 => Loss 0.158, Train_accy 95.82
+2024-06-17 20:21:27,275 [trainer.py] => CNN: {'total': 83.94, '00-09': 86.8, '10-19': 80.7, '20-29': 86.7, '30-39': 80.2, '40-49': 85.3, 'old': 0, 'new': 83.94}
+2024-06-17 20:21:27,276 [trainer.py] => No NME accuracy
+2024-06-17 20:21:27,276 [trainer.py] => FeCAM: {'total': 83.94, '00-09': 86.8, '10-19': 80.7, '20-29': 86.7, '30-39': 80.2, '40-49': 85.3, 'old': 0, 'new': 83.94}
+2024-06-17 20:21:27,276 [trainer.py] => CNN top1 curve: [83.94]
+2024-06-17 20:21:27,276 [trainer.py] => CNN top5 curve: [96.42]
+2024-06-17 20:21:27,276 [trainer.py] => FeCAM top1 curve: [83.94]
+2024-06-17 20:21:27,276 [trainer.py] => FeCAM top5 curve: [96.42]
+
+2024-06-17 20:21:27,279 [fecam.py] => Learning on 50-60
+2024-06-17 20:21:37,680 [trainer.py] => CNN: {'total': 71.93, '00-09': 80.7, '10-19': 73.8, '20-29': 80.5, '30-39': 75.3, '40-49': 67.4, '50-59': 53.9, 'old': 75.54, 'new': 53.9}
+2024-06-17 20:21:37,680 [trainer.py] => No NME accuracy
+2024-06-17 20:21:37,680 [trainer.py] => FeCAM: {'total': 76.53, '00-09': 84.7, '10-19': 77.3, '20-29': 84.1, '30-39': 79.7, '40-49': 81.9, '50-59': 51.5, 'old': 81.54, 'new': 51.5}
+2024-06-17 20:21:37,680 [trainer.py] => CNN top1 curve: [83.94, 71.93]
+2024-06-17 20:21:37,680 [trainer.py] => CNN top5 curve: [96.42, 89.77]
+2024-06-17 20:21:37,680 [trainer.py] => FeCAM top1 curve: [83.94, 76.53]
+2024-06-17 20:21:37,680 [trainer.py] => FeCAM top5 curve: [96.42, 93.2]
+
+2024-06-17 20:21:37,685 [fecam.py] => Learning on 60-70
+2024-06-17 20:21:48,349 [trainer.py] => CNN: {'total': 64.56, '00-09': 73.0, '10-19': 71.2, '20-29': 78.1, '30-39': 72.0, '40-49': 62.9, '50-59': 46.3, '60-69': 48.4, 'old': 67.25, 'new': 48.4}
+2024-06-17 20:21:48,349 [trainer.py] => No NME accuracy
+2024-06-17 20:21:48,349 [trainer.py] => FeCAM: {'total': 72.43, '00-09': 83.9, '10-19': 75.9, '20-29': 83.9, '30-39': 78.7, '40-49': 80.8, '50-59': 48.3, '60-69': 55.5, 'old': 75.25, 'new': 55.5}
+2024-06-17 20:21:48,349 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56]
+2024-06-17 20:21:48,349 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67]
+2024-06-17 20:21:48,349 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43]
+2024-06-17 20:21:48,349 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24]
+
+2024-06-17 20:21:48,353 [fecam.py] => Learning on 70-80
+2024-06-17 20:21:59,852 [trainer.py] => CNN: {'total': 59.34, '00-09': 71.7, '10-19': 70.4, '20-29': 77.9, '30-39': 70.6, '40-49': 60.6, '50-59': 36.2, '60-69': 44.6, '70-79': 42.7, 'old': 61.71, 'new': 42.7}
+2024-06-17 20:21:59,852 [trainer.py] => No NME accuracy
+2024-06-17 20:21:59,852 [trainer.py] => FeCAM: {'total': 68.34, '00-09': 83.6, '10-19': 75.6, '20-29': 83.3, '30-39': 77.3, '40-49': 79.4, '50-59': 44.2, '60-69': 53.2, '70-79': 50.1, 'old': 70.94, 'new': 50.1}
+2024-06-17 20:21:59,852 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34]
+2024-06-17 20:21:59,852 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25]
+2024-06-17 20:21:59,852 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34]
+2024-06-17 20:21:59,852 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4]
+
+2024-06-17 20:21:59,856 [fecam.py] => Learning on 80-90
+2024-06-17 20:22:13,385 [trainer.py] => CNN: {'total': 54.06, '00-09': 66.7, '10-19': 63.9, '20-29': 73.7, '30-39': 70.5, '40-49': 56.9, '50-59': 31.7, '60-69': 40.6, '70-79': 39.2, '80-89': 43.3, 'old': 55.4, 'new': 43.3}
+2024-06-17 20:22:13,386 [trainer.py] => No NME accuracy
+2024-06-17 20:22:13,386 [trainer.py] => FeCAM: {'total': 64.7, '00-09': 81.8, '10-19': 74.2, '20-29': 82.2, '30-39': 76.5, '40-49': 77.7, '50-59': 42.8, '60-69': 51.7, '70-79': 48.1, '80-89': 47.3, 'old': 66.88, 'new': 47.3}
+2024-06-17 20:22:13,386 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34, 54.06]
+2024-06-17 20:22:13,386 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25, 82.02]
+2024-06-17 20:22:13,386 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34, 64.7]
+2024-06-17 20:22:13,386 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4, 88.01]
+
+2024-06-17 20:22:13,391 [fecam.py] => Learning on 90-100
+2024-06-17 20:22:27,583 [trainer.py] => CNN: {'total': 50.27, '00-09': 57.9, '10-19': 63.6, '20-29': 72.7, '30-39': 69.8, '40-49': 56.6, '50-59': 29.2, '60-69': 38.2, '70-79': 36.5, '80-89': 41.3, '90-99': 36.9, 'old': 51.76, 'new': 36.9}
+2024-06-17 20:22:27,583 [trainer.py] => No NME accuracy
+2024-06-17 20:22:27,583 [trainer.py] => FeCAM: {'total': 62.36, '00-09': 81.2, '10-19': 73.8, '20-29': 81.4, '30-39': 76.0, '40-49': 77.3, '50-59': 40.9, '60-69': 50.9, '70-79': 46.2, '80-89': 46.2, '90-99': 49.7, 'old': 63.77, 'new': 49.7}
+2024-06-17 20:22:27,583 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34, 54.06, 50.27]
+2024-06-17 20:22:27,583 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25, 82.02, 79.92]
+2024-06-17 20:22:27,583 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34, 64.7, 62.36]
+2024-06-17 20:22:27,583 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4, 88.01, 86.68]
+
+2024-06-18 19:56:53,858 [trainer.py] => config: exps/FeCAM_cifar100.json
+2024-06-18 19:56:53,858 [trainer.py] => prefix: train
+2024-06-18 19:56:53,858 [trainer.py] => dataset: cifar100
+2024-06-18 19:56:53,858 [trainer.py] => memory_size: 0
+2024-06-18 19:56:53,858 [trainer.py] => shuffle: True
+2024-06-18 19:56:53,858 [trainer.py] => init_cls: 50
+2024-06-18 19:56:53,858 [trainer.py] => increment: 10
+2024-06-18 19:56:53,858 [trainer.py] => model_name: fecam
+2024-06-18 19:56:53,858 [trainer.py] => convnet_type: resnet18
+2024-06-18 19:56:53,858 [trainer.py] => device: [device(type='cuda', index=0), device(type='cuda', index=3)]
+2024-06-18 19:56:53,858 [trainer.py] => seed: 1993
+2024-06-18 19:56:53,858 [trainer.py] => init_epochs: 200
+2024-06-18 19:56:53,858 [trainer.py] => init_lr: 0.1
+2024-06-18 19:56:53,858 [trainer.py] => init_weight_decay: 0.0005
+2024-06-18 19:56:53,858 [trainer.py] => batch_size: 128
+2024-06-18 19:56:53,858 [trainer.py] => num_workers: 8
+2024-06-18 19:56:53,858 [trainer.py] => T: 2
+2024-06-18 19:56:53,858 [trainer.py] => beta: 0.5
+2024-06-18 19:56:53,858 [trainer.py] => alpha1: 1
+2024-06-18 19:56:53,859 [trainer.py] => alpha2: 1
+2024-06-18 19:56:53,859 [trainer.py] => ncm: False
+2024-06-18 19:56:53,859 [trainer.py] => tukey: True
+2024-06-18 19:56:53,859 [trainer.py] => diagonal: False
+2024-06-18 19:56:53,859 [trainer.py] => per_class: True
+2024-06-18 19:56:53,859 [trainer.py] => full_cov: True
+2024-06-18 19:56:53,859 [trainer.py] => shrink: True
+2024-06-18 19:56:53,859 [trainer.py] => norm_cov: True
+2024-06-18 19:56:55,472 [data_manager.py] => [68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+2024-06-18 19:56:55,695 [fecam.py] => Learning on 0-50
+2024-06-18 19:57:36,521 [fecam.py] => Task 0, Epoch 1/200 => Loss 3.711, Train_accy 6.45, Test_accy 12.02
+2024-06-18 19:57:39,880 [fecam.py] => Task 0, Epoch 2/200 => Loss 3.339, Train_accy 13.77
+2024-06-18 19:57:43,225 [fecam.py] => Task 0, Epoch 3/200 => Loss 3.039, Train_accy 19.84
+2024-06-18 19:57:46,583 [fecam.py] => Task 0, Epoch 4/200 => Loss 2.743, Train_accy 25.66
+2024-06-18 19:57:49,948 [fecam.py] => Task 0, Epoch 5/200 => Loss 2.471, Train_accy 32.73
+2024-06-18 19:57:54,128 [fecam.py] => Task 0, Epoch 6/200 => Loss 2.252, Train_accy 37.83, Test_accy 40.72
+2024-06-18 19:57:57,535 [fecam.py] => Task 0, Epoch 7/200 => Loss 2.088, Train_accy 42.00
+2024-06-18 19:58:00,923 [fecam.py] => Task 0, Epoch 8/200 => Loss 1.944, Train_accy 45.35
+2024-06-18 19:58:04,319 [fecam.py] => Task 0, Epoch 9/200 => Loss 1.837, Train_accy 48.10
+2024-06-18 19:58:07,704 [fecam.py] => Task 0, Epoch 10/200 => Loss 1.744, Train_accy 50.63
+2024-06-18 19:58:11,961 [fecam.py] => Task 0, Epoch 11/200 => Loss 1.679, Train_accy 52.52, Test_accy 56.78
+2024-06-18 19:58:15,369 [fecam.py] => Task 0, Epoch 12/200 => Loss 1.619, Train_accy 53.91
+2024-06-18 19:58:18,762 [fecam.py] => Task 0, Epoch 13/200 => Loss 1.577, Train_accy 55.00
+2024-06-18 19:58:22,157 [fecam.py] => Task 0, Epoch 14/200 => Loss 1.528, Train_accy 56.40
+2024-06-18 19:58:25,569 [fecam.py] => Task 0, Epoch 15/200 => Loss 1.493, Train_accy 57.32
+2024-06-18 19:58:29,812 [fecam.py] => Task 0, Epoch 16/200 => Loss 1.468, Train_accy 58.28, Test_accy 59.86
+2024-06-18 19:58:33,199 [fecam.py] => Task 0, Epoch 17/200 => Loss 1.446, Train_accy 58.60
+2024-06-18 19:58:36,601 [fecam.py] => Task 0, Epoch 18/200 => Loss 1.417, Train_accy 59.63
+2024-06-18 19:58:40,005 [fecam.py] => Task 0, Epoch 19/200 => Loss 1.393, Train_accy 60.12
+2024-06-18 19:58:43,407 [fecam.py] => Task 0, Epoch 20/200 => Loss 1.368, Train_accy 60.58
+2024-06-18 19:58:47,653 [fecam.py] => Task 0, Epoch 21/200 => Loss 1.351, Train_accy 61.40, Test_accy 64.50
+2024-06-18 19:58:51,054 [fecam.py] => Task 0, Epoch 22/200 => Loss 1.340, Train_accy 61.68
+2024-06-18 19:58:54,467 [fecam.py] => Task 0, Epoch 23/200 => Loss 1.307, Train_accy 62.58
+2024-06-18 19:58:57,871 [fecam.py] => Task 0, Epoch 24/200 => Loss 1.284, Train_accy 63.04
+2024-06-18 19:59:01,285 [fecam.py] => Task 0, Epoch 25/200 => Loss 1.283, Train_accy 63.44
+2024-06-18 19:59:05,520 [fecam.py] => Task 0, Epoch 26/200 => Loss 1.274, Train_accy 63.62, Test_accy 61.22
+2024-06-18 19:59:08,928 [fecam.py] => Task 0, Epoch 27/200 => Loss 1.258, Train_accy 63.83
+2024-06-18 19:59:12,351 [fecam.py] => Task 0, Epoch 28/200 => Loss 1.230, Train_accy 64.68
+2024-06-18 19:59:15,761 [fecam.py] => Task 0, Epoch 29/200 => Loss 1.237, Train_accy 64.84
+2024-06-18 19:59:19,174 [fecam.py] => Task 0, Epoch 30/200 => Loss 1.222, Train_accy 64.92
+2024-06-18 19:59:23,437 [fecam.py] => Task 0, Epoch 31/200 => Loss 1.210, Train_accy 65.22, Test_accy 65.74
+2024-06-18 19:59:26,842 [fecam.py] => Task 0, Epoch 32/200 => Loss 1.204, Train_accy 65.22
+2024-06-18 19:59:30,230 [fecam.py] => Task 0, Epoch 33/200 => Loss 1.184, Train_accy 65.94
+2024-06-18 19:59:33,626 [fecam.py] => Task 0, Epoch 34/200 => Loss 1.186, Train_accy 65.70
+2024-06-18 19:59:37,043 [fecam.py] => Task 0, Epoch 35/200 => Loss 1.177, Train_accy 66.09
+2024-06-18 19:59:41,299 [fecam.py] => Task 0, Epoch 36/200 => Loss 1.168, Train_accy 66.62, Test_accy 64.00
+2024-06-18 19:59:44,703 [fecam.py] => Task 0, Epoch 37/200 => Loss 1.158, Train_accy 66.47
+2024-06-18 19:59:48,131 [fecam.py] => Task 0, Epoch 38/200 => Loss 1.151, Train_accy 66.71
+2024-06-18 19:59:51,542 [fecam.py] => Task 0, Epoch 39/200 => Loss 1.153, Train_accy 66.78
+2024-06-18 19:59:54,957 [fecam.py] => Task 0, Epoch 40/200 => Loss 1.124, Train_accy 67.76
+2024-06-18 19:59:59,195 [fecam.py] => Task 0, Epoch 41/200 => Loss 1.131, Train_accy 67.45, Test_accy 66.34
+2024-06-18 20:00:02,596 [fecam.py] => Task 0, Epoch 42/200 => Loss 1.108, Train_accy 68.12
+2024-06-18 20:00:06,011 [fecam.py] => Task 0, Epoch 43/200 => Loss 1.114, Train_accy 67.89
+2024-06-18 20:00:09,424 [fecam.py] => Task 0, Epoch 44/200 => Loss 1.108, Train_accy 67.82
+2024-06-18 20:00:12,819 [fecam.py] => Task 0, Epoch 45/200 => Loss 1.080, Train_accy 68.83
+2024-06-18 20:00:17,077 [fecam.py] => Task 0, Epoch 46/200 => Loss 1.100, Train_accy 68.36, Test_accy 67.32
+2024-06-18 20:00:20,513 [fecam.py] => Task 0, Epoch 47/200 => Loss 1.077, Train_accy 68.91
+2024-06-18 20:00:23,927 [fecam.py] => Task 0, Epoch 48/200 => Loss 1.067, Train_accy 69.10
+2024-06-18 20:00:27,338 [fecam.py] => Task 0, Epoch 49/200 => Loss 1.071, Train_accy 68.96
+2024-06-18 20:00:30,755 [fecam.py] => Task 0, Epoch 50/200 => Loss 1.046, Train_accy 69.55
+2024-06-18 20:00:35,027 [fecam.py] => Task 0, Epoch 51/200 => Loss 1.063, Train_accy 69.14, Test_accy 67.14
+2024-06-18 20:00:38,460 [fecam.py] => Task 0, Epoch 52/200 => Loss 1.041, Train_accy 69.70
+2024-06-18 20:00:41,882 [fecam.py] => Task 0, Epoch 53/200 => Loss 1.047, Train_accy 70.07
+2024-06-18 20:00:45,301 [fecam.py] => Task 0, Epoch 54/200 => Loss 1.047, Train_accy 70.13
+2024-06-18 20:00:48,719 [fecam.py] => Task 0, Epoch 55/200 => Loss 1.023, Train_accy 70.39
+2024-06-18 20:00:53,026 [fecam.py] => Task 0, Epoch 56/200 => Loss 1.030, Train_accy 70.24, Test_accy 66.76
+2024-06-18 20:00:56,472 [fecam.py] => Task 0, Epoch 57/200 => Loss 1.028, Train_accy 70.43
+2024-06-18 20:00:59,895 [fecam.py] => Task 0, Epoch 58/200 => Loss 1.017, Train_accy 70.65
+2024-06-18 20:01:03,334 [fecam.py] => Task 0, Epoch 59/200 => Loss 1.008, Train_accy 70.75
+2024-06-18 20:01:06,753 [fecam.py] => Task 0, Epoch 60/200 => Loss 1.004, Train_accy 70.95
+2024-06-18 20:01:10,988 [fecam.py] => Task 0, Epoch 61/200 => Loss 1.007, Train_accy 71.06, Test_accy 67.98
+2024-06-18 20:01:14,422 [fecam.py] => Task 0, Epoch 62/200 => Loss 0.997, Train_accy 71.36
+2024-06-18 20:01:17,851 [fecam.py] => Task 0, Epoch 63/200 => Loss 0.995, Train_accy 71.11
+2024-06-18 20:01:21,281 [fecam.py] => Task 0, Epoch 64/200 => Loss 0.986, Train_accy 71.68
+2024-06-18 20:01:24,704 [fecam.py] => Task 0, Epoch 65/200 => Loss 0.979, Train_accy 71.82
+2024-06-18 20:01:28,944 [fecam.py] => Task 0, Epoch 66/200 => Loss 0.971, Train_accy 72.00, Test_accy 68.60
+2024-06-18 20:01:32,356 [fecam.py] => Task 0, Epoch 67/200 => Loss 0.955, Train_accy 72.16
+2024-06-18 20:01:35,791 [fecam.py] => Task 0, Epoch 68/200 => Loss 0.967, Train_accy 71.93
+2024-06-18 20:01:39,213 [fecam.py] => Task 0, Epoch 69/200 => Loss 0.938, Train_accy 72.57
+2024-06-18 20:01:42,624 [fecam.py] => Task 0, Epoch 70/200 => Loss 0.951, Train_accy 72.55
+2024-06-18 20:01:46,926 [fecam.py] => Task 0, Epoch 71/200 => Loss 0.960, Train_accy 72.32, Test_accy 68.44
+2024-06-18 20:01:50,348 [fecam.py] => Task 0, Epoch 72/200 => Loss 0.926, Train_accy 72.89
+2024-06-18 20:01:53,758 [fecam.py] => Task 0, Epoch 73/200 => Loss 0.933, Train_accy 72.98
+2024-06-18 20:01:57,198 [fecam.py] => Task 0, Epoch 74/200 => Loss 0.926, Train_accy 73.20
+2024-06-18 20:02:00,624 [fecam.py] => Task 0, Epoch 75/200 => Loss 0.901, Train_accy 74.15
+2024-06-18 20:02:04,896 [fecam.py] => Task 0, Epoch 76/200 => Loss 0.906, Train_accy 73.82, Test_accy 67.70
+2024-06-18 20:02:08,330 [fecam.py] => Task 0, Epoch 77/200 => Loss 0.906, Train_accy 73.74
+2024-06-18 20:02:11,747 [fecam.py] => Task 0, Epoch 78/200 => Loss 0.899, Train_accy 73.98
+2024-06-18 20:02:15,166 [fecam.py] => Task 0, Epoch 79/200 => Loss 0.884, Train_accy 74.42
+2024-06-18 20:02:18,578 [fecam.py] => Task 0, Epoch 80/200 => Loss 0.889, Train_accy 74.11
+2024-06-18 20:02:22,848 [fecam.py] => Task 0, Epoch 81/200 => Loss 0.877, Train_accy 74.34, Test_accy 69.62
+2024-06-18 20:02:26,267 [fecam.py] => Task 0, Epoch 82/200 => Loss 0.852, Train_accy 75.43
+2024-06-18 20:02:29,678 [fecam.py] => Task 0, Epoch 83/200 => Loss 0.852, Train_accy 75.28
+2024-06-18 20:02:33,084 [fecam.py] => Task 0, Epoch 84/200 => Loss 0.866, Train_accy 74.75
+2024-06-18 20:02:36,493 [fecam.py] => Task 0, Epoch 85/200 => Loss 0.847, Train_accy 75.48
+2024-06-18 20:02:40,745 [fecam.py] => Task 0, Epoch 86/200 => Loss 0.844, Train_accy 75.40, Test_accy 65.84
+2024-06-18 20:02:44,152 [fecam.py] => Task 0, Epoch 87/200 => Loss 0.827, Train_accy 76.12
+2024-06-18 20:02:47,568 [fecam.py] => Task 0, Epoch 88/200 => Loss 0.828, Train_accy 76.10
+2024-06-18 20:02:50,967 [fecam.py] => Task 0, Epoch 89/200 => Loss 0.816, Train_accy 76.30
+2024-06-18 20:02:54,382 [fecam.py] => Task 0, Epoch 90/200 => Loss 0.814, Train_accy 76.51
+2024-06-18 20:02:58,663 [fecam.py] => Task 0, Epoch 91/200 => Loss 0.810, Train_accy 76.20, Test_accy 70.22
+2024-06-18 20:03:02,074 [fecam.py] => Task 0, Epoch 92/200 => Loss 0.820, Train_accy 76.36
+2024-06-18 20:03:05,494 [fecam.py] => Task 0, Epoch 93/200 => Loss 0.809, Train_accy 76.95
+2024-06-18 20:03:08,910 [fecam.py] => Task 0, Epoch 94/200 => Loss 0.785, Train_accy 77.21
+2024-06-18 20:03:12,338 [fecam.py] => Task 0, Epoch 95/200 => Loss 0.794, Train_accy 76.95
+2024-06-18 20:03:16,630 [fecam.py] => Task 0, Epoch 96/200 => Loss 0.772, Train_accy 77.76, Test_accy 72.98
+2024-06-18 20:03:20,045 [fecam.py] => Task 0, Epoch 97/200 => Loss 0.771, Train_accy 77.71
+2024-06-18 20:03:23,495 [fecam.py] => Task 0, Epoch 98/200 => Loss 0.768, Train_accy 77.56
+2024-06-18 20:03:26,911 [fecam.py] => Task 0, Epoch 99/200 => Loss 0.754, Train_accy 78.00
+2024-06-18 20:03:30,338 [fecam.py] => Task 0, Epoch 100/200 => Loss 0.737, Train_accy 78.84
+2024-06-18 20:03:34,603 [fecam.py] => Task 0, Epoch 101/200 => Loss 0.745, Train_accy 78.40, Test_accy 72.88
+2024-06-18 20:03:38,031 [fecam.py] => Task 0, Epoch 102/200 => Loss 0.733, Train_accy 78.73
+2024-06-18 20:03:41,445 [fecam.py] => Task 0, Epoch 103/200 => Loss 0.725, Train_accy 78.84
+2024-06-18 20:03:44,867 [fecam.py] => Task 0, Epoch 104/200 => Loss 0.713, Train_accy 79.43
+2024-06-18 20:03:48,269 [fecam.py] => Task 0, Epoch 105/200 => Loss 0.712, Train_accy 79.22
+2024-06-18 20:03:52,533 [fecam.py] => Task 0, Epoch 106/200 => Loss 0.705, Train_accy 79.76, Test_accy 74.08
+2024-06-18 20:03:55,969 [fecam.py] => Task 0, Epoch 107/200 => Loss 0.696, Train_accy 79.65
+2024-06-18 20:03:59,381 [fecam.py] => Task 0, Epoch 108/200 => Loss 0.676, Train_accy 80.48
+2024-06-18 20:04:02,794 [fecam.py] => Task 0, Epoch 109/200 => Loss 0.681, Train_accy 80.24
+2024-06-18 20:04:06,201 [fecam.py] => Task 0, Epoch 110/200 => Loss 0.656, Train_accy 80.95
+2024-06-18 20:04:10,520 [fecam.py] => Task 0, Epoch 111/200 => Loss 0.678, Train_accy 79.99, Test_accy 72.50
+2024-06-18 20:04:13,960 [fecam.py] => Task 0, Epoch 112/200 => Loss 0.650, Train_accy 81.39
+2024-06-18 20:04:17,376 [fecam.py] => Task 0, Epoch 113/200 => Loss 0.648, Train_accy 81.31
+2024-06-18 20:04:20,805 [fecam.py] => Task 0, Epoch 114/200 => Loss 0.629, Train_accy 81.79
+2024-06-18 20:04:24,230 [fecam.py] => Task 0, Epoch 115/200 => Loss 0.635, Train_accy 81.70
+2024-06-18 20:04:28,503 [fecam.py] => Task 0, Epoch 116/200 => Loss 0.628, Train_accy 81.69, Test_accy 75.90
+2024-06-18 20:04:31,925 [fecam.py] => Task 0, Epoch 117/200 => Loss 0.604, Train_accy 82.40
+2024-06-18 20:04:35,361 [fecam.py] => Task 0, Epoch 118/200 => Loss 0.598, Train_accy 82.93
+2024-06-18 20:04:38,772 [fecam.py] => Task 0, Epoch 119/200 => Loss 0.590, Train_accy 82.90
+2024-06-18 20:04:42,196 [fecam.py] => Task 0, Epoch 120/200 => Loss 0.602, Train_accy 82.42
+2024-06-18 20:04:46,471 [fecam.py] => Task 0, Epoch 121/200 => Loss 0.580, Train_accy 83.33, Test_accy 75.88
+2024-06-18 20:04:49,885 [fecam.py] => Task 0, Epoch 122/200 => Loss 0.572, Train_accy 83.64
+2024-06-18 20:04:53,287 [fecam.py] => Task 0, Epoch 123/200 => Loss 0.574, Train_accy 83.64
+2024-06-18 20:04:56,687 [fecam.py] => Task 0, Epoch 124/200 => Loss 0.548, Train_accy 84.28
+2024-06-18 20:05:00,103 [fecam.py] => Task 0, Epoch 125/200 => Loss 0.547, Train_accy 83.98
+2024-06-18 20:05:04,361 [fecam.py] => Task 0, Epoch 126/200 => Loss 0.545, Train_accy 84.14, Test_accy 76.00
+2024-06-18 20:05:07,791 [fecam.py] => Task 0, Epoch 127/200 => Loss 0.529, Train_accy 84.76
+2024-06-18 20:05:11,250 [fecam.py] => Task 0, Epoch 128/200 => Loss 0.532, Train_accy 84.94
+2024-06-18 20:05:14,727 [fecam.py] => Task 0, Epoch 129/200 => Loss 0.511, Train_accy 85.01
+2024-06-18 20:05:18,204 [fecam.py] => Task 0, Epoch 130/200 => Loss 0.536, Train_accy 84.50
+2024-06-18 20:05:22,527 [fecam.py] => Task 0, Epoch 131/200 => Loss 0.496, Train_accy 85.91, Test_accy 78.14
+2024-06-18 20:05:26,001 [fecam.py] => Task 0, Epoch 132/200 => Loss 0.481, Train_accy 86.25
+2024-06-18 20:05:29,420 [fecam.py] => Task 0, Epoch 133/200 => Loss 0.485, Train_accy 85.84
+2024-06-18 20:05:32,839 [fecam.py] => Task 0, Epoch 134/200 => Loss 0.487, Train_accy 86.10
+2024-06-18 20:05:36,250 [fecam.py] => Task 0, Epoch 135/200 => Loss 0.459, Train_accy 86.91
+2024-06-18 20:05:40,530 [fecam.py] => Task 0, Epoch 136/200 => Loss 0.461, Train_accy 86.95, Test_accy 77.06
+2024-06-18 20:05:43,947 [fecam.py] => Task 0, Epoch 137/200 => Loss 0.458, Train_accy 86.92
+2024-06-18 20:05:47,361 [fecam.py] => Task 0, Epoch 138/200 => Loss 0.430, Train_accy 87.88
+2024-06-18 20:05:50,770 [fecam.py] => Task 0, Epoch 139/200 => Loss 0.431, Train_accy 87.72
+2024-06-18 20:05:54,181 [fecam.py] => Task 0, Epoch 140/200 => Loss 0.426, Train_accy 87.88
+2024-06-18 20:05:58,454 [fecam.py] => Task 0, Epoch 141/200 => Loss 0.415, Train_accy 88.30, Test_accy 78.34
+2024-06-18 20:06:01,875 [fecam.py] => Task 0, Epoch 142/200 => Loss 0.411, Train_accy 88.20
+2024-06-18 20:06:05,285 [fecam.py] => Task 0, Epoch 143/200 => Loss 0.398, Train_accy 88.75
+2024-06-18 20:06:08,723 [fecam.py] => Task 0, Epoch 144/200 => Loss 0.394, Train_accy 88.81
+2024-06-18 20:06:12,158 [fecam.py] => Task 0, Epoch 145/200 => Loss 0.381, Train_accy 89.41
+2024-06-18 20:06:16,411 [fecam.py] => Task 0, Epoch 146/200 => Loss 0.370, Train_accy 89.62, Test_accy 78.18
+2024-06-18 20:06:19,828 [fecam.py] => Task 0, Epoch 147/200 => Loss 0.369, Train_accy 89.55
+2024-06-18 20:06:23,250 [fecam.py] => Task 0, Epoch 148/200 => Loss 0.363, Train_accy 89.86
+2024-06-18 20:06:26,679 [fecam.py] => Task 0, Epoch 149/200 => Loss 0.357, Train_accy 89.81
+2024-06-18 20:06:30,077 [fecam.py] => Task 0, Epoch 150/200 => Loss 0.334, Train_accy 90.49
+2024-06-18 20:06:34,348 [fecam.py] => Task 0, Epoch 151/200 => Loss 0.333, Train_accy 90.66, Test_accy 78.64
+2024-06-18 20:06:37,757 [fecam.py] => Task 0, Epoch 152/200 => Loss 0.340, Train_accy 90.51
+2024-06-18 20:06:41,180 [fecam.py] => Task 0, Epoch 153/200 => Loss 0.324, Train_accy 90.90
+2024-06-18 20:06:44,589 [fecam.py] => Task 0, Epoch 154/200 => Loss 0.311, Train_accy 91.32
+2024-06-18 20:06:48,008 [fecam.py] => Task 0, Epoch 155/200 => Loss 0.310, Train_accy 91.45
+2024-06-18 20:06:52,255 [fecam.py] => Task 0, Epoch 156/200 => Loss 0.312, Train_accy 91.40, Test_accy 80.38
+2024-06-18 20:06:55,668 [fecam.py] => Task 0, Epoch 157/200 => Loss 0.291, Train_accy 91.82
+2024-06-18 20:06:59,078 [fecam.py] => Task 0, Epoch 158/200 => Loss 0.294, Train_accy 91.65
+2024-06-18 20:07:02,493 [fecam.py] => Task 0, Epoch 159/200 => Loss 0.287, Train_accy 92.13
+2024-06-18 20:07:05,901 [fecam.py] => Task 0, Epoch 160/200 => Loss 0.259, Train_accy 92.94
+2024-06-18 20:07:10,134 [fecam.py] => Task 0, Epoch 161/200 => Loss 0.263, Train_accy 92.70, Test_accy 80.84
+2024-06-18 20:07:13,534 [fecam.py] => Task 0, Epoch 162/200 => Loss 0.258, Train_accy 92.80
+2024-06-18 20:07:16,949 [fecam.py] => Task 0, Epoch 163/200 => Loss 0.251, Train_accy 93.10
+2024-06-18 20:07:20,352 [fecam.py] => Task 0, Epoch 164/200 => Loss 0.248, Train_accy 93.07
+2024-06-18 20:07:23,745 [fecam.py] => Task 0, Epoch 165/200 => Loss 0.240, Train_accy 93.31
+2024-06-18 20:07:27,974 [fecam.py] => Task 0, Epoch 166/200 => Loss 0.232, Train_accy 93.68, Test_accy 82.14
+2024-06-18 20:07:31,404 [fecam.py] => Task 0, Epoch 167/200 => Loss 0.237, Train_accy 93.50
+2024-06-18 20:07:34,835 [fecam.py] => Task 0, Epoch 168/200 => Loss 0.223, Train_accy 94.02
+2024-06-18 20:07:38,245 [fecam.py] => Task 0, Epoch 169/200 => Loss 0.208, Train_accy 94.37
+2024-06-18 20:07:41,651 [fecam.py] => Task 0, Epoch 170/200 => Loss 0.213, Train_accy 94.16
+2024-06-18 20:07:45,929 [fecam.py] => Task 0, Epoch 171/200 => Loss 0.214, Train_accy 94.14, Test_accy 82.18
+2024-06-18 20:07:49,340 [fecam.py] => Task 0, Epoch 172/200 => Loss 0.205, Train_accy 94.38
+2024-06-18 20:07:52,758 [fecam.py] => Task 0, Epoch 173/200 => Loss 0.207, Train_accy 94.33
+2024-06-18 20:07:56,190 [fecam.py] => Task 0, Epoch 174/200 => Loss 0.200, Train_accy 94.49
+2024-06-18 20:07:59,616 [fecam.py] => Task 0, Epoch 175/200 => Loss 0.194, Train_accy 94.74
+2024-06-18 20:08:03,905 [fecam.py] => Task 0, Epoch 176/200 => Loss 0.194, Train_accy 94.70, Test_accy 83.02
+2024-06-18 20:08:07,329 [fecam.py] => Task 0, Epoch 177/200 => Loss 0.175, Train_accy 95.32
+2024-06-18 20:08:10,734 [fecam.py] => Task 0, Epoch 178/200 => Loss 0.180, Train_accy 95.09
+2024-06-18 20:08:14,146 [fecam.py] => Task 0, Epoch 179/200 => Loss 0.183, Train_accy 95.00
+2024-06-18 20:08:17,549 [fecam.py] => Task 0, Epoch 180/200 => Loss 0.179, Train_accy 95.12
+2024-06-18 20:08:21,822 [fecam.py] => Task 0, Epoch 181/200 => Loss 0.175, Train_accy 95.18, Test_accy 83.50
+2024-06-18 20:08:25,239 [fecam.py] => Task 0, Epoch 182/200 => Loss 0.183, Train_accy 94.95
+2024-06-18 20:08:28,649 [fecam.py] => Task 0, Epoch 183/200 => Loss 0.165, Train_accy 95.47
+2024-06-18 20:08:32,058 [fecam.py] => Task 0, Epoch 184/200 => Loss 0.171, Train_accy 95.46
+2024-06-18 20:08:35,470 [fecam.py] => Task 0, Epoch 185/200 => Loss 0.174, Train_accy 95.23
+2024-06-18 20:08:39,748 [fecam.py] => Task 0, Epoch 186/200 => Loss 0.170, Train_accy 95.46, Test_accy 83.42
+2024-06-18 20:08:43,167 [fecam.py] => Task 0, Epoch 187/200 => Loss 0.159, Train_accy 95.54
+2024-06-18 20:08:46,567 [fecam.py] => Task 0, Epoch 188/200 => Loss 0.157, Train_accy 95.81
+2024-06-18 20:08:49,974 [fecam.py] => Task 0, Epoch 189/200 => Loss 0.152, Train_accy 96.04
+2024-06-18 20:08:53,373 [fecam.py] => Task 0, Epoch 190/200 => Loss 0.153, Train_accy 95.85
+2024-06-18 20:08:57,651 [fecam.py] => Task 0, Epoch 191/200 => Loss 0.154, Train_accy 95.90, Test_accy 83.64
+2024-06-18 20:09:01,064 [fecam.py] => Task 0, Epoch 192/200 => Loss 0.149, Train_accy 96.04
+2024-06-18 20:09:04,469 [fecam.py] => Task 0, Epoch 193/200 => Loss 0.161, Train_accy 95.58
+2024-06-18 20:09:07,878 [fecam.py] => Task 0, Epoch 194/200 => Loss 0.155, Train_accy 95.83
+2024-06-18 20:09:11,305 [fecam.py] => Task 0, Epoch 195/200 => Loss 0.151, Train_accy 95.94
+2024-06-18 20:09:15,574 [fecam.py] => Task 0, Epoch 196/200 => Loss 0.148, Train_accy 96.09, Test_accy 83.94
+2024-06-18 20:09:18,973 [fecam.py] => Task 0, Epoch 197/200 => Loss 0.142, Train_accy 96.12
+2024-06-18 20:09:22,378 [fecam.py] => Task 0, Epoch 198/200 => Loss 0.148, Train_accy 95.99
+2024-06-18 20:09:25,800 [fecam.py] => Task 0, Epoch 199/200 => Loss 0.151, Train_accy 95.90
+2024-06-18 20:09:29,216 [fecam.py] => Task 0, Epoch 200/200 => Loss 0.158, Train_accy 95.82
+2024-06-18 20:10:15,634 [trainer.py] => CNN: {'total': 83.94, '00-09': 86.8, '10-19': 80.7, '20-29': 86.7, '30-39': 80.2, '40-49': 85.3, 'old': 0, 'new': 83.94}
+2024-06-18 20:10:15,634 [trainer.py] => No NME accuracy
+2024-06-18 20:10:15,634 [trainer.py] => FeCAM: {'total': 83.94, '00-09': 86.8, '10-19': 80.7, '20-29': 86.7, '30-39': 80.2, '40-49': 85.3, 'old': 0, 'new': 83.94}
+2024-06-18 20:10:15,634 [trainer.py] => CNN top1 curve: [83.94]
+2024-06-18 20:10:15,634 [trainer.py] => CNN top5 curve: [96.42]
+2024-06-18 20:10:15,634 [trainer.py] => FeCAM top1 curve: [83.94]
+2024-06-18 20:10:15,634 [trainer.py] => FeCAM top5 curve: [96.42]
+
+2024-06-18 20:10:15,637 [fecam.py] => Learning on 50-60
+2024-06-18 20:10:31,010 [trainer.py] => CNN: {'total': 71.93, '00-09': 80.7, '10-19': 73.8, '20-29': 80.5, '30-39': 75.3, '40-49': 67.4, '50-59': 53.9, 'old': 75.54, 'new': 53.9}
+2024-06-18 20:10:31,011 [trainer.py] => No NME accuracy
+2024-06-18 20:10:31,011 [trainer.py] => FeCAM: {'total': 76.53, '00-09': 84.7, '10-19': 77.3, '20-29': 84.1, '30-39': 79.7, '40-49': 81.9, '50-59': 51.5, 'old': 81.54, 'new': 51.5}
+2024-06-18 20:10:31,011 [trainer.py] => CNN top1 curve: [83.94, 71.93]
+2024-06-18 20:10:31,011 [trainer.py] => CNN top5 curve: [96.42, 89.77]
+2024-06-18 20:10:31,011 [trainer.py] => FeCAM top1 curve: [83.94, 76.53]
+2024-06-18 20:10:31,011 [trainer.py] => FeCAM top5 curve: [96.42, 93.2]
+
+2024-06-18 20:10:31,015 [fecam.py] => Learning on 60-70
+2024-06-18 20:10:47,597 [trainer.py] => CNN: {'total': 64.56, '00-09': 73.0, '10-19': 71.2, '20-29': 78.1, '30-39': 72.0, '40-49': 62.9, '50-59': 46.3, '60-69': 48.4, 'old': 67.25, 'new': 48.4}
+2024-06-18 20:10:47,597 [trainer.py] => No NME accuracy
+2024-06-18 20:10:47,598 [trainer.py] => FeCAM: {'total': 72.43, '00-09': 83.9, '10-19': 75.9, '20-29': 83.9, '30-39': 78.7, '40-49': 80.8, '50-59': 48.3, '60-69': 55.5, 'old': 75.25, 'new': 55.5}
+2024-06-18 20:10:47,598 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56]
+2024-06-18 20:10:47,598 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67]
+2024-06-18 20:10:47,598 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43]
+2024-06-18 20:10:47,598 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24]
+
+2024-06-18 20:10:47,601 [fecam.py] => Learning on 70-80
+2024-06-18 20:11:04,988 [trainer.py] => CNN: {'total': 59.34, '00-09': 71.7, '10-19': 70.4, '20-29': 77.9, '30-39': 70.6, '40-49': 60.6, '50-59': 36.2, '60-69': 44.6, '70-79': 42.7, 'old': 61.71, 'new': 42.7}
+2024-06-18 20:11:04,988 [trainer.py] => No NME accuracy
+2024-06-18 20:11:04,988 [trainer.py] => FeCAM: {'total': 68.34, '00-09': 83.6, '10-19': 75.6, '20-29': 83.3, '30-39': 77.3, '40-49': 79.4, '50-59': 44.2, '60-69': 53.2, '70-79': 50.1, 'old': 70.94, 'new': 50.1}
+2024-06-18 20:11:04,988 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34]
+2024-06-18 20:11:04,988 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25]
+2024-06-18 20:11:04,988 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34]
+2024-06-18 20:11:04,988 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4]
+
+2024-06-18 20:11:04,992 [fecam.py] => Learning on 80-90
+2024-06-18 20:11:24,906 [trainer.py] => CNN: {'total': 54.06, '00-09': 66.7, '10-19': 63.9, '20-29': 73.7, '30-39': 70.5, '40-49': 56.9, '50-59': 31.7, '60-69': 40.6, '70-79': 39.2, '80-89': 43.3, 'old': 55.4, 'new': 43.3}
+2024-06-18 20:11:24,906 [trainer.py] => No NME accuracy
+2024-06-18 20:11:24,906 [trainer.py] => FeCAM: {'total': 64.7, '00-09': 81.8, '10-19': 74.2, '20-29': 82.2, '30-39': 76.5, '40-49': 77.7, '50-59': 42.8, '60-69': 51.7, '70-79': 48.1, '80-89': 47.3, 'old': 66.88, 'new': 47.3}
+2024-06-18 20:11:24,906 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34, 54.06]
+2024-06-18 20:11:24,906 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25, 82.02]
+2024-06-18 20:11:24,906 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34, 64.7]
+2024-06-18 20:11:24,906 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4, 88.01]
+
+2024-06-18 20:11:24,910 [fecam.py] => Learning on 90-100
+2024-06-18 20:11:44,987 [trainer.py] => CNN: {'total': 50.27, '00-09': 57.9, '10-19': 63.6, '20-29': 72.7, '30-39': 69.8, '40-49': 56.6, '50-59': 29.2, '60-69': 38.2, '70-79': 36.5, '80-89': 41.3, '90-99': 36.9, 'old': 51.76, 'new': 36.9}
+2024-06-18 20:11:44,988 [trainer.py] => No NME accuracy
+2024-06-18 20:11:44,988 [trainer.py] => FeCAM: {'total': 62.36, '00-09': 81.2, '10-19': 73.8, '20-29': 81.4, '30-39': 76.0, '40-49': 77.3, '50-59': 40.9, '60-69': 50.9, '70-79': 46.2, '80-89': 46.2, '90-99': 49.7, 'old': 63.77, 'new': 49.7}
+2024-06-18 20:11:44,988 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34, 54.06, 50.27]
+2024-06-18 20:11:44,988 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25, 82.02, 79.92]
+2024-06-18 20:11:44,988 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34, 64.7, 62.36]
+2024-06-18 20:11:44,988 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4, 88.01, 86.68]
+

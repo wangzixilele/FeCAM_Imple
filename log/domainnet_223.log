@@ -1,0 +1,680 @@
+2024-05-19 18:42:30,249 [trainer.py] => config: exps/FeCAM_domainnet.json
+2024-05-19 18:42:30,249 [trainer.py] => prefix: train
+2024-05-19 18:42:30,249 [trainer.py] => dataset: domainnet-126
+2024-05-19 18:42:30,249 [trainer.py] => memory_size: 0
+2024-05-19 18:42:30,249 [trainer.py] => shuffle: True
+2024-05-19 18:42:30,250 [trainer.py] => init_cls: 20
+2024-05-19 18:42:30,250 [trainer.py] => increment: 20
+2024-05-19 18:42:30,250 [trainer.py] => model_name: fecam
+2024-05-19 18:42:30,250 [trainer.py] => convnet_type: resnet18
+2024-05-19 18:42:30,250 [trainer.py] => device: [device(type='cuda', index=3), device(type='cuda', index=2)]
+2024-05-19 18:42:30,250 [trainer.py] => seed: 1993
+2024-05-19 18:42:30,250 [trainer.py] => init_epochs: 10
+2024-05-19 18:42:30,250 [trainer.py] => init_lr: 0.1
+2024-05-19 18:42:30,250 [trainer.py] => init_weight_decay: 0.0005
+2024-05-19 18:42:30,250 [trainer.py] => batch_size: 16
+2024-05-19 18:42:30,250 [trainer.py] => num_workers: 8
+2024-05-19 18:42:30,250 [trainer.py] => T: 2
+2024-05-19 18:42:30,250 [trainer.py] => beta: 0.5
+2024-05-19 18:42:30,250 [trainer.py] => alpha1: 1
+2024-05-19 18:42:30,250 [trainer.py] => alpha2: 1
+2024-05-19 18:42:30,250 [trainer.py] => ncm: False
+2024-05-19 18:42:30,250 [trainer.py] => tukey: True
+2024-05-19 18:42:30,250 [trainer.py] => diagonal: False
+2024-05-19 18:42:30,250 [trainer.py] => per_class: True
+2024-05-19 18:42:30,250 [trainer.py] => full_cov: True
+2024-05-19 18:42:30,250 [trainer.py] => shrink: True
+2024-05-19 18:42:30,250 [trainer.py] => norm_cov: True
+2024-05-19 18:42:30,250 [trainer.py] => source_index: 2
+2024-05-19 18:42:30,250 [trainer.py] => target_index: 3
+0 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/The_Eiffel_Tower/sketch_309_000001.jpg
+1 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/The_Great_Wall_of_China/sketch_310_000001.jpg
+2 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/aircraft_carrier/sketch_001_000001.jpg
+3 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/alarm_clock/sketch_003_000001.jpg
+4 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/ant/sketch_007_000001.jpg
+5 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/anvil/sketch_008_000001.jpg
+6 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/asparagus/sketch_011_000001.jpg
+7 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/axe/sketch_012_000001.jpg
+8 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/banana/sketch_014_000001.jpg
+9 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/basket/sketch_019_000001.jpg
+10 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bathtub/sketch_022_000002.jpg
+11 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bear/sketch_024_000001.jpg
+12 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bee/sketch_027_000001.jpg
+13 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bird/sketch_032_000001.jpg
+14 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/blackberry/sketch_034_000001.jpg
+15 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/blueberry/sketch_035_000001.jpg
+16 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bottlecap/sketch_038_000001.jpg
+17 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/broccoli/sketch_044_000001.jpg
+18 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bus/sketch_048_000001.jpg
+19 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/butterfly/sketch_050_000001.jpg
+20 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cactus/sketch_051_000001.jpg
+21 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cake/sketch_052_000004.jpg
+22 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/calculator/sketch_053_000001.jpg
+23 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/camel/sketch_055_000001.jpg
+24 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/camera/sketch_056_000001.jpg
+25 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/candle/sketch_059_000001.jpg
+26 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cannon/sketch_060_000001.jpg
+27 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/canoe/sketch_061_000001.jpg
+28 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/carrot/sketch_063_000001.jpg
+29 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/castle/sketch_064_000001.jpg
+30 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cat/sketch_065_000001.jpg
+31 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/ceiling_fan/sketch_066_000001.jpg
+32 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cell_phone/sketch_068_000001.jpg
+33 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cello/sketch_067_000001.jpg
+34 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/chair/sketch_069_000001.jpg
+35 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/chandelier/sketch_070_000001.jpg
+36 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/coffee_cup/sketch_076_000001.jpg
+37 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/compass/sketch_077_000001.jpg
+38 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/computer/sketch_078_000001.jpg
+39 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cow/sketch_082_000001.jpg
+40 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/crab/sketch_083_000001.jpg
+41 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/crocodile/sketch_085_000001.jpg
+42 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cruise_ship/sketch_087_000001.jpg
+43 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dog/sketch_092_000001.jpg
+44 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dolphin/sketch_093_000001.jpg
+45 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dragon/sketch_096_000001.jpg
+46 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/drums/sketch_099_000001.jpg
+47 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/duck/sketch_100_000001.jpg
+48 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dumbbell/sketch_101_000001.jpg
+49 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/elephant/sketch_104_000001.jpg
+50 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/eyeglasses/sketch_108_000001.jpg
+51 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/feather/sketch_111_000001.jpg
+52 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fence/sketch_112_000001.jpg
+53 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fish/sketch_117_000001.jpg
+54 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/flamingo/sketch_118_000001.jpg
+55 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/flower/sketch_122_000001.jpg
+56 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/foot/sketch_124_000001.jpg
+57 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fork/sketch_125_000001.jpg
+58 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/frog/sketch_126_000001.jpg
+59 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/giraffe/sketch_130_000001.jpg
+60 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/goatee/sketch_131_000001.jpg
+61 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/grapes/sketch_133_000001.jpg
+62 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/guitar/sketch_135_000001.jpg
+63 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/hammer/sketch_137_000001.jpg
+64 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/helicopter/sketch_143_000001.jpg
+65 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/helmet/sketch_144_000001.jpg
+66 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/horse/sketch_148_000001.jpg
+67 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/kangaroo/sketch_160_000001.jpg
+68 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lantern/sketch_166_000001.jpg
+69 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/laptop/sketch_167_000001.jpg
+70 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/leaf/sketch_168_000001.jpg
+71 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lion/sketch_175_000001.jpg
+72 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lipstick/sketch_176_000001.jpg
+73 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lobster/sketch_177_000001.jpg
+74 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/microphone/sketch_185_000001.jpg
+75 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/monkey/sketch_187_000001.jpg
+76 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mosquito/sketch_189_000001.jpg
+77 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mouse/sketch_192_000001.jpg
+78 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mug/sketch_195_000001.jpg
+79 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mushroom/sketch_196_000001.jpg
+80 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/onion/sketch_203_000001.jpg
+81 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/panda/sketch_209_000001.jpg
+82 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/peanut/sketch_215_000001.jpg
+83 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pear/sketch_216_000001.jpg
+84 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/peas/sketch_217_000001.jpg
+85 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pencil/sketch_218_000001.jpg
+86 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/penguin/sketch_219_000001.jpg
+87 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pig/sketch_223_000001.jpg
+88 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pillow/sketch_224_000001.jpg
+89 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pineapple/sketch_225_000001.jpg
+90 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/potato/sketch_233_000001.jpg
+91 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/power_outlet/sketch_234_000001.jpg
+92 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/purse/sketch_235_000001.jpg
+93 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rabbit/sketch_236_000001.jpg
+94 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/raccoon/sketch_237_000001.jpg
+95 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rhinoceros/sketch_243_000001.jpg
+96 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rifle/sketch_244_000001.jpg
+97 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/saxophone/sketch_251_000001.jpg
+98 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/screwdriver/sketch_255_000001.jpg
+99 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/sea_turtle/sketch_256_000001.jpg
+100 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/see_saw/sketch_257_000001.jpg
+101 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/sheep/sketch_259_000001.jpg
+102 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/shoe/sketch_260_000001.jpg
+103 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/skateboard/sketch_264_000001.jpg
+104 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/snake/sketch_270_000001.jpg
+105 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/speedboat/sketch_276_000001.jpg
+106 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/spider/sketch_277_000001.jpg
+107 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/squirrel/sketch_282_000001.jpg
+108 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/strawberry/sketch_291_000001.jpg
+109 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/streetlight/sketch_292_000001.jpg
+110 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/string_bean/sketch_293_000001.jpg
+111 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/submarine/sketch_294_000001.jpg
+112 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/swan/sketch_297_000001.jpg
+113 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/table/sketch_302_000001.jpg
+114 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/teapot/sketch_303_000001.jpg
+115 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/teddy-bear/sketch_304_000003.jpg
+116 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/television/sketch_306_000001.jpg
+117 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/tiger/sketch_312_000001.jpg
+118 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/toe/sketch_314_000001.jpg
+119 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/train/sketch_322_000001.jpg
+120 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/truck/sketch_326_000001.jpg
+121 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/umbrella/sketch_329_000001.jpg
+122 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/vase/sketch_332_000001.jpg
+123 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/watermelon/sketch_335_000001.jpg
+124 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/whale/sketch_337_000001.jpg
+125 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/zebra/sketch_344_000001.jpg
+0 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/The_Eiffel_Tower/sketch_309_000001.jpg
+1 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/The_Great_Wall_of_China/sketch_310_000001.jpg
+2 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/aircraft_carrier/sketch_001_000001.jpg
+3 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/alarm_clock/sketch_003_000001.jpg
+4 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/ant/sketch_007_000001.jpg
+5 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/anvil/sketch_008_000001.jpg
+6 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/asparagus/sketch_011_000001.jpg
+7 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/axe/sketch_012_000001.jpg
+8 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/banana/sketch_014_000001.jpg
+9 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/basket/sketch_019_000001.jpg
+10 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bathtub/sketch_022_000002.jpg
+11 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bear/sketch_024_000001.jpg
+12 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bee/sketch_027_000001.jpg
+13 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bird/sketch_032_000001.jpg
+14 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/blackberry/sketch_034_000001.jpg
+15 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/blueberry/sketch_035_000001.jpg
+16 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bottlecap/sketch_038_000001.jpg
+17 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/broccoli/sketch_044_000001.jpg
+18 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bus/sketch_048_000001.jpg
+19 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/butterfly/sketch_050_000001.jpg
+20 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cactus/sketch_051_000001.jpg
+21 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cake/sketch_052_000004.jpg
+22 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/calculator/sketch_053_000001.jpg
+23 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/camel/sketch_055_000001.jpg
+24 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/camera/sketch_056_000001.jpg
+25 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/candle/sketch_059_000001.jpg
+26 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cannon/sketch_060_000001.jpg
+27 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/canoe/sketch_061_000001.jpg
+28 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/carrot/sketch_063_000001.jpg
+29 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/castle/sketch_064_000001.jpg
+30 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cat/sketch_065_000001.jpg
+31 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/ceiling_fan/sketch_066_000001.jpg
+32 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cell_phone/sketch_068_000001.jpg
+33 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cello/sketch_067_000001.jpg
+34 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/chair/sketch_069_000001.jpg
+35 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/chandelier/sketch_070_000001.jpg
+36 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/coffee_cup/sketch_076_000001.jpg
+37 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/compass/sketch_077_000001.jpg
+38 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/computer/sketch_078_000001.jpg
+39 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cow/sketch_082_000001.jpg
+40 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/crab/sketch_083_000001.jpg
+41 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/crocodile/sketch_085_000001.jpg
+42 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cruise_ship/sketch_087_000001.jpg
+43 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dog/sketch_092_000001.jpg
+44 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dolphin/sketch_093_000001.jpg
+45 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dragon/sketch_096_000001.jpg
+46 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/drums/sketch_099_000001.jpg
+47 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/duck/sketch_100_000001.jpg
+48 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dumbbell/sketch_101_000001.jpg
+49 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/elephant/sketch_104_000001.jpg
+50 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/eyeglasses/sketch_108_000001.jpg
+51 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/feather/sketch_111_000001.jpg
+52 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fence/sketch_112_000001.jpg
+53 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fish/sketch_117_000001.jpg
+54 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/flamingo/sketch_118_000001.jpg
+55 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/flower/sketch_122_000001.jpg
+56 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/foot/sketch_124_000001.jpg
+57 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fork/sketch_125_000001.jpg
+58 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/frog/sketch_126_000001.jpg
+59 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/giraffe/sketch_130_000001.jpg
+60 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/goatee/sketch_131_000001.jpg
+61 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/grapes/sketch_133_000001.jpg
+62 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/guitar/sketch_135_000001.jpg
+63 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/hammer/sketch_137_000001.jpg
+64 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/helicopter/sketch_143_000001.jpg
+65 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/helmet/sketch_144_000001.jpg
+66 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/horse/sketch_148_000001.jpg
+67 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/kangaroo/sketch_160_000001.jpg
+68 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lantern/sketch_166_000001.jpg
+69 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/laptop/sketch_167_000001.jpg
+70 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/leaf/sketch_168_000001.jpg
+71 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lion/sketch_175_000001.jpg
+72 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lipstick/sketch_176_000001.jpg
+73 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lobster/sketch_177_000001.jpg
+74 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/microphone/sketch_185_000001.jpg
+75 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/monkey/sketch_187_000001.jpg
+76 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mosquito/sketch_189_000001.jpg
+77 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mouse/sketch_192_000001.jpg
+78 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mug/sketch_195_000001.jpg
+79 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mushroom/sketch_196_000001.jpg
+80 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/onion/sketch_203_000001.jpg
+81 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/panda/sketch_209_000001.jpg
+82 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/peanut/sketch_215_000001.jpg
+83 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pear/sketch_216_000001.jpg
+84 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/peas/sketch_217_000001.jpg
+85 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pencil/sketch_218_000001.jpg
+86 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/penguin/sketch_219_000001.jpg
+87 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pig/sketch_223_000001.jpg
+88 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pillow/sketch_224_000001.jpg
+89 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pineapple/sketch_225_000001.jpg
+90 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/potato/sketch_233_000001.jpg
+91 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/power_outlet/sketch_234_000001.jpg
+92 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/purse/sketch_235_000001.jpg
+93 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rabbit/sketch_236_000001.jpg
+94 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/raccoon/sketch_237_000001.jpg
+95 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rhinoceros/sketch_243_000001.jpg
+96 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rifle/sketch_244_000001.jpg
+97 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/saxophone/sketch_251_000001.jpg
+98 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/screwdriver/sketch_255_000001.jpg
+99 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/sea_turtle/sketch_256_000001.jpg
+100 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/see_saw/sketch_257_000001.jpg
+101 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/sheep/sketch_259_000001.jpg
+102 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/shoe/sketch_260_000001.jpg
+103 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/skateboard/sketch_264_000001.jpg
+104 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/snake/sketch_270_000001.jpg
+105 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/speedboat/sketch_276_000001.jpg
+106 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/spider/sketch_277_000001.jpg
+107 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/squirrel/sketch_282_000001.jpg
+108 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/strawberry/sketch_291_000001.jpg
+109 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/streetlight/sketch_292_000001.jpg
+110 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/string_bean/sketch_293_000001.jpg
+111 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/submarine/sketch_294_000001.jpg
+112 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/swan/sketch_297_000001.jpg
+113 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/table/sketch_302_000001.jpg
+114 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/teapot/sketch_303_000001.jpg
+115 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/teddy-bear/sketch_304_000003.jpg
+116 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/television/sketch_306_000001.jpg
+117 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/tiger/sketch_312_000001.jpg
+118 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/toe/sketch_314_000001.jpg
+119 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/train/sketch_322_000001.jpg
+120 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/truck/sketch_326_000001.jpg
+121 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/umbrella/sketch_329_000001.jpg
+122 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/vase/sketch_332_000001.jpg
+123 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/watermelon/sketch_335_000001.jpg
+124 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/whale/sketch_337_000001.jpg
+125 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/zebra/sketch_344_000001.jpg
+2024-05-19 18:42:33,327 [data_manager.py] => [91, 9, 23, 101, 58, 113, 45, 43, 40, 74, 119, 107, 44, 108, 99, 100, 60, 115, 86, 59, 8, 103, 80, 52, 81, 28, 114, 118, 26, 96, 111, 10, 122, 35, 88, 104, 3, 71, 70, 72, 102, 106, 1, 78, 116, 19, 17, 56, 13, 87, 14, 55, 6, 94, 79, 22, 16, 64, 124, 38, 15, 65, 120, 68, 41, 77, 20, 50, 31, 53, 54, 37, 85, 89, 121, 2, 123, 66, 82, 84, 42, 76, 24, 34, 109, 21, 125, 0, 110, 27, 18, 117, 11, 12, 47, 25, 98, 30, 83, 46, 62, 69, 90, 36, 61, 7, 63, 92, 75, 5, 32, 105, 4, 51, 48, 73, 93, 39, 95, 112, 67, 29, 97, 49, 57, 33]
+2024-05-19 18:42:33,559 [fecam.py] => Learning on 0-20
+  0%|          | 0/10 [00:00<?, ?it/s]Task 0, Epoch 1/10 => Loss 2.330, Train_accy 5.90, Test_accy 5.28:   0%|          | 0/10 [01:13<?, ?it/s]2024-05-19 18:44:02,637 [fecam.py] => Task 0, Epoch 1/10 => Loss 2.330, Train_accy 5.90, Test_accy 5.28
+Task 0, Epoch 1/10 => Loss 2.330, Train_accy 5.90, Test_accy 5.28:  10%|█         | 1/10 [01:13<10:57, 73.04s/it]Task 0, Epoch 2/10 => Loss 2.284, Train_accy 5.80:  10%|█         | 1/10 [01:28<10:57, 73.04s/it]                2024-05-19 18:44:17,755 [fecam.py] => Task 0, Epoch 2/10 => Loss 2.284, Train_accy 5.80
+Task 0, Epoch 2/10 => Loss 2.284, Train_accy 5.80:  20%|██        | 2/10 [01:28<05:11, 38.97s/it]Task 0, Epoch 3/10 => Loss 2.257, Train_accy 6.14:  20%|██        | 2/10 [01:43<05:11, 38.97s/it]2024-05-19 18:44:32,950 [fecam.py] => Task 0, Epoch 3/10 => Loss 2.257, Train_accy 6.14
+Task 0, Epoch 3/10 => Loss 2.257, Train_accy 6.14:  30%|███       | 3/10 [01:43<03:16, 28.11s/it]Task 0, Epoch 4/10 => Loss 2.226, Train_accy 5.38:  30%|███       | 3/10 [01:58<03:16, 28.11s/it]2024-05-19 18:44:47,921 [fecam.py] => Task 0, Epoch 4/10 => Loss 2.226, Train_accy 5.38
+Task 0, Epoch 4/10 => Loss 2.226, Train_accy 5.38:  40%|████      | 4/10 [01:58<02:17, 22.92s/it]Task 0, Epoch 5/10 => Loss 2.218, Train_accy 5.86:  40%|████      | 4/10 [02:13<02:17, 22.92s/it]2024-05-19 18:45:03,120 [fecam.py] => Task 0, Epoch 5/10 => Loss 2.218, Train_accy 5.86
+Task 0, Epoch 5/10 => Loss 2.218, Train_accy 5.86:  50%|█████     | 5/10 [02:13<01:40, 20.14s/it]Task 0, Epoch 6/10 => Loss 2.207, Train_accy 5.58, Test_accy 5.95:  50%|█████     | 5/10 [02:34<01:40, 20.14s/it]2024-05-19 18:45:23,847 [fecam.py] => Task 0, Epoch 6/10 => Loss 2.207, Train_accy 5.58, Test_accy 5.95
+Task 0, Epoch 6/10 => Loss 2.207, Train_accy 5.58, Test_accy 5.95:  60%|██████    | 6/10 [02:34<01:21, 20.34s/it]Task 0, Epoch 7/10 => Loss 2.174, Train_accy 5.82:  60%|██████    | 6/10 [02:49<01:21, 20.34s/it]                2024-05-19 18:45:38,757 [fecam.py] => Task 0, Epoch 7/10 => Loss 2.174, Train_accy 5.82
+Task 0, Epoch 7/10 => Loss 2.174, Train_accy 5.82:  70%|███████   | 7/10 [02:49<00:55, 18.56s/it]Task 0, Epoch 8/10 => Loss 2.137, Train_accy 5.75:  70%|███████   | 7/10 [03:04<00:55, 18.56s/it]2024-05-19 18:45:54,024 [fecam.py] => Task 0, Epoch 8/10 => Loss 2.137, Train_accy 5.75
+Task 0, Epoch 8/10 => Loss 2.137, Train_accy 5.75:  80%|████████  | 8/10 [03:04<00:35, 17.51s/it]Task 0, Epoch 9/10 => Loss 2.139, Train_accy 5.60:  80%|████████  | 8/10 [03:19<00:35, 17.51s/it]2024-05-19 18:46:08,938 [fecam.py] => Task 0, Epoch 9/10 => Loss 2.139, Train_accy 5.60
+Task 0, Epoch 9/10 => Loss 2.139, Train_accy 5.60:  90%|█████████ | 9/10 [03:19<00:16, 16.70s/it]Task 0, Epoch 10/10 => Loss 2.106, Train_accy 5.62:  90%|█████████ | 9/10 [03:33<00:16, 16.70s/it]2024-05-19 18:46:23,304 [fecam.py] => Task 0, Epoch 10/10 => Loss 2.106, Train_accy 5.62
+Task 0, Epoch 10/10 => Loss 2.106, Train_accy 5.62: 100%|██████████| 10/10 [03:33<00:00, 15.98s/it]Task 0, Epoch 10/10 => Loss 2.106, Train_accy 5.62: 100%|██████████| 10/10 [03:33<00:00, 21.37s/it]
+20
+2024-05-19 18:54:50,199 [trainer.py] => CNN: {'total': 5.21, '00-09': 0.0, '10-19': 9.82, 'old': 0, 'new': 5.21}
+2024-05-19 18:54:50,200 [trainer.py] => No NME accuracy
+2024-05-19 18:54:50,200 [trainer.py] => FeCAM: {'total': 5.21, '00-09': 0.0, '10-19': 9.82, 'old': 0, 'new': 5.21}
+2024-05-19 18:54:50,200 [trainer.py] => CNN top1 curve: [5.21]
+2024-05-19 18:54:50,200 [trainer.py] => CNN top5 curve: [24.03]
+2024-05-19 18:54:50,200 [trainer.py] => FeCAM top1 curve: [5.21]
+2024-05-19 18:54:50,200 [trainer.py] => FeCAM top5 curve: [24.03]
+
+2024-05-19 18:54:50,201 [fecam.py] => Learning on 20-40
+40
+/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/models/base.py:198: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  x = torch.tensor(x)
+2024-05-19 19:12:32,284 [trainer.py] => CNN: {'total': 7.77, '00-09': 0.0, '10-19': 0.53, '20-29': 15.95, '30-39': 17.35, 'old': 0.28, 'new': 16.76}
+2024-05-19 19:12:32,284 [trainer.py] => No NME accuracy
+2024-05-19 19:12:32,284 [trainer.py] => FeCAM: {'total': 16.87, '00-09': 20.15, '10-19': 16.33, '20-29': 16.63, '30-39': 14.43, 'old': 18.12, 'new': 15.35}
+2024-05-19 19:12:32,284 [trainer.py] => CNN top1 curve: [5.21, 7.77]
+2024-05-19 19:12:32,284 [trainer.py] => CNN top5 curve: [24.03, 25.08]
+2024-05-19 19:12:32,284 [trainer.py] => FeCAM top1 curve: [5.21, 16.87]
+2024-05-19 19:12:32,284 [trainer.py] => FeCAM top5 curve: [24.03, 46.1]
+
+2024-05-19 19:12:32,285 [fecam.py] => Learning on 40-60
+60
+2024-05-19 19:40:25,668 [trainer.py] => CNN: {'total': 6.32, '00-09': 0.0, '10-19': 0.53, '20-29': 10.16, '30-39': 11.96, '40-49': 6.31, '50-59': 11.13, 'old': 5.24, 'new': 8.21}
+2024-05-19 19:40:25,669 [trainer.py] => No NME accuracy
+2024-05-19 19:40:25,669 [trainer.py] => FeCAM: {'total': 12.77, '00-09': 14.2, '10-19': 12.83, '20-29': 13.36, '30-39': 9.93, '40-49': 11.39, '50-59': 15.97, 'old': 12.52, 'new': 13.19}
+2024-05-19 19:40:25,669 [trainer.py] => CNN top1 curve: [5.21, 7.77, 6.32]
+2024-05-19 19:40:25,669 [trainer.py] => CNN top5 curve: [24.03, 25.08, 22.36]
+2024-05-19 19:40:25,669 [trainer.py] => FeCAM top1 curve: [5.21, 16.87, 12.77]
+2024-05-19 19:40:25,669 [trainer.py] => FeCAM top5 curve: [24.03, 46.1, 36.97]
+
+2024-05-20 15:27:16,515 [trainer.py] => config: exps/FeCAM_domainnet.json
+2024-05-20 15:27:16,515 [trainer.py] => prefix: train
+2024-05-20 15:27:16,515 [trainer.py] => dataset: domainnet-126
+2024-05-20 15:27:16,515 [trainer.py] => memory_size: 0
+2024-05-20 15:27:16,515 [trainer.py] => shuffle: True
+2024-05-20 15:27:16,515 [trainer.py] => init_cls: 20
+2024-05-20 15:27:16,515 [trainer.py] => increment: 20
+2024-05-20 15:27:16,516 [trainer.py] => model_name: fecam
+2024-05-20 15:27:16,516 [trainer.py] => convnet_type: resnet18
+2024-05-20 15:27:16,516 [trainer.py] => device: [device(type='cuda', index=3), device(type='cuda', index=2)]
+2024-05-20 15:27:16,516 [trainer.py] => seed: 1993
+2024-05-20 15:27:16,516 [trainer.py] => init_epochs: 10
+2024-05-20 15:27:16,516 [trainer.py] => init_lr: 0.1
+2024-05-20 15:27:16,516 [trainer.py] => init_weight_decay: 0.0005
+2024-05-20 15:27:16,516 [trainer.py] => batch_size: 16
+2024-05-20 15:27:16,516 [trainer.py] => num_workers: 8
+2024-05-20 15:27:16,516 [trainer.py] => T: 2
+2024-05-20 15:27:16,516 [trainer.py] => beta: 0.5
+2024-05-20 15:27:16,516 [trainer.py] => alpha1: 1
+2024-05-20 15:27:16,516 [trainer.py] => alpha2: 1
+2024-05-20 15:27:16,516 [trainer.py] => ncm: False
+2024-05-20 15:27:16,516 [trainer.py] => tukey: True
+2024-05-20 15:27:16,516 [trainer.py] => diagonal: False
+2024-05-20 15:27:16,516 [trainer.py] => per_class: True
+2024-05-20 15:27:16,516 [trainer.py] => full_cov: True
+2024-05-20 15:27:16,516 [trainer.py] => shrink: True
+2024-05-20 15:27:16,516 [trainer.py] => norm_cov: True
+2024-05-20 15:27:16,516 [trainer.py] => source_index: 2
+2024-05-20 15:27:16,516 [trainer.py] => target_index: 3
+0 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/The_Eiffel_Tower/sketch_309_000001.jpg
+1 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/The_Great_Wall_of_China/sketch_310_000001.jpg
+2 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/aircraft_carrier/sketch_001_000001.jpg
+3 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/alarm_clock/sketch_003_000001.jpg
+4 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/ant/sketch_007_000001.jpg
+5 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/anvil/sketch_008_000001.jpg
+6 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/asparagus/sketch_011_000001.jpg
+7 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/axe/sketch_012_000001.jpg
+8 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/banana/sketch_014_000001.jpg
+9 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/basket/sketch_019_000001.jpg
+10 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bathtub/sketch_022_000002.jpg
+11 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bear/sketch_024_000001.jpg
+12 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bee/sketch_027_000001.jpg
+13 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bird/sketch_032_000001.jpg
+14 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/blackberry/sketch_034_000001.jpg
+15 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/blueberry/sketch_035_000001.jpg
+16 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bottlecap/sketch_038_000001.jpg
+17 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/broccoli/sketch_044_000001.jpg
+18 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bus/sketch_048_000001.jpg
+19 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/butterfly/sketch_050_000001.jpg
+20 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cactus/sketch_051_000001.jpg
+21 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cake/sketch_052_000004.jpg
+22 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/calculator/sketch_053_000001.jpg
+23 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/camel/sketch_055_000001.jpg
+24 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/camera/sketch_056_000001.jpg
+25 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/candle/sketch_059_000001.jpg
+26 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cannon/sketch_060_000001.jpg
+27 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/canoe/sketch_061_000001.jpg
+28 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/carrot/sketch_063_000001.jpg
+29 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/castle/sketch_064_000001.jpg
+30 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cat/sketch_065_000001.jpg
+31 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/ceiling_fan/sketch_066_000001.jpg
+32 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cell_phone/sketch_068_000001.jpg
+33 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cello/sketch_067_000001.jpg
+34 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/chair/sketch_069_000001.jpg
+35 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/chandelier/sketch_070_000001.jpg
+36 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/coffee_cup/sketch_076_000001.jpg
+37 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/compass/sketch_077_000001.jpg
+38 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/computer/sketch_078_000001.jpg
+39 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cow/sketch_082_000001.jpg
+40 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/crab/sketch_083_000001.jpg
+41 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/crocodile/sketch_085_000001.jpg
+42 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cruise_ship/sketch_087_000001.jpg
+43 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dog/sketch_092_000001.jpg
+44 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dolphin/sketch_093_000001.jpg
+45 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dragon/sketch_096_000001.jpg
+46 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/drums/sketch_099_000001.jpg
+47 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/duck/sketch_100_000001.jpg
+48 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dumbbell/sketch_101_000001.jpg
+49 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/elephant/sketch_104_000001.jpg
+50 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/eyeglasses/sketch_108_000001.jpg
+51 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/feather/sketch_111_000001.jpg
+52 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fence/sketch_112_000001.jpg
+53 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fish/sketch_117_000001.jpg
+54 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/flamingo/sketch_118_000001.jpg
+55 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/flower/sketch_122_000001.jpg
+56 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/foot/sketch_124_000001.jpg
+57 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fork/sketch_125_000001.jpg
+58 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/frog/sketch_126_000001.jpg
+59 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/giraffe/sketch_130_000001.jpg
+60 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/goatee/sketch_131_000001.jpg
+61 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/grapes/sketch_133_000001.jpg
+62 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/guitar/sketch_135_000001.jpg
+63 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/hammer/sketch_137_000001.jpg
+64 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/helicopter/sketch_143_000001.jpg
+65 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/helmet/sketch_144_000001.jpg
+66 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/horse/sketch_148_000001.jpg
+67 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/kangaroo/sketch_160_000001.jpg
+68 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lantern/sketch_166_000001.jpg
+69 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/laptop/sketch_167_000001.jpg
+70 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/leaf/sketch_168_000001.jpg
+71 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lion/sketch_175_000001.jpg
+72 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lipstick/sketch_176_000001.jpg
+73 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lobster/sketch_177_000001.jpg
+74 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/microphone/sketch_185_000001.jpg
+75 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/monkey/sketch_187_000001.jpg
+76 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mosquito/sketch_189_000001.jpg
+77 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mouse/sketch_192_000001.jpg
+78 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mug/sketch_195_000001.jpg
+79 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mushroom/sketch_196_000001.jpg
+80 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/onion/sketch_203_000001.jpg
+81 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/panda/sketch_209_000001.jpg
+82 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/peanut/sketch_215_000001.jpg
+83 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pear/sketch_216_000001.jpg
+84 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/peas/sketch_217_000001.jpg
+85 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pencil/sketch_218_000001.jpg
+86 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/penguin/sketch_219_000001.jpg
+87 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pig/sketch_223_000001.jpg
+88 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pillow/sketch_224_000001.jpg
+89 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pineapple/sketch_225_000001.jpg
+90 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/potato/sketch_233_000001.jpg
+91 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/power_outlet/sketch_234_000001.jpg
+92 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/purse/sketch_235_000001.jpg
+93 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rabbit/sketch_236_000001.jpg
+94 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/raccoon/sketch_237_000001.jpg
+95 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rhinoceros/sketch_243_000001.jpg
+96 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rifle/sketch_244_000001.jpg
+97 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/saxophone/sketch_251_000001.jpg
+98 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/screwdriver/sketch_255_000001.jpg
+99 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/sea_turtle/sketch_256_000001.jpg
+100 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/see_saw/sketch_257_000001.jpg
+101 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/sheep/sketch_259_000001.jpg
+102 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/shoe/sketch_260_000001.jpg
+103 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/skateboard/sketch_264_000001.jpg
+104 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/snake/sketch_270_000001.jpg
+105 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/speedboat/sketch_276_000001.jpg
+106 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/spider/sketch_277_000001.jpg
+107 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/squirrel/sketch_282_000001.jpg
+108 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/strawberry/sketch_291_000001.jpg
+109 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/streetlight/sketch_292_000001.jpg
+110 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/string_bean/sketch_293_000001.jpg
+111 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/submarine/sketch_294_000001.jpg
+112 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/swan/sketch_297_000001.jpg
+113 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/table/sketch_302_000001.jpg
+114 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/teapot/sketch_303_000001.jpg
+115 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/teddy-bear/sketch_304_000003.jpg
+116 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/television/sketch_306_000001.jpg
+117 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/tiger/sketch_312_000001.jpg
+118 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/toe/sketch_314_000001.jpg
+119 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/train/sketch_322_000001.jpg
+120 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/truck/sketch_326_000001.jpg
+121 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/umbrella/sketch_329_000001.jpg
+122 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/vase/sketch_332_000001.jpg
+123 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/watermelon/sketch_335_000001.jpg
+124 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/whale/sketch_337_000001.jpg
+125 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/zebra/sketch_344_000001.jpg
+0 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/The_Eiffel_Tower/sketch_309_000001.jpg
+1 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/The_Great_Wall_of_China/sketch_310_000001.jpg
+2 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/aircraft_carrier/sketch_001_000001.jpg
+3 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/alarm_clock/sketch_003_000001.jpg
+4 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/ant/sketch_007_000001.jpg
+5 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/anvil/sketch_008_000001.jpg
+6 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/asparagus/sketch_011_000001.jpg
+7 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/axe/sketch_012_000001.jpg
+8 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/banana/sketch_014_000001.jpg
+9 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/basket/sketch_019_000001.jpg
+10 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bathtub/sketch_022_000002.jpg
+11 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bear/sketch_024_000001.jpg
+12 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bee/sketch_027_000001.jpg
+13 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bird/sketch_032_000001.jpg
+14 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/blackberry/sketch_034_000001.jpg
+15 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/blueberry/sketch_035_000001.jpg
+16 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bottlecap/sketch_038_000001.jpg
+17 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/broccoli/sketch_044_000001.jpg
+18 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/bus/sketch_048_000001.jpg
+19 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/butterfly/sketch_050_000001.jpg
+20 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cactus/sketch_051_000001.jpg
+21 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cake/sketch_052_000004.jpg
+22 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/calculator/sketch_053_000001.jpg
+23 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/camel/sketch_055_000001.jpg
+24 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/camera/sketch_056_000001.jpg
+25 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/candle/sketch_059_000001.jpg
+26 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cannon/sketch_060_000001.jpg
+27 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/canoe/sketch_061_000001.jpg
+28 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/carrot/sketch_063_000001.jpg
+29 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/castle/sketch_064_000001.jpg
+30 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cat/sketch_065_000001.jpg
+31 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/ceiling_fan/sketch_066_000001.jpg
+32 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cell_phone/sketch_068_000001.jpg
+33 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cello/sketch_067_000001.jpg
+34 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/chair/sketch_069_000001.jpg
+35 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/chandelier/sketch_070_000001.jpg
+36 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/coffee_cup/sketch_076_000001.jpg
+37 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/compass/sketch_077_000001.jpg
+38 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/computer/sketch_078_000001.jpg
+39 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cow/sketch_082_000001.jpg
+40 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/crab/sketch_083_000001.jpg
+41 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/crocodile/sketch_085_000001.jpg
+42 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/cruise_ship/sketch_087_000001.jpg
+43 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dog/sketch_092_000001.jpg
+44 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dolphin/sketch_093_000001.jpg
+45 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dragon/sketch_096_000001.jpg
+46 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/drums/sketch_099_000001.jpg
+47 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/duck/sketch_100_000001.jpg
+48 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/dumbbell/sketch_101_000001.jpg
+49 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/elephant/sketch_104_000001.jpg
+50 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/eyeglasses/sketch_108_000001.jpg
+51 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/feather/sketch_111_000001.jpg
+52 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fence/sketch_112_000001.jpg
+53 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fish/sketch_117_000001.jpg
+54 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/flamingo/sketch_118_000001.jpg
+55 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/flower/sketch_122_000001.jpg
+56 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/foot/sketch_124_000001.jpg
+57 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/fork/sketch_125_000001.jpg
+58 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/frog/sketch_126_000001.jpg
+59 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/giraffe/sketch_130_000001.jpg
+60 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/goatee/sketch_131_000001.jpg
+61 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/grapes/sketch_133_000001.jpg
+62 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/guitar/sketch_135_000001.jpg
+63 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/hammer/sketch_137_000001.jpg
+64 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/helicopter/sketch_143_000001.jpg
+65 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/helmet/sketch_144_000001.jpg
+66 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/horse/sketch_148_000001.jpg
+67 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/kangaroo/sketch_160_000001.jpg
+68 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lantern/sketch_166_000001.jpg
+69 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/laptop/sketch_167_000001.jpg
+70 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/leaf/sketch_168_000001.jpg
+71 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lion/sketch_175_000001.jpg
+72 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lipstick/sketch_176_000001.jpg
+73 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/lobster/sketch_177_000001.jpg
+74 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/microphone/sketch_185_000001.jpg
+75 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/monkey/sketch_187_000001.jpg
+76 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mosquito/sketch_189_000001.jpg
+77 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mouse/sketch_192_000001.jpg
+78 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mug/sketch_195_000001.jpg
+79 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/mushroom/sketch_196_000001.jpg
+80 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/onion/sketch_203_000001.jpg
+81 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/panda/sketch_209_000001.jpg
+82 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/peanut/sketch_215_000001.jpg
+83 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pear/sketch_216_000001.jpg
+84 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/peas/sketch_217_000001.jpg
+85 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pencil/sketch_218_000001.jpg
+86 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/penguin/sketch_219_000001.jpg
+87 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pig/sketch_223_000001.jpg
+88 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pillow/sketch_224_000001.jpg
+89 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/pineapple/sketch_225_000001.jpg
+90 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/potato/sketch_233_000001.jpg
+91 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/power_outlet/sketch_234_000001.jpg
+92 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/purse/sketch_235_000001.jpg
+93 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rabbit/sketch_236_000001.jpg
+94 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/raccoon/sketch_237_000001.jpg
+95 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rhinoceros/sketch_243_000001.jpg
+96 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/rifle/sketch_244_000001.jpg
+97 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/saxophone/sketch_251_000001.jpg
+98 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/screwdriver/sketch_255_000001.jpg
+99 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/sea_turtle/sketch_256_000001.jpg
+100 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/see_saw/sketch_257_000001.jpg
+101 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/sheep/sketch_259_000001.jpg
+102 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/shoe/sketch_260_000001.jpg
+103 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/skateboard/sketch_264_000001.jpg
+104 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/snake/sketch_270_000001.jpg
+105 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/speedboat/sketch_276_000001.jpg
+106 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/spider/sketch_277_000001.jpg
+107 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/squirrel/sketch_282_000001.jpg
+108 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/strawberry/sketch_291_000001.jpg
+109 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/streetlight/sketch_292_000001.jpg
+110 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/string_bean/sketch_293_000001.jpg
+111 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/submarine/sketch_294_000001.jpg
+112 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/swan/sketch_297_000001.jpg
+113 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/table/sketch_302_000001.jpg
+114 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/teapot/sketch_303_000001.jpg
+115 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/teddy-bear/sketch_304_000003.jpg
+116 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/television/sketch_306_000001.jpg
+117 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/tiger/sketch_312_000001.jpg
+118 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/toe/sketch_314_000001.jpg
+119 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/train/sketch_322_000001.jpg
+120 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/truck/sketch_326_000001.jpg
+121 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/umbrella/sketch_329_000001.jpg
+122 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/vase/sketch_332_000001.jpg
+123 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/watermelon/sketch_335_000001.jpg
+124 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/whale/sketch_337_000001.jpg
+125 /public/home/imgbreaker/Desktop/dataset/DomainNet/dataset/sketch/zebra/sketch_344_000001.jpg
+2024-05-20 15:27:19,589 [data_manager.py] => [91, 9, 23, 101, 58, 113, 45, 43, 40, 74, 119, 107, 44, 108, 99, 100, 60, 115, 86, 59, 8, 103, 80, 52, 81, 28, 114, 118, 26, 96, 111, 10, 122, 35, 88, 104, 3, 71, 70, 72, 102, 106, 1, 78, 116, 19, 17, 56, 13, 87, 14, 55, 6, 94, 79, 22, 16, 64, 124, 38, 15, 65, 120, 68, 41, 77, 20, 50, 31, 53, 54, 37, 85, 89, 121, 2, 123, 66, 82, 84, 42, 76, 24, 34, 109, 21, 125, 0, 110, 27, 18, 117, 11, 12, 47, 25, 98, 30, 83, 46, 62, 69, 90, 36, 61, 7, 63, 92, 75, 5, 32, 105, 4, 51, 48, 73, 93, 39, 95, 112, 67, 29, 97, 49, 57, 33]
+2024-05-20 15:27:19,822 [fecam.py] => Learning on 0-20
+  0%|          | 0/10 [00:00<?, ?it/s]Task 0, Epoch 1/10 => Loss 2.330, Train_accy 5.90, Test_accy 5.28:   0%|          | 0/10 [00:48<?, ?it/s]2024-05-20 15:28:22,730 [fecam.py] => Task 0, Epoch 1/10 => Loss 2.330, Train_accy 5.90, Test_accy 5.28
+Task 0, Epoch 1/10 => Loss 2.330, Train_accy 5.90, Test_accy 5.28:  10%|█         | 1/10 [00:48<07:19, 48.86s/it]Task 0, Epoch 2/10 => Loss 2.284, Train_accy 5.80:  10%|█         | 1/10 [01:00<07:19, 48.86s/it]                2024-05-20 15:28:34,842 [fecam.py] => Task 0, Epoch 2/10 => Loss 2.284, Train_accy 5.80
+Task 0, Epoch 2/10 => Loss 2.284, Train_accy 5.80:  20%|██        | 2/10 [01:00<03:37, 27.24s/it]Task 0, Epoch 3/10 => Loss 2.257, Train_accy 6.14:  20%|██        | 2/10 [01:12<03:37, 27.24s/it]2024-05-20 15:28:46,476 [fecam.py] => Task 0, Epoch 3/10 => Loss 2.257, Train_accy 6.14
+Task 0, Epoch 3/10 => Loss 2.257, Train_accy 6.14:  30%|███       | 3/10 [01:12<02:20, 20.12s/it]Task 0, Epoch 4/10 => Loss 2.226, Train_accy 5.38:  30%|███       | 3/10 [01:23<02:20, 20.12s/it]2024-05-20 15:28:57,392 [fecam.py] => Task 0, Epoch 4/10 => Loss 2.226, Train_accy 5.38
+Task 0, Epoch 4/10 => Loss 2.226, Train_accy 5.38:  40%|████      | 4/10 [01:23<01:38, 16.48s/it]Task 0, Epoch 5/10 => Loss 2.218, Train_accy 5.86:  40%|████      | 4/10 [01:34<01:38, 16.48s/it]2024-05-20 15:29:08,471 [fecam.py] => Task 0, Epoch 5/10 => Loss 2.218, Train_accy 5.86
+Task 0, Epoch 5/10 => Loss 2.218, Train_accy 5.86:  50%|█████     | 5/10 [01:34<01:12, 14.53s/it]Task 0, Epoch 6/10 => Loss 2.207, Train_accy 5.58, Test_accy 5.95:  50%|█████     | 5/10 [01:50<01:12, 14.53s/it]2024-05-20 15:29:24,196 [fecam.py] => Task 0, Epoch 6/10 => Loss 2.207, Train_accy 5.58, Test_accy 5.95
+Task 0, Epoch 6/10 => Loss 2.207, Train_accy 5.58, Test_accy 5.95:  60%|██████    | 6/10 [01:50<00:59, 14.94s/it]Task 0, Epoch 7/10 => Loss 2.174, Train_accy 5.82:  60%|██████    | 6/10 [02:01<00:59, 14.94s/it]                2024-05-20 15:29:35,164 [fecam.py] => Task 0, Epoch 7/10 => Loss 2.174, Train_accy 5.82
+Task 0, Epoch 7/10 => Loss 2.174, Train_accy 5.82:  70%|███████   | 7/10 [02:01<00:40, 13.64s/it]Task 0, Epoch 8/10 => Loss 2.137, Train_accy 5.75:  70%|███████   | 7/10 [02:12<00:40, 13.64s/it]2024-05-20 15:29:46,031 [fecam.py] => Task 0, Epoch 8/10 => Loss 2.137, Train_accy 5.75
+Task 0, Epoch 8/10 => Loss 2.137, Train_accy 5.75:  80%|████████  | 8/10 [02:12<00:25, 12.76s/it]Task 0, Epoch 9/10 => Loss 2.139, Train_accy 5.60:  80%|████████  | 8/10 [02:23<00:25, 12.76s/it]2024-05-20 15:29:57,035 [fecam.py] => Task 0, Epoch 9/10 => Loss 2.139, Train_accy 5.60
+Task 0, Epoch 9/10 => Loss 2.139, Train_accy 5.60:  90%|█████████ | 9/10 [02:23<00:12, 12.21s/it]Task 0, Epoch 10/10 => Loss 2.106, Train_accy 5.62:  90%|█████████ | 9/10 [02:33<00:12, 12.21s/it]2024-05-20 15:30:07,467 [fecam.py] => Task 0, Epoch 10/10 => Loss 2.106, Train_accy 5.62
+Task 0, Epoch 10/10 => Loss 2.106, Train_accy 5.62: 100%|██████████| 10/10 [02:33<00:00, 11.66s/it]Task 0, Epoch 10/10 => Loss 2.106, Train_accy 5.62: 100%|██████████| 10/10 [02:33<00:00, 15.36s/it]
+20
+2024-05-20 15:37:06,977 [trainer.py] => CNN: {'total': 5.21, '00-09': 0.0, '10-19': 9.82, 'old': 0, 'new': 5.21}
+2024-05-20 15:37:06,977 [trainer.py] => No NME accuracy
+2024-05-20 15:37:06,977 [trainer.py] => FeCAM: {'total': 5.21, '00-09': 0.0, '10-19': 9.82, 'old': 0, 'new': 5.21}
+2024-05-20 15:37:06,977 [trainer.py] => CNN top1 curve: [5.21]
+2024-05-20 15:37:06,977 [trainer.py] => CNN top5 curve: [24.03]
+2024-05-20 15:37:06,977 [trainer.py] => FeCAM top1 curve: [5.21]
+2024-05-20 15:37:06,977 [trainer.py] => FeCAM top5 curve: [24.03]
+
+2024-05-20 15:37:06,978 [fecam.py] => Learning on 20-40
+40
+/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/models/base.py:198: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  x = torch.tensor(x)
+2024-05-20 15:53:35,278 [trainer.py] => CNN: {'total': 7.77, '00-09': 0.0, '10-19': 0.53, '20-29': 15.95, '30-39': 17.35, 'old': 0.28, 'new': 16.76}
+2024-05-20 15:53:35,279 [trainer.py] => No NME accuracy
+2024-05-20 15:53:35,279 [trainer.py] => FeCAM: {'total': 16.87, '00-09': 20.15, '10-19': 16.33, '20-29': 16.63, '30-39': 14.43, 'old': 18.12, 'new': 15.35}
+2024-05-20 15:53:35,279 [trainer.py] => CNN top1 curve: [5.21, 7.77]
+2024-05-20 15:53:35,279 [trainer.py] => CNN top5 curve: [24.03, 25.08]
+2024-05-20 15:53:35,279 [trainer.py] => FeCAM top1 curve: [5.21, 16.87]
+2024-05-20 15:53:35,279 [trainer.py] => FeCAM top5 curve: [24.03, 46.1]
+
+2024-05-20 15:53:35,280 [fecam.py] => Learning on 40-60
+60
+2024-05-20 16:24:16,864 [trainer.py] => CNN: {'total': 6.32, '00-09': 0.0, '10-19': 0.53, '20-29': 10.16, '30-39': 11.96, '40-49': 6.31, '50-59': 11.13, 'old': 5.24, 'new': 8.21}
+2024-05-20 16:24:16,864 [trainer.py] => No NME accuracy
+2024-05-20 16:24:16,864 [trainer.py] => FeCAM: {'total': 12.77, '00-09': 14.2, '10-19': 12.83, '20-29': 13.36, '30-39': 9.93, '40-49': 11.39, '50-59': 15.97, 'old': 12.52, 'new': 13.19}
+2024-05-20 16:24:16,865 [trainer.py] => CNN top1 curve: [5.21, 7.77, 6.32]
+2024-05-20 16:24:16,865 [trainer.py] => CNN top5 curve: [24.03, 25.08, 22.36]
+2024-05-20 16:24:16,865 [trainer.py] => FeCAM top1 curve: [5.21, 16.87, 12.77]
+2024-05-20 16:24:16,865 [trainer.py] => FeCAM top5 curve: [24.03, 46.1, 36.97]
+
+2024-05-20 16:24:16,866 [fecam.py] => Learning on 60-80
+80
+2024-05-20 17:05:08,745 [trainer.py] => CNN: {'total': 5.57, '00-09': 0.0, '10-19': 0.53, '20-29': 6.03, '30-39': 9.93, '40-49': 5.08, '50-59': 8.14, '60-69': 10.79, '70-79': 7.72, 'old': 4.78, 'new': 9.53}
+2024-05-20 17:05:08,746 [trainer.py] => No NME accuracy
+2024-05-20 17:05:08,746 [trainer.py] => FeCAM: {'total': 11.32, '00-09': 10.88, '10-19': 11.08, '20-29': 10.28, '30-39': 8.94, '40-49': 9.69, '50-59': 12.29, '60-69': 14.98, '70-79': 16.53, 'old': 10.46, 'new': 15.62}
+2024-05-20 17:05:08,746 [trainer.py] => CNN top1 curve: [5.21, 7.77, 6.32, 5.57]
+2024-05-20 17:05:08,746 [trainer.py] => CNN top5 curve: [24.03, 25.08, 22.36, 18.68]
+2024-05-20 17:05:08,746 [trainer.py] => FeCAM top1 curve: [5.21, 16.87, 12.77, 11.32]
+2024-05-20 17:05:08,746 [trainer.py] => FeCAM top5 curve: [24.03, 46.1, 36.97, 31.97]
+
+2024-05-20 17:05:08,747 [fecam.py] => Learning on 80-100
+100
+2024-05-20 17:49:58,327 [trainer.py] => CNN: {'total': 5.15, '00-09': 0.0, '10-19': 0.53, '20-29': 4.19, '30-39': 8.63, '40-49': 4.71, '50-59': 6.3, '60-69': 5.59, '70-79': 6.54, '80-89': 6.17, '90-99': 10.51, 'old': 4.32, 'new': 8.69}
+2024-05-20 17:49:58,328 [trainer.py] => No NME accuracy
+2024-05-20 17:49:58,328 [trainer.py] => FeCAM: {'total': 10.27, '00-09': 9.13, '10-19': 10.14, '20-29': 8.62, '30-39': 6.92, '40-49': 8.73, '50-59': 11.13, '60-69': 10.41, '70-79': 14.44, '80-89': 14.7, '90-99': 12.14, 'old': 9.58, 'new': 13.22}
+2024-05-20 17:49:58,328 [trainer.py] => CNN top1 curve: [5.21, 7.77, 6.32, 5.57, 5.15]
+2024-05-20 17:49:58,328 [trainer.py] => CNN top5 curve: [24.03, 25.08, 22.36, 18.68, 17.29]
+2024-05-20 17:49:58,328 [trainer.py] => FeCAM top1 curve: [5.21, 16.87, 12.77, 11.32, 10.27]
+2024-05-20 17:49:58,328 [trainer.py] => FeCAM top5 curve: [24.03, 46.1, 36.97, 31.97, 29.41]
+
+2024-05-20 17:49:58,329 [fecam.py] => Learning on 100-120
+120
+2024-05-20 18:41:34,846 [trainer.py] => CNN: {'total': 4.34, '00-09': 0.0, '10-19': 0.53, '20-29': 3.57, '30-39': 7.24, '40-49': 3.41, '50-59': 5.25, '60-69': 4.89, '70-79': 5.72, '80-89': 5.16, '90-99': 9.4, '100-109': 3.15, '110-119': 5.47, 'old': 4.34, 'new': 4.36}
+2024-05-20 18:41:34,846 [trainer.py] => No NME accuracy
+2024-05-20 18:41:34,846 [trainer.py] => FeCAM: {'total': 9.56, '00-09': 8.58, '10-19': 9.57, '20-29': 7.51, '30-39': 6.47, '40-49': 7.95, '50-59': 10.4, '60-69': 9.97, '70-79': 13.53, '80-89': 13.43, '90-99': 11.76, '100-109': 8.61, '110-119': 10.16, 'old': 9.58, 'new': 9.42}
+2024-05-20 18:41:34,846 [trainer.py] => CNN top1 curve: [5.21, 7.77, 6.32, 5.57, 5.15, 4.34]
+2024-05-20 18:41:34,846 [trainer.py] => CNN top5 curve: [24.03, 25.08, 22.36, 18.68, 17.29, 16.13]
+2024-05-20 18:41:34,846 [trainer.py] => FeCAM top1 curve: [5.21, 16.87, 12.77, 11.32, 10.27, 9.56]
+2024-05-20 18:41:34,846 [trainer.py] => FeCAM top5 curve: [24.03, 46.1, 36.97, 31.97, 29.41, 27.68]
+

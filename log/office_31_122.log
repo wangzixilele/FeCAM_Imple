@@ -1,0 +1,170 @@
+2024-05-19 07:02:52,197 [trainer.py] => config: exps/FeCAM_office_31.json
+2024-05-19 07:02:52,197 [trainer.py] => prefix: train
+2024-05-19 07:02:52,197 [trainer.py] => dataset: office_31
+2024-05-19 07:02:52,197 [trainer.py] => memory_size: 0
+2024-05-19 07:02:52,197 [trainer.py] => shuffle: True
+2024-05-19 07:02:52,197 [trainer.py] => init_cls: 5
+2024-05-19 07:02:52,197 [trainer.py] => increment: 5
+2024-05-19 07:02:52,197 [trainer.py] => model_name: fecam
+2024-05-19 07:02:52,197 [trainer.py] => convnet_type: resnet18
+2024-05-19 07:02:52,197 [trainer.py] => device: [device(type='cuda', index=3), device(type='cuda', index=1), device(type='cuda', index=2), device(type='cuda', index=0)]
+2024-05-19 07:02:52,197 [trainer.py] => seed: 1993
+2024-05-19 07:02:52,197 [trainer.py] => init_epochs: 5
+2024-05-19 07:02:52,197 [trainer.py] => init_lr: 0.1
+2024-05-19 07:02:52,197 [trainer.py] => init_weight_decay: 0.0005
+2024-05-19 07:02:52,198 [trainer.py] => batch_size: 16
+2024-05-19 07:02:52,198 [trainer.py] => num_workers: 8
+2024-05-19 07:02:52,198 [trainer.py] => T: 2
+2024-05-19 07:02:52,198 [trainer.py] => beta: 0.5
+2024-05-19 07:02:52,198 [trainer.py] => alpha1: 1
+2024-05-19 07:02:52,198 [trainer.py] => alpha2: 1
+2024-05-19 07:02:52,198 [trainer.py] => ncm: False
+2024-05-19 07:02:52,198 [trainer.py] => tukey: True
+2024-05-19 07:02:52,198 [trainer.py] => diagonal: False
+2024-05-19 07:02:52,198 [trainer.py] => per_class: True
+2024-05-19 07:02:52,198 [trainer.py] => full_cov: True
+2024-05-19 07:02:52,198 [trainer.py] => shrink: True
+2024-05-19 07:02:52,198 [trainer.py] => norm_cov: True
+2024-05-19 07:02:52,198 [trainer.py] => source_index: 1
+2024-05-19 07:02:52,198 [trainer.py] => target_index: 2
+0 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/back_pack/frame_0001.jpg
+1 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/bike/frame_0001.jpg
+2 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/bike_helmet/frame_0001.jpg
+3 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/bookcase/frame_0001.jpg
+4 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/bottle/frame_0001.jpg
+5 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/calculator/frame_0001.jpg
+6 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/desk_chair/frame_0001.jpg
+7 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/desk_lamp/frame_0001.jpg
+8 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/desktop_computer/frame_0001.jpg
+9 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/file_cabinet/frame_0001.jpg
+10 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/headphones/frame_0001.jpg
+11 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/keyboard/frame_0001.jpg
+12 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/laptop_computer/frame_0001.jpg
+13 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/letter_tray/frame_0001.jpg
+14 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/mobile_phone/frame_0001.jpg
+15 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/monitor/frame_0001.jpg
+16 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/mouse/frame_0001.jpg
+17 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/mug/frame_0001.jpg
+18 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/paper_notebook/frame_0001.jpg
+19 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/pen/frame_0001.jpg
+20 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/phone/frame_0001.jpg
+21 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/printer/frame_0001.jpg
+22 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/projector/frame_0001.jpg
+23 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/punchers/frame_0001.jpg
+24 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/ring_binder/frame_0001.jpg
+25 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/ruler/frame_0001.jpg
+26 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/scissors/frame_0001.jpg
+27 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/speaker/frame_0001.jpg
+28 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/stapler/frame_0001.jpg
+29 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/tape_dispenser/frame_0001.jpg
+30 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/trash_can/frame_0001.jpg
+0 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/back_pack/frame_0001.jpg
+1 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/bike/frame_0001.jpg
+2 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/bike_helmet/frame_0001.jpg
+3 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/bookcase/frame_0001.jpg
+4 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/bottle/frame_0001.jpg
+5 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/calculator/frame_0001.jpg
+6 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/desk_chair/frame_0001.jpg
+7 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/desk_lamp/frame_0001.jpg
+8 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/desktop_computer/frame_0001.jpg
+9 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/file_cabinet/frame_0001.jpg
+10 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/headphones/frame_0001.jpg
+11 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/keyboard/frame_0001.jpg
+12 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/laptop_computer/frame_0001.jpg
+13 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/letter_tray/frame_0001.jpg
+14 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/mobile_phone/frame_0001.jpg
+15 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/monitor/frame_0001.jpg
+16 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/mouse/frame_0001.jpg
+17 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/mug/frame_0001.jpg
+18 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/paper_notebook/frame_0001.jpg
+19 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/pen/frame_0001.jpg
+20 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/phone/frame_0001.jpg
+21 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/printer/frame_0001.jpg
+22 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/projector/frame_0001.jpg
+23 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/punchers/frame_0001.jpg
+24 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/ring_binder/frame_0001.jpg
+25 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/ruler/frame_0001.jpg
+26 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/scissors/frame_0001.jpg
+27 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/speaker/frame_0001.jpg
+28 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/stapler/frame_0001.jpg
+29 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/tape_dispenser/frame_0001.jpg
+30 /public/home/imgbreaker/Desktop/PADA/pytorch/dataset/office/domain_adaptation_images/webcam/images/trash_can/frame_0001.jpg
+2024-05-19 07:02:52,319 [data_manager.py] => [21, 28, 2, 15, 10, 27, 8, 6, 14, 22, 20, 13, 24, 12, 26, 11, 5, 0, 23, 18, 4, 19, 29, 9, 7, 16, 3, 30, 17, 25, 1]
+2024-05-19 07:02:52,479 [fecam.py] => Learning on 0-5
+  0%|          | 0/5 [00:00<?, ?it/s]Task 0, Epoch 1/5 => Loss 1.446, Train_accy 17.61, Test_accy 19.01:   0%|          | 0/5 [00:33<?, ?it/s]2024-05-19 07:03:33,405 [fecam.py] => Task 0, Epoch 1/5 => Loss 1.446, Train_accy 17.61, Test_accy 19.01
+Task 0, Epoch 1/5 => Loss 1.446, Train_accy 17.61, Test_accy 19.01:  20%|██        | 1/5 [00:33<02:14, 33.51s/it]Task 0, Epoch 2/5 => Loss 1.246, Train_accy 21.83:  20%|██        | 1/5 [00:35<02:14, 33.51s/it]                 2024-05-19 07:03:35,658 [fecam.py] => Task 0, Epoch 2/5 => Loss 1.246, Train_accy 21.83
+Task 0, Epoch 2/5 => Loss 1.246, Train_accy 21.83:  40%|████      | 2/5 [00:35<00:45, 15.12s/it]Task 0, Epoch 3/5 => Loss 1.276, Train_accy 24.65:  40%|████      | 2/5 [00:37<00:45, 15.12s/it]2024-05-19 07:03:37,714 [fecam.py] => Task 0, Epoch 3/5 => Loss 1.276, Train_accy 24.65
+Task 0, Epoch 3/5 => Loss 1.276, Train_accy 24.65:  60%|██████    | 3/5 [00:37<00:18,  9.16s/it]Task 0, Epoch 4/5 => Loss 1.188, Train_accy 14.08:  60%|██████    | 3/5 [00:39<00:18,  9.16s/it]2024-05-19 07:03:39,644 [fecam.py] => Task 0, Epoch 4/5 => Loss 1.188, Train_accy 14.08
+Task 0, Epoch 4/5 => Loss 1.188, Train_accy 14.08:  80%|████████  | 4/5 [00:39<00:06,  6.30s/it]Task 0, Epoch 5/5 => Loss 1.194, Train_accy 12.68:  80%|████████  | 4/5 [00:41<00:06,  6.30s/it]2024-05-19 07:03:41,341 [fecam.py] => Task 0, Epoch 5/5 => Loss 1.194, Train_accy 12.68
+Task 0, Epoch 5/5 => Loss 1.194, Train_accy 12.68: 100%|██████████| 5/5 [00:41<00:00,  4.64s/it]Task 0, Epoch 5/5 => Loss 1.194, Train_accy 12.68: 100%|██████████| 5/5 [00:41<00:00,  8.29s/it]
+5
+2024-05-19 07:07:51,623 [trainer.py] => CNN: {'total': 18.31, '00-09': 18.31, 'old': 0, 'new': 18.31}
+2024-05-19 07:07:51,624 [trainer.py] => No NME accuracy
+2024-05-19 07:07:51,624 [trainer.py] => FeCAM: {'total': 18.31, '00-09': 18.31, 'old': 0, 'new': 18.31}
+2024-05-19 07:07:51,624 [trainer.py] => CNN top1 curve: [18.31]
+2024-05-19 07:07:51,624 [trainer.py] => CNN top5 curve: [100.0]
+2024-05-19 07:07:51,624 [trainer.py] => FeCAM top1 curve: [18.31]
+2024-05-19 07:07:51,624 [trainer.py] => FeCAM top5 curve: [100.0]
+
+2024-05-19 07:07:51,624 [fecam.py] => Learning on 5-10
+10
+/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/models/base.py:198: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  x = torch.tensor(x)
+2024-05-19 07:15:21,577 [trainer.py] => CNN: {'total': 31.06, '00-09': 31.06, 'old': 0.0, 'new': 60.26}
+2024-05-19 07:15:21,577 [trainer.py] => No NME accuracy
+2024-05-19 07:15:21,578 [trainer.py] => FeCAM: {'total': 86.01, '00-09': 86.01, 'old': 86.62, 'new': 85.43}
+2024-05-19 07:15:21,578 [trainer.py] => CNN top1 curve: [18.31, 31.06]
+2024-05-19 07:15:21,578 [trainer.py] => CNN top5 curve: [100.0, 57.0]
+2024-05-19 07:15:21,578 [trainer.py] => FeCAM top1 curve: [18.31, 86.01]
+2024-05-19 07:15:21,578 [trainer.py] => FeCAM top5 curve: [100.0, 99.32]
+
+2024-05-19 07:15:21,578 [fecam.py] => Learning on 10-15
+15
+2024-05-19 07:26:17,386 [trainer.py] => CNN: {'total': 27.19, '00-09': 23.55, '10-19': 35.38, 'old': 23.55, 'new': 35.38}
+2024-05-19 07:26:17,386 [trainer.py] => No NME accuracy
+2024-05-19 07:26:17,386 [trainer.py] => FeCAM: {'total': 85.11, '00-09': 85.32, '10-19': 84.62, 'old': 85.32, 'new': 84.62}
+2024-05-19 07:26:17,386 [trainer.py] => CNN top1 curve: [18.31, 31.06, 27.19]
+2024-05-19 07:26:17,386 [trainer.py] => CNN top5 curve: [100.0, 57.0, 54.37]
+2024-05-19 07:26:17,386 [trainer.py] => FeCAM top1 curve: [18.31, 86.01, 85.11]
+2024-05-19 07:26:17,387 [trainer.py] => FeCAM top5 curve: [100.0, 99.32, 97.4]
+
+2024-05-19 07:26:17,387 [fecam.py] => Learning on 15-20
+20
+2024-05-19 07:40:47,740 [trainer.py] => CNN: {'total': 28.32, '00-09': 19.11, '10-19': 38.24, 'old': 20.33, 'new': 52.11}
+2024-05-19 07:40:47,777 [trainer.py] => No NME accuracy
+2024-05-19 07:40:47,777 [trainer.py] => FeCAM: {'total': 80.53, '00-09': 82.59, '10-19': 78.31, 'old': 81.8, 'new': 76.76}
+2024-05-19 07:40:47,777 [trainer.py] => CNN top1 curve: [18.31, 31.06, 27.19, 28.32]
+2024-05-19 07:40:47,777 [trainer.py] => CNN top5 curve: [100.0, 57.0, 54.37, 55.58]
+2024-05-19 07:40:47,777 [trainer.py] => FeCAM top1 curve: [18.31, 86.01, 85.11, 80.53]
+2024-05-19 07:40:47,777 [trainer.py] => FeCAM top5 curve: [100.0, 99.32, 97.4, 96.99]
+
+2024-05-19 07:40:47,778 [fecam.py] => Learning on 20-25
+25
+2024-05-19 08:00:21,000 [trainer.py] => CNN: {'total': 28.23, '00-09': 17.06, '10-19': 34.19, '20-29': 43.52, 'old': 25.31, 'new': 43.52}
+2024-05-19 08:00:21,001 [trainer.py] => No NME accuracy
+2024-05-19 08:00:21,001 [trainer.py] => FeCAM: {'total': 76.82, '00-09': 76.11, '10-19': 76.84, '20-29': 78.7, 'old': 76.46, 'new': 78.7}
+2024-05-19 08:00:21,001 [trainer.py] => CNN top1 curve: [18.31, 31.06, 27.19, 28.32, 28.23]
+2024-05-19 08:00:21,001 [trainer.py] => CNN top5 curve: [100.0, 57.0, 54.37, 55.58, 54.68]
+2024-05-19 08:00:21,001 [trainer.py] => FeCAM top1 curve: [18.31, 86.01, 85.11, 80.53, 76.82]
+2024-05-19 08:00:21,001 [trainer.py] => FeCAM top5 curve: [100.0, 99.32, 97.4, 96.99, 95.84]
+
+2024-05-19 08:00:21,002 [fecam.py] => Learning on 25-30
+30
+2024-05-19 08:20:11,195 [trainer.py] => CNN: {'total': 23.9, '00-09': 12.29, '10-19': 30.88, '20-29': 31.1, 'old': 24.37, 'new': 20.79}
+2024-05-19 08:20:11,197 [trainer.py] => No NME accuracy
+2024-05-19 08:20:11,197 [trainer.py] => FeCAM: {'total': 76.74, '00-09': 75.09, '10-19': 76.47, '20-29': 79.43, 'old': 76.23, 'new': 80.2}
+2024-05-19 08:20:11,197 [trainer.py] => CNN top1 curve: [18.31, 31.06, 27.19, 28.32, 28.23, 23.9]
+2024-05-19 08:20:11,197 [trainer.py] => CNN top5 curve: [100.0, 57.0, 54.37, 55.58, 54.68, 52.71]
+2024-05-19 08:20:11,197 [trainer.py] => FeCAM top1 curve: [18.31, 86.01, 85.11, 80.53, 76.82, 76.74]
+2024-05-19 08:20:11,197 [trainer.py] => FeCAM top5 curve: [100.0, 99.32, 97.4, 96.99, 95.84, 95.48]
+
+2024-05-19 08:20:11,198 [fecam.py] => Learning on 30-31
+31
+2024-05-19 08:43:06,596 [trainer.py] => CNN: {'total': 23.02, '00-09': 12.29, '10-19': 30.51, '20-29': 30.62, 'old': 23.64, 'new': 0.0}
+2024-05-19 08:43:06,596 [trainer.py] => No NME accuracy
+2024-05-19 08:43:06,596 [trainer.py] => FeCAM: {'total': 77.36, '00-09': 75.09, '10-19': 76.47, '20-29': 79.43, 'old': 76.74, 'new': 100.0}
+2024-05-19 08:43:06,596 [trainer.py] => CNN top1 curve: [18.31, 31.06, 27.19, 28.32, 28.23, 23.9, 23.02]
+2024-05-19 08:43:06,596 [trainer.py] => CNN top5 curve: [100.0, 57.0, 54.37, 55.58, 54.68, 52.71, 49.81]
+2024-05-19 08:43:06,596 [trainer.py] => FeCAM top1 curve: [18.31, 86.01, 85.11, 80.53, 76.82, 76.74, 77.36]
+2024-05-19 08:43:06,596 [trainer.py] => FeCAM top5 curve: [100.0, 99.32, 97.4, 96.99, 95.84, 95.48, 95.35]
+

@@ -1,0 +1,345 @@
+imgbreaker@gpu1:~/Desktop/FeCAM/FeCAM-main$ python main.py --config=exps/FeCAM_cifar100.json
+2024-04-22 23:53:40,378 [trainer.py] => config: exps/FeCAM_cifar100.json
+2024-04-22 23:53:40,378 [trainer.py] => prefix: train
+2024-04-22 23:53:40,378 [trainer.py] => dataset: cifar100
+2024-04-22 23:53:40,378 [trainer.py] => memory_size: 0
+2024-04-22 23:53:40,378 [trainer.py] => shuffle: True
+2024-04-22 23:53:40,378 [trainer.py] => init_cls: 50
+2024-04-22 23:53:40,379 [trainer.py] => increment: 10
+2024-04-22 23:53:40,379 [trainer.py] => model_name: fecam
+2024-04-22 23:53:40,379 [trainer.py] => convnet_type: resnet18
+2024-04-22 23:53:40,379 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-04-22 23:53:40,379 [trainer.py] => seed: 1993
+2024-04-22 23:53:40,379 [trainer.py] => init_epochs: 200
+2024-04-22 23:53:40,379 [trainer.py] => init_lr: 0.1
+2024-04-22 23:53:40,379 [trainer.py] => init_weight_decay: 0.0005
+2024-04-22 23:53:40,379 [trainer.py] => batch_size: 128
+2024-04-22 23:53:40,379 [trainer.py] => num_workers: 8
+2024-04-22 23:53:40,379 [trainer.py] => T: 2
+2024-04-22 23:53:40,379 [trainer.py] => beta: 0.5
+2024-04-22 23:53:40,379 [trainer.py] => alpha1: 1
+2024-04-22 23:53:40,380 [trainer.py] => alpha2: 1
+2024-04-22 23:53:40,380 [trainer.py] => ncm: False
+2024-04-22 23:53:40,380 [trainer.py] => tukey: True
+2024-04-22 23:53:40,380 [trainer.py] => diagonal: False
+2024-04-22 23:53:40,380 [trainer.py] => per_class: True
+2024-04-22 23:53:40,380 [trainer.py] => full_cov: True
+2024-04-22 23:53:40,380 [trainer.py] => shrink: True
+2024-04-22 23:53:40,380 [trainer.py] => norm_cov: True
+Files already downloaded and verified
+Files already downloaded and verified
+2024-04-22 23:53:48,438 [data_manager.py] => [68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54,
+ 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+2024-04-22 23:53:49,031 [fecam.py] => Learning on 0-50
+  0%|                                                                                                                     | 0/200 [00:00<?, ?it/s]Task 0, Epoch 1/200 => Loss 3.711, Train_accy 6.45, Test_accy 12.02:   0%|
+                            | 0/200 [00:18<?, ?it/s]2024-04-22 23:54:09,614 [fecam.py] => Task 0, Epoch 1/200 => Loss 3.711, Train_accy 6.45, Test_accy 12.02
+Task 0, Epoch 2/200 => Loss 3.339, Train_accy 13.77:   0%|▎                                                     | 1/200 [00:27<1:00:26, 18.22s/it]2024-04-22 23:54:19,343 [fecam.py] => Task 0, Epoch 2/200 => Loss 3.339, Train_accy 13.77
+Task 0, Epoch 3/200 => Loss 3.039, Train_accy 19.84:   1%|▌                                                       | 2/200 [00:38<43:38, 13.23s/it]2024-04-22 23:54:30,237 [fecam.py] => Task 0, Epoch 3/200 => Loss 3.039, Train_accy 19.84
+Task 0, Epoch 4/200 => Loss 2.743, Train_accy 25.66:   2%|▊                                                       | 3/200 [00:48<39:55, 12.16s/it]2024-04-22 23:54:40,047 [fecam.py] => Task 0, Epoch 4/200 => Loss 2.743, Train_accy 25.66
+Task 0, Epoch 5/200 => Loss 2.471, Train_accy 32.73:   2%|█                                                       | 4/200 [00:58<36:41, 11.23s/it]2024-04-22 23:54:49,461 [fecam.py] => Task 0, Epoch 5/200 => Loss 2.471, Train_accy 32.73
+Task 0, Epoch 6/200 => Loss 2.252, Train_accy 37.83, Test_accy 40.72:   2%|▉                                      | 5/200 [01:10<34:22, 10.58s/it]2024-04-22 23:55:01,844 [fecam.py] => Task 0, Epoch 6/200 => Loss 2.252, Train_accy 37.83, Tes
+t_accy 40.72
+Task 0, Epoch 7/200 => Loss 2.088, Train_accy 42.00:   3%|█▋                                                      | 6/200 [01:19<36:11, 11.19s/it]2024-04-22 23:55:10,943 [fecam.py] => Task 0, Epoch 7/200 => Loss 2.088, Train_accy 42.00
+Task 0, Epoch 8/200 => Loss 1.944, Train_accy 45.35:   4%|█▉                                                      | 7/200 [01:28<33:47, 10.51s/it]2024-04-22 23:55:19,744 [fecam.py] => Task 0, Epoch 8/200 => Loss 1.944, Train_accy 45.35
+Task 0, Epoch 9/200 => Loss 1.837, Train_accy 48.10:   4%|██▏                                                     | 8/200 [01:38<31:53,  9.96s/it]2024-04-22 23:55:29,667 [fecam.py] => Task 0, Epoch 9/200 => Loss 1.837, Train_accy 48.10
+Task 0, Epoch 10/200 => Loss 1.744, Train_accy 50.63:   4%|██▍                                                    | 9/200 [01:49<31:40,  9.95s/it]2024-04-22 23:55:40,445 [fecam.py] => Task 0, Epoch 10/200 => Loss 1.744, Train_accy 50.63
+Task 0, Epoch 11/200 => Loss 1.679, Train_accy 52.52, Test_accy 56.78:   5%|█▊                                   | 10/200 [02:00<32:19, 10.21s/it]2024-04-22 23:55:51,815 [fecam.py] => Task 0, Epoch 11/200 => Loss 1.679, Train_accy 52.52, Te
+st_accy 56.78
+Task 0, Epoch 12/200 => Loss 1.619, Train_accy 53.91:   6%|██▉                                                   | 11/200 [02:10<33:16, 10.56s/it]2024-04-22 23:56:01,691 [fecam.py] => Task 0, Epoch 12/200 => Loss 1.619, Train_accy 53.91
+Task 0, Epoch 13/200 => Loss 1.577, Train_accy 55.00:   6%|███▏                                                  | 12/200 [02:20<32:26, 10.35s/it]2024-04-22 23:56:12,066 [fecam.py] => Task 0, Epoch 13/200 => Loss 1.577, Train_accy 55.00
+Task 0, Epoch 14/200 => Loss 1.528, Train_accy 56.40:   6%|███▌                                                  | 13/200 [02:30<32:17, 10.36s/it]2024-04-22 23:56:22,134 [fecam.py] => Task 0, Epoch 14/200 => Loss 1.528, Train_accy 56.40
+Task 0, Epoch 15/200 => Loss 1.493, Train_accy 57.32:   7%|███▊                                                  | 14/200 [02:41<31:50, 10.27s/it]2024-04-22 23:56:32,462 [fecam.py] => Task 0, Epoch 15/200 => Loss 1.493, Train_accy 57.32
+Task 0, Epoch 16/200 => Loss 1.468, Train_accy 58.28, Test_accy 59.86:   8%|██▊                                  | 15/200 [02:51<31:43, 10.29s/it]2024-04-22 23:56:42,981 [fecam.py] => Task 0, Epoch 16/200 => Loss 1.468, Train_accy 58.28, Te
+st_accy 59.86
+Task 0, Epoch 17/200 => Loss 1.446, Train_accy 58.60:   8%|████▎                                                 | 16/200 [03:01<31:45, 10.36s/it]2024-04-22 23:56:53,202 [fecam.py] => Task 0, Epoch 17/200 => Loss 1.446, Train_accy 58.60
+Task 0, Epoch 18/200 => Loss 1.417, Train_accy 59.63:   8%|████▌                                                 | 17/200 [03:11<31:28, 10.32s/it]2024-04-22 23:57:03,071 [fecam.py] => Task 0, Epoch 18/200 => Loss 1.417, Train_accy 59.63
+Task 0, Epoch 19/200 => Loss 1.393, Train_accy 60.12:   9%|████▊                                                 | 18/200 [03:20<30:53, 10.18s/it]2024-04-22 23:57:11,905 [fecam.py] => Task 0, Epoch 19/200 => Loss 1.393, Train_accy 60.12
+Task 0, Epoch 20/200 => Loss 1.368, Train_accy 60.58:  10%|█████▏                                                | 19/200 [03:29<29:29,  9.78s/it]2024-04-22 23:57:21,265 [fecam.py] => Task 0, Epoch 20/200 => Loss 1.368, Train_accy 60.58
+Task 0, Epoch 21/200 => Loss 1.351, Train_accy 61.40, Test_accy 64.50:  10%|███▋                                 | 20/200 [03:41<28:57,  9.65s/it]2024-04-22 23:57:32,452 [fecam.py] => Task 0, Epoch 21/200 => Loss 1.351, Train_accy 61.40, Te
+st_accy 64.50
+Task 0, Epoch 22/200 => Loss 1.340, Train_accy 61.68:  10%|█████▋                                                | 21/200 [03:50<30:10, 10.11s/it]2024-04-22 23:57:41,534 [fecam.py] => Task 0, Epoch 22/200 => Loss 1.340, Train_accy 61.68
+Task 0, Epoch 23/200 => Loss 1.307, Train_accy 62.58:  11%|█████▉                                                | 22/200 [04:00<29:05,  9.80s/it]2024-04-22 23:57:51,500 [fecam.py] => Task 0, Epoch 23/200 => Loss 1.307, Train_accy 62.58
+Task 0, Epoch 24/200 => Loss 1.284, Train_accy 63.04:  12%|██████▏                                               | 23/200 [04:09<29:03,  9.85s/it]2024-04-22 23:58:00,986 [fecam.py] => Task 0, Epoch 24/200 => Loss 1.284, Train_accy 63.04
+Task 0, Epoch 25/200 => Loss 1.283, Train_accy 63.44:  12%|██████▍                                               | 24/200 [04:19<28:34,  9.74s/it]2024-04-22 23:58:10,655 [fecam.py] => Task 0, Epoch 25/200 => Loss 1.283, Train_accy 63.44
+Task 0, Epoch 26/200 => Loss 1.274, Train_accy 63.62, Test_accy 61.22:  12%|████▋                                | 25/200 [04:28<28:21,  9.72s/it]2024-04-22 23:58:19,680 [fecam.py] => Task 0, Epoch 26/200 => Loss 1.274, Train_accy 63.62, Te
+st_accy 61.22
+Task 0, Epoch 27/200 => Loss 1.258, Train_accy 63.83:  13%|███████                                               | 26/200 [04:35<27:35,  9.51s/it]2024-04-22 23:58:26,847 [fecam.py] => Task 0, Epoch 27/200 => Loss 1.258, Train_accy 63.83
+Task 0, Epoch 28/200 => Loss 1.230, Train_accy 64.68:  14%|███████▎                                              | 27/200 [04:46<25:23,  8.81s/it]2024-04-22 23:58:38,255 [fecam.py] => Task 0, Epoch 28/200 => Loss 1.230, Train_accy 64.68
+Task 0, Epoch 29/200 => Loss 1.237, Train_accy 64.84:  14%|███████▌                                              | 28/200 [04:59<27:29,  9.59s/it]2024-04-22 23:58:50,682 [fecam.py] => Task 0, Epoch 29/200 => Loss 1.237, Train_accy 64.84
+Task 0, Epoch 30/200 => Loss 1.222, Train_accy 64.92:  14%|███████▊                                              | 29/200 [05:10<29:45, 10.44s/it]2024-04-22 23:59:01,878 [fecam.py] => Task 0, Epoch 30/200 => Loss 1.222, Train_accy 64.92
+Task 0, Epoch 31/200 => Loss 1.210, Train_accy 65.22, Test_accy 65.74:  15%|█████▌                               | 30/200 [05:22<30:13, 10.67s/it]2024-04-22 23:59:14,159 [fecam.py] => Task 0, Epoch 31/200 => Loss 1.210, Train_accy 65.22, Te
+st_accy 65.74
+Task 0, Epoch 32/200 => Loss 1.204, Train_accy 65.22:  16%|████████▎                                             | 31/200 [05:32<31:24, 11.15s/it]2024-04-22 23:59:24,165 [fecam.py] => Task 0, Epoch 32/200 => Loss 1.204, Train_accy 65.22
+Task 0, Epoch 33/200 => Loss 1.184, Train_accy 65.94:  16%|████████▋                                             | 32/200 [05:43<30:15, 10.81s/it]2024-04-22 23:59:34,411 [fecam.py] => Task 0, Epoch 33/200 => Loss 1.184, Train_accy 65.94
+Task 0, Epoch 34/200 => Loss 1.186, Train_accy 65.70:  16%|████████▉                                             | 33/200 [05:54<29:36, 10.64s/it]2024-04-22 23:59:45,945 [fecam.py] => Task 0, Epoch 34/200 => Loss 1.186, Train_accy 65.70
+Task 0, Epoch 35/200 => Loss 1.177, Train_accy 66.09:  17%|█████████▏                                            | 34/200 [06:04<30:10, 10.91s/it]2024-04-22 23:59:55,795 [fecam.py] => Task 0, Epoch 35/200 => Loss 1.177, Train_accy 66.09
+Task 0, Epoch 36/200 => Loss 1.168, Train_accy 66.62, Test_accy 64.00:  18%|██████▍                              | 35/200 [06:16<29:07, 10.59s/it]2024-04-23 00:00:07,498 [fecam.py] => Task 0, Epoch 36/200 => Loss 1.168, Train_accy 66.62, Te
+st_accy 64.00
+Task 0, Epoch 37/200 => Loss 1.158, Train_accy 66.47:  18%|█████████▋                                            | 36/200 [06:27<29:51, 10.92s/it]2024-04-23 00:00:18,914 [fecam.py] => Task 0, Epoch 37/200 => Loss 1.158, Train_accy 66.47
+Task 0, Epoch 38/200 => Loss 1.151, Train_accy 66.71:  18%|█████████▉                                            | 37/200 [06:38<30:05, 11.07s/it]2024-04-23 00:00:30,133 [fecam.py] => Task 0, Epoch 38/200 => Loss 1.151, Train_accy 66.71
+Task 0, Epoch 39/200 => Loss 1.153, Train_accy 66.78:  19%|██████████▎                                           | 38/200 [06:50<30:00, 11.11s/it]2024-04-23 00:00:41,530 [fecam.py] => Task 0, Epoch 39/200 => Loss 1.153, Train_accy 66.78
+Task 0, Epoch 40/200 => Loss 1.124, Train_accy 67.76:  20%|██████████▌                                           | 39/200 [07:01<30:03, 11.20s/it]2024-04-23 00:00:52,477 [fecam.py] => Task 0, Epoch 40/200 => Loss 1.124, Train_accy 67.76
+Task 0, Epoch 41/200 => Loss 1.131, Train_accy 67.45, Test_accy 66.34:  20%|███████▍                             | 40/200 [07:12<29:39, 11.12s/it]2024-04-23 00:01:04,092 [fecam.py] => Task 0, Epoch 41/200 => Loss 1.131, Train_accy 67.45, Te
+st_accy 66.34
+Task 0, Epoch 42/200 => Loss 1.108, Train_accy 68.12:  20%|███████████                                           | 41/200 [07:23<29:52, 11.27s/it]2024-04-23 00:01:15,303 [fecam.py] => Task 0, Epoch 42/200 => Loss 1.108, Train_accy 68.12
+Task 0, Epoch 43/200 => Loss 1.114, Train_accy 67.89:  21%|███████████▎                                          | 42/200 [07:34<29:38, 11.25s/it]2024-04-23 00:01:25,523 [fecam.py] => Task 0, Epoch 43/200 => Loss 1.114, Train_accy 67.89
+Task 0, Epoch 43/200 => Loss 1.114, Train_accy 67.89:  22%|███████████▌                                          | 43/200 [07:34<28:38, 10.94s/it]Task 0, Epoch 44/200 => Loss 1.108, Train_accy 67.82:  22%|███████████▌
+                   | 43/200 [07:44<28:38, 10.94s/it]2024-04-23 00:01:35,802 [fecam.py] => Task 0, Epoch 44/200 => Loss 1.108, Train_accy 67.82
+Task 0, Epoch 45/200 => Loss 1.080, Train_accy 68.83:  22%|███████████▉                                          | 44/200 [07:56<27:56, 10.74s/it]2024-04-23 00:01:47,460 [fecam.py] => Task 0, Epoch 45/200 => Loss 1.080, Train_accy 68.83
+Task 0, Epoch 46/200 => Loss 1.100, Train_accy 68.36, Test_accy 67.32:  22%|████████▎                            | 45/200 [08:08<28:27, 11.02s/it]2024-04-23 00:02:00,283 [fecam.py] => Task 0, Epoch 46/200 => Loss 1.100, Train_accy 68.36, Te
+st_accy 67.32
+Task 0, Epoch 47/200 => Loss 1.077, Train_accy 68.91:  23%|████████████▍                                         | 46/200 [08:17<29:40, 11.56s/it]2024-04-23 00:02:08,716 [fecam.py] => Task 0, Epoch 47/200 => Loss 1.077, Train_accy 68.91
+Task 0, Epoch 48/200 => Loss 1.067, Train_accy 69.10:  24%|████████████▋                                         | 47/200 [08:27<27:05, 10.62s/it]2024-04-23 00:02:19,062 [fecam.py] => Task 0, Epoch 48/200 => Loss 1.067, Train_accy 69.10
+Task 0, Epoch 49/200 => Loss 1.071, Train_accy 68.96:  24%|████████████▉                                         | 48/200 [08:37<26:41, 10.54s/it]2024-04-23 00:02:28,633 [fecam.py] => Task 0, Epoch 49/200 => Loss 1.071, Train_accy 68.96
+Task 0, Epoch 50/200 => Loss 1.046, Train_accy 69.55:  24%|█████████████▏                                        | 49/200 [08:47<25:47, 10.25s/it]2024-04-23 00:02:38,829 [fecam.py] => Task 0, Epoch 50/200 => Loss 1.046, Train_accy 69.55
+Task 0, Epoch 51/200 => Loss 1.063, Train_accy 69.14, Test_accy 67.14:  25%|█████████▎                           | 50/200 [09:00<25:34, 10.23s/it]2024-04-23 00:02:51,588 [fecam.py] => Task 0, Epoch 51/200 => Loss 1.063, Train_accy 69.14, Te
+st_accy 67.14
+Task 0, Epoch 52/200 => Loss 1.041, Train_accy 69.70:  26%|█████████████▊                                        | 51/200 [09:10<27:17, 10.99s/it]2024-04-23 00:03:01,865 [fecam.py] => Task 0, Epoch 52/200 => Loss 1.041, Train_accy 69.70
+Task 0, Epoch 53/200 => Loss 1.047, Train_accy 70.07:  26%|██████████████                                        | 52/200 [09:18<26:34, 10.78s/it]2024-04-23 00:03:10,002 [fecam.py] => Task 0, Epoch 53/200 => Loss 1.047, Train_accy 70.07
+Task 0, Epoch 54/200 => Loss 1.047, Train_accy 70.13:  26%|██████████████▎                                       | 53/200 [09:28<24:27,  9.98s/it]2024-04-23 00:03:19,990 [fecam.py] => Task 0, Epoch 54/200 => Loss 1.047, Train_accy 70.13
+Task 0, Epoch 55/200 => Loss 1.023, Train_accy 70.39:  27%|██████████████▌                                       | 54/200 [09:36<24:17,  9.99s/it]2024-04-23 00:03:28,159 [fecam.py] => Task 0, Epoch 55/200 => Loss 1.023, Train_accy 70.39
+Task 0, Epoch 56/200 => Loss 1.030, Train_accy 70.24, Test_accy 66.76:  28%|██████████▏                          | 55/200 [09:48<22:48,  9.44s/it]2024-04-23 00:03:39,656 [fecam.py] => Task 0, Epoch 56/200 => Loss 1.030, Train_accy 70.24, Te
+st_accy 66.76
+Task 0, Epoch 57/200 => Loss 1.028, Train_accy 70.43:  28%|███████████████                                       | 56/200 [10:00<24:08, 10.06s/it]2024-04-23 00:03:51,484 [fecam.py] => Task 0, Epoch 57/200 => Loss 1.028, Train_accy 70.43
+Task 0, Epoch 58/200 => Loss 1.017, Train_accy 70.65:  28%|███████████████▍                                      | 57/200 [10:10<25:14, 10.59s/it]2024-04-23 00:04:02,391 [fecam.py] => Task 0, Epoch 58/200 => Loss 1.017, Train_accy 70.65
+Task 0, Epoch 59/200 => Loss 1.008, Train_accy 70.75:  29%|███████████████▋                                      | 58/200 [10:21<25:17, 10.68s/it]2024-04-23 00:04:12,912 [fecam.py] => Task 0, Epoch 59/200 => Loss 1.008, Train_accy 70.75
+Task 0, Epoch 60/200 => Loss 1.004, Train_accy 70.95:  30%|███████████████▉                                      | 59/200 [10:33<24:59, 10.64s/it]2024-04-23 00:04:24,500 [fecam.py] => Task 0, Epoch 60/200 => Loss 1.004, Train_accy 70.95
+Task 0, Epoch 61/200 => Loss 1.007, Train_accy 71.06, Test_accy 67.98:  30%|███████████                          | 60/200 [10:44<25:28, 10.92s/it]2024-04-23 00:04:35,806 [fecam.py] => Task 0, Epoch 61/200 => Loss 1.007, Train_accy 71.06, Te
+st_accy 67.98
+Task 0, Epoch 62/200 => Loss 0.997, Train_accy 71.36:  30%|████████████████▍                                     | 61/200 [10:55<25:34, 11.04s/it]2024-04-23 00:04:46,560 [fecam.py] => Task 0, Epoch 62/200 => Loss 0.997, Train_accy 71.36
+Task 0, Epoch 63/200 => Loss 0.995, Train_accy 71.11:  31%|████████████████▋                                     | 62/200 [11:06<25:11, 10.95s/it]2024-04-23 00:04:57,959 [fecam.py] => Task 0, Epoch 63/200 => Loss 0.995, Train_accy 71.11
+Task 0, Epoch 64/200 => Loss 0.986, Train_accy 71.68:  32%|█████████████████                                     | 63/200 [11:16<25:18, 11.09s/it]2024-04-23 00:05:07,739 [fecam.py] => Task 0, Epoch 64/200 => Loss 0.986, Train_accy 71.68
+Task 0, Epoch 65/200 => Loss 0.979, Train_accy 71.82:  32%|█████████████████▎                                    | 64/200 [11:27<24:14, 10.69s/it]2024-04-23 00:05:18,879 [fecam.py] => Task 0, Epoch 65/200 => Loss 0.979, Train_accy 71.82
+Task 0, Epoch 66/200 => Loss 0.971, Train_accy 72.00, Test_accy 68.60:  32%|████████████                         | 65/200 [11:41<24:21, 10.83s/it]2024-04-23 00:05:32,400 [fecam.py] => Task 0, Epoch 66/200 => Loss 0.971, Train_accy 72.00, Te
+st_accy 68.60
+Task 0, Epoch 67/200 => Loss 0.955, Train_accy 72.16:  33%|█████████████████▊                                    | 66/200 [11:53<25:59, 11.64s/it]2024-04-23 00:05:44,848 [fecam.py] => Task 0, Epoch 67/200 => Loss 0.955, Train_accy 72.16
+Task 0, Epoch 68/200 => Loss 0.967, Train_accy 71.93:  34%|██████████████████                                    | 67/200 [12:04<26:19, 11.88s/it]2024-04-23 00:05:55,933 [fecam.py] => Task 0, Epoch 68/200 => Loss 0.967, Train_accy 71.93
+Task 0, Epoch 69/200 => Loss 0.938, Train_accy 72.57:  34%|██████████████████▎                                   | 68/200 [12:15<25:36, 11.64s/it]2024-04-23 00:06:07,349 [fecam.py] => Task 0, Epoch 69/200 => Loss 0.938, Train_accy 72.57
+Task 0, Epoch 70/200 => Loss 0.951, Train_accy 72.55:  34%|██████████████████▋                                   | 69/200 [12:27<25:16, 11.57s/it]2024-04-23 00:06:18,868 [fecam.py] => Task 0, Epoch 70/200 => Loss 0.951, Train_accy 72.55
+Task 0, Epoch 71/200 => Loss 0.960, Train_accy 72.32, Test_accy 68.44:  35%|████████████▉                        | 70/200 [12:39<25:02, 11.56s/it]2024-04-23 00:06:31,139 [fecam.py] => Task 0, Epoch 71/200 => Loss 0.960, Train_accy 72.32, Te
+st_accy 68.44
+Task 0, Epoch 72/200 => Loss 0.926, Train_accy 72.89:  36%|███████████████████▏                                  | 71/200 [12:50<25:18, 11.77s/it]2024-04-23 00:06:41,936 [fecam.py] => Task 0, Epoch 72/200 => Loss 0.926, Train_accy 72.89
+Task 0, Epoch 73/200 => Loss 0.933, Train_accy 72.98:  36%|███████████████████▍                                  | 72/200 [13:02<24:29, 11.48s/it]2024-04-23 00:06:53,485 [fecam.py] => Task 0, Epoch 73/200 => Loss 0.933, Train_accy 72.98
+Task 0, Epoch 74/200 => Loss 0.926, Train_accy 73.20:  36%|███████████████████▋                                  | 73/200 [13:11<24:20, 11.50s/it]2024-04-23 00:07:02,566 [fecam.py] => Task 0, Epoch 74/200 => Loss 0.926, Train_accy 73.20
+Task 0, Epoch 75/200 => Loss 0.901, Train_accy 74.15:  37%|███████████████████▉                                  | 74/200 [13:21<22:37, 10.77s/it]2024-04-23 00:07:13,087 [fecam.py] => Task 0, Epoch 75/200 => Loss 0.901, Train_accy 74.15
+Task 0, Epoch 76/200 => Loss 0.906, Train_accy 73.82, Test_accy 67.70:  38%|█████████████▉                       | 75/200 [13:32<22:17, 10.70s/it]2024-04-23 00:07:24,241 [fecam.py] => Task 0, Epoch 76/200 => Loss 0.906, Train_accy 73.82, Te
+st_accy 67.70
+Task 0, Epoch 77/200 => Loss 0.906, Train_accy 73.74:  38%|████████████████████▌                                 | 76/200 [13:42<22:23, 10.84s/it]2024-04-23 00:07:33,946 [fecam.py] => Task 0, Epoch 77/200 => Loss 0.906, Train_accy 73.74
+Task 0, Epoch 78/200 => Loss 0.899, Train_accy 73.98:  38%|████████████████████▊                                 | 77/200 [13:54<21:30, 10.50s/it]2024-04-23 00:07:45,552 [fecam.py] => Task 0, Epoch 78/200 => Loss 0.899, Train_accy 73.98
+Task 0, Epoch 79/200 => Loss 0.884, Train_accy 74.42:  39%|█████████████████████                                 | 78/200 [14:00<22:01, 10.83s/it]2024-04-23 00:07:51,918 [fecam.py] => Task 0, Epoch 79/200 => Loss 0.884, Train_accy 74.42
+Task 0, Epoch 80/200 => Loss 0.889, Train_accy 74.11:  40%|█████████████████████▎                                | 79/200 [14:08<19:08,  9.49s/it]2024-04-23 00:07:59,661 [fecam.py] => Task 0, Epoch 80/200 => Loss 0.889, Train_accy 74.11
+Task 0, Epoch 81/200 => Loss 0.877, Train_accy 74.34, Test_accy 69.62:  40%|██████████████▊                      | 80/200 [14:18<17:55,  8.97s/it]2024-04-23 00:08:10,336 [fecam.py] => Task 0, Epoch 81/200 => Loss 0.877, Train_accy 74.34, Te
+st_accy 69.62
+Task 0, Epoch 82/200 => Loss 0.852, Train_accy 75.43:  40%|█████████████████████▊                                | 81/200 [14:26<18:47,  9.48s/it]2024-04-23 00:08:17,909 [fecam.py] => Task 0, Epoch 82/200 => Loss 0.852, Train_accy 75.43
+Task 0, Epoch 83/200 => Loss 0.852, Train_accy 75.28:  41%|██████████████████████▏                               | 82/200 [14:33<17:31,  8.91s/it]2024-04-23 00:08:25,137 [fecam.py] => Task 0, Epoch 83/200 => Loss 0.852, Train_accy 75.28
+Task 0, Epoch 84/200 => Loss 0.866, Train_accy 74.75:  42%|██████████████████████▍                               | 83/200 [14:47<16:23,  8.40s/it]2024-04-23 00:08:39,132 [fecam.py] => Task 0, Epoch 84/200 => Loss 0.866, Train_accy 74.75
+Task 0, Epoch 85/200 => Loss 0.847, Train_accy 75.48:  42%|██████████████████████▋                               | 84/200 [15:01<19:29, 10.08s/it]2024-04-23 00:08:52,451 [fecam.py] => Task 0, Epoch 85/200 => Loss 0.847, Train_accy 75.48
+Task 0, Epoch 86/200 => Loss 0.844, Train_accy 75.40, Test_accy 65.84:  42%|███████████████▋                     | 85/200 [15:15<21:10, 11.05s/it]2024-04-23 00:09:06,521 [fecam.py] => Task 0, Epoch 86/200 => Loss 0.844, Train_accy 75.40, Te
+st_accy 65.84
+Task 0, Epoch 87/200 => Loss 0.827, Train_accy 76.12:  43%|███████████████████████▏                              | 86/200 [15:25<22:43, 11.96s/it]2024-04-23 00:09:16,903 [fecam.py] => Task 0, Epoch 87/200 => Loss 0.827, Train_accy 76.12
+Task 0, Epoch 88/200 => Loss 0.828, Train_accy 76.10:  44%|███████████████████████▍                              | 87/200 [15:35<21:37, 11.48s/it]2024-04-23 00:09:26,611 [fecam.py] => Task 0, Epoch 88/200 => Loss 0.828, Train_accy 76.10
+Task 0, Epoch 89/200 => Loss 0.816, Train_accy 76.30:  44%|███████████████████████▊                              | 88/200 [15:46<20:26, 10.95s/it]2024-04-23 00:09:37,610 [fecam.py] => Task 0, Epoch 89/200 => Loss 0.816, Train_accy 76.30
+Task 0, Epoch 90/200 => Loss 0.814, Train_accy 76.51:  44%|████████████████████████                              | 89/200 [15:58<20:17, 10.97s/it]2024-04-23 00:09:49,604 [fecam.py] => Task 0, Epoch 90/200 => Loss 0.814, Train_accy 76.51
+Task 0, Epoch 91/200 => Loss 0.810, Train_accy 76.20, Test_accy 70.22:  45%|████████████████▋                    | 90/200 [16:11<20:40, 11.27s/it]2024-04-23 00:10:02,479 [fecam.py] => Task 0, Epoch 91/200 => Loss 0.810, Train_accy 76.20, Te
+st_accy 70.22
+Task 0, Epoch 92/200 => Loss 0.820, Train_accy 76.36:  46%|████████████████████████▌                             | 91/200 [16:23<21:21, 11.75s/it]2024-04-23 00:10:15,135 [fecam.py] => Task 0, Epoch 92/200 => Loss 0.820, Train_accy 76.36
+Task 0, Epoch 93/200 => Loss 0.809, Train_accy 76.95:  46%|████████████████████████▊                             | 92/200 [16:34<21:38, 12.03s/it]2024-04-23 00:10:25,971 [fecam.py] => Task 0, Epoch 93/200 => Loss 0.809, Train_accy 76.95
+Task 0, Epoch 94/200 => Loss 0.785, Train_accy 77.21:  46%|█████████████████████████                             | 93/200 [16:44<20:48, 11.67s/it]2024-04-23 00:10:35,713 [fecam.py] => Task 0, Epoch 94/200 => Loss 0.785, Train_accy 77.21
+Task 0, Epoch 95/200 => Loss 0.794, Train_accy 76.95:  47%|█████████████████████████▍                            | 94/200 [16:54<19:35, 11.09s/it]2024-04-23 00:10:45,419 [fecam.py] => Task 0, Epoch 95/200 => Loss 0.794, Train_accy 76.95
+Task 0, Epoch 96/200 => Loss 0.772, Train_accy 77.76, Test_accy 72.98:  48%|█████████████████▌                   | 95/200 [17:05<18:40, 10.67s/it]2024-04-23 00:10:56,742 [fecam.py] => Task 0, Epoch 96/200 => Loss 0.772, Train_accy 77.76, Te
+st_accy 72.98
+Task 0, Epoch 97/200 => Loss 0.771, Train_accy 77.71:  48%|█████████████████████████▉                            | 96/200 [17:16<18:50, 10.87s/it]2024-04-23 00:11:07,885 [fecam.py] => Task 0, Epoch 97/200 => Loss 0.771, Train_accy 77.71
+Task 0, Epoch 98/200 => Loss 0.768, Train_accy 77.56:  48%|██████████████████████████▏                           | 97/200 [17:27<18:48, 10.95s/it]2024-04-23 00:11:18,669 [fecam.py] => Task 0, Epoch 98/200 => Loss 0.768, Train_accy 77.56
+Task 0, Epoch 99/200 => Loss 0.754, Train_accy 78.00:  49%|██████████████████████████▍                           | 98/200 [17:37<18:31, 10.90s/it]2024-04-23 00:11:28,899 [fecam.py] => Task 0, Epoch 99/200 => Loss 0.754, Train_accy 78.00
+Task 0, Epoch 100/200 => Loss 0.737, Train_accy 78.84:  50%|██████████████████████████▏                          | 99/200 [17:43<18:00, 10.70s/it]2024-04-23 00:11:35,244 [fecam.py] => Task 0, Epoch 100/200 => Loss 0.737, Train_accy 78.84
+Task 0, Epoch 101/200 => Loss 0.745, Train_accy 78.40, Test_accy 72.88:  50%|█████████████████▌                 | 100/200 [17:52<15:39,  9.39s/it]2024-04-23 00:11:43,821 [fecam.py] => Task 0, Epoch 101/200 => Loss 0.745, Train_accy 78.40, T
+est_accy 72.88
+Task 0, Epoch 102/200 => Loss 0.733, Train_accy 78.73:  50%|██████████████████████████▎                         | 101/200 [18:00<15:05,  9.15s/it]2024-04-23 00:11:52,238 [fecam.py] => Task 0, Epoch 102/200 => Loss 0.733, Train_accy 78.73
+Task 0, Epoch 103/200 => Loss 0.725, Train_accy 78.84:  51%|██████████████████████████▌                         | 102/200 [18:10<14:35,  8.93s/it]2024-04-23 00:12:01,788 [fecam.py] => Task 0, Epoch 103/200 => Loss 0.725, Train_accy 78.84
+Task 0, Epoch 104/200 => Loss 0.713, Train_accy 79.43:  52%|██████████████████████████▊                         | 103/200 [18:19<14:44,  9.12s/it]2024-04-23 00:12:11,274 [fecam.py] => Task 0, Epoch 104/200 => Loss 0.713, Train_accy 79.43
+Task 0, Epoch 105/200 => Loss 0.712, Train_accy 79.22:  52%|███████████████████████████                         | 104/200 [18:29<14:45,  9.23s/it]2024-04-23 00:12:21,381 [fecam.py] => Task 0, Epoch 105/200 => Loss 0.712, Train_accy 79.22
+Task 0, Epoch 106/200 => Loss 0.705, Train_accy 79.76, Test_accy 74.08:  52%|██████████████████▍                | 105/200 [18:40<15:01,  9.49s/it]2024-04-23 00:12:31,768 [fecam.py] => Task 0, Epoch 106/200 => Loss 0.705, Train_accy 79.76, T
+est_accy 74.08
+Task 0, Epoch 107/200 => Loss 0.696, Train_accy 79.65:  53%|███████████████████████████▌                        | 106/200 [18:48<15:17,  9.76s/it]2024-04-23 00:12:39,549 [fecam.py] => Task 0, Epoch 107/200 => Loss 0.696, Train_accy 79.65
+Task 0, Epoch 108/200 => Loss 0.676, Train_accy 80.48:  54%|███████████████████████████▊                        | 107/200 [18:56<14:12,  9.17s/it]2024-04-23 00:12:47,788 [fecam.py] => Task 0, Epoch 108/200 => Loss 0.676, Train_accy 80.48
+Task 0, Epoch 109/200 => Loss 0.681, Train_accy 80.24:  54%|████████████████████████████                        | 108/200 [19:03<13:37,  8.89s/it]2024-04-23 00:12:55,262 [fecam.py] => Task 0, Epoch 109/200 => Loss 0.681, Train_accy 80.24
+Task 0, Epoch 110/200 => Loss 0.656, Train_accy 80.95:  55%|████████████████████████████▎                       | 109/200 [19:12<12:50,  8.46s/it]2024-04-23 00:13:03,648 [fecam.py] => Task 0, Epoch 110/200 => Loss 0.656, Train_accy 80.95
+Task 0, Epoch 111/200 => Loss 0.678, Train_accy 79.99, Test_accy 72.50:  55%|███████████████████▎               | 110/200 [19:23<12:39,  8.44s/it]2024-04-23 00:13:14,555 [fecam.py] => Task 0, Epoch 111/200 => Loss 0.678, Train_accy 79.99, T
+est_accy 72.50
+Task 0, Epoch 112/200 => Loss 0.650, Train_accy 81.39:  56%|████████████████████████████▊                       | 111/200 [19:35<13:37,  9.18s/it]2024-04-23 00:13:26,708 [fecam.py] => Task 0, Epoch 112/200 => Loss 0.650, Train_accy 81.39
+Task 0, Epoch 113/200 => Loss 0.648, Train_accy 81.31:  56%|█████████████████████████████                       | 112/200 [19:47<14:46, 10.07s/it]2024-04-23 00:13:38,833 [fecam.py] => Task 0, Epoch 113/200 => Loss 0.648, Train_accy 81.31
+Task 0, Epoch 114/200 => Loss 0.629, Train_accy 81.79:  56%|█████████████████████████████▍                      | 113/200 [19:59<15:29, 10.69s/it]2024-04-23 00:13:50,654 [fecam.py] => Task 0, Epoch 114/200 => Loss 0.629, Train_accy 81.79
+Task 0, Epoch 115/200 => Loss 0.635, Train_accy 81.70:  57%|█████████████████████████████▋                      | 114/200 [20:07<15:48, 11.03s/it]2024-04-23 00:13:58,530 [fecam.py] => Task 0, Epoch 115/200 => Loss 0.635, Train_accy 81.70
+Task 0, Epoch 116/200 => Loss 0.628, Train_accy 81.69, Test_accy 75.90:  57%|████████████████████▏              | 115/200 [20:19<14:16, 10.08s/it]2024-04-23 00:14:11,302 [fecam.py] => Task 0, Epoch 116/200 => Loss 0.628, Train_accy 81.69, T
+est_accy 75.90
+Task 0, Epoch 117/200 => Loss 0.604, Train_accy 82.40:  58%|██████████████████████████████▏                     | 116/200 [20:32<15:14, 10.89s/it]2024-04-23 00:14:23,929 [fecam.py] => Task 0, Epoch 117/200 => Loss 0.604, Train_accy 82.40
+Task 0, Epoch 118/200 => Loss 0.598, Train_accy 82.93:  58%|██████████████████████████████▍                     | 117/200 [20:44<15:47, 11.41s/it]2024-04-23 00:14:35,590 [fecam.py] => Task 0, Epoch 118/200 => Loss 0.598, Train_accy 82.93
+Task 0, Epoch 119/200 => Loss 0.590, Train_accy 82.90:  59%|██████████████████████████████▋                     | 118/200 [20:54<15:41, 11.49s/it]2024-04-23 00:14:46,371 [fecam.py] => Task 0, Epoch 119/200 => Loss 0.590, Train_accy 82.90
+Task 0, Epoch 120/200 => Loss 0.602, Train_accy 82.42:  60%|██████████████████████████████▉                     | 119/200 [21:05<15:13, 11.27s/it]2024-04-23 00:14:56,925 [fecam.py] => Task 0, Epoch 120/200 => Loss 0.602, Train_accy 82.42
+Task 0, Epoch 121/200 => Loss 0.580, Train_accy 83.33, Test_accy 75.88:  60%|█████████████████████              | 120/200 [21:17<14:44, 11.06s/it]2024-04-23 00:15:08,439 [fecam.py] => Task 0, Epoch 121/200 => Loss 0.580, Train_accy 83.33, T
+est_accy 75.88
+Task 0, Epoch 122/200 => Loss 0.572, Train_accy 83.64:  60%|███████████████████████████████▍                    | 121/200 [21:26<14:44, 11.19s/it]2024-04-23 00:15:17,986 [fecam.py] => Task 0, Epoch 122/200 => Loss 0.572, Train_accy 83.64
+Task 0, Epoch 123/200 => Loss 0.574, Train_accy 83.64:  61%|███████████████████████████████▋                    | 122/200 [21:37<13:54, 10.70s/it]2024-04-23 00:15:28,670 [fecam.py] => Task 0, Epoch 123/200 => Loss 0.574, Train_accy 83.64
+Task 0, Epoch 124/200 => Loss 0.548, Train_accy 84.28:  62%|███████████████████████████████▉                    | 123/200 [21:47<13:43, 10.70s/it]2024-04-23 00:15:38,882 [fecam.py] => Task 0, Epoch 124/200 => Loss 0.548, Train_accy 84.28
+Task 0, Epoch 125/200 => Loss 0.547, Train_accy 83.98:  62%|████████████████████████████████▏                   | 124/200 [21:58<13:21, 10.55s/it]2024-04-23 00:15:49,468 [fecam.py] => Task 0, Epoch 125/200 => Loss 0.547, Train_accy 83.98
+Task 0, Epoch 126/200 => Loss 0.545, Train_accy 84.14, Test_accy 76.00:  62%|█████████████████████▉             | 125/200 [22:09<13:12, 10.56s/it]2024-04-23 00:16:00,529 [fecam.py] => Task 0, Epoch 126/200 => Loss 0.545, Train_accy 84.14, T
+est_accy 76.00
+Task 0, Epoch 127/200 => Loss 0.529, Train_accy 84.76:  63%|████████████████████████████████▊                   | 126/200 [22:16<13:12, 10.71s/it]2024-04-23 00:16:08,272 [fecam.py] => Task 0, Epoch 127/200 => Loss 0.529, Train_accy 84.76
+Task 0, Epoch 128/200 => Loss 0.532, Train_accy 84.94:  64%|█████████████████████████████████                   | 127/200 [22:24<11:56,  9.82s/it]2024-04-23 00:16:15,600 [fecam.py] => Task 0, Epoch 128/200 => Loss 0.532, Train_accy 84.94
+Task 0, Epoch 129/200 => Loss 0.511, Train_accy 85.01:  64%|█████████████████████████████████▎                  | 128/200 [22:33<10:53,  9.07s/it]2024-04-23 00:16:24,589 [fecam.py] => Task 0, Epoch 129/200 => Loss 0.511, Train_accy 85.01
+Task 0, Epoch 130/200 => Loss 0.536, Train_accy 84.50:  64%|█████████████████████████████████▌                  | 129/200 [22:42<10:42,  9.05s/it]2024-04-23 00:16:33,424 [fecam.py] => Task 0, Epoch 130/200 => Loss 0.536, Train_accy 84.50
+Task 0, Epoch 131/200 => Loss 0.496, Train_accy 85.91, Test_accy 78.14:  65%|██████████████████████▊            | 130/200 [22:51<10:28,  8.98s/it]2024-04-23 00:16:42,399 [fecam.py] => Task 0, Epoch 131/200 => Loss 0.496, Train_accy 85.91, T
+est_accy 78.14
+Task 0, Epoch 132/200 => Loss 0.481, Train_accy 86.25:  66%|██████████████████████████████████                  | 131/200 [23:01<10:19,  8.98s/it]2024-04-23 00:16:53,279 [fecam.py] => Task 0, Epoch 132/200 => Loss 0.481, Train_accy 86.25
+Task 0, Epoch 133/200 => Loss 0.485, Train_accy 85.84:  66%|██████████████████████████████████▎                 | 132/200 [23:09<10:49,  9.55s/it]2024-04-23 00:17:01,030 [fecam.py] => Task 0, Epoch 133/200 => Loss 0.485, Train_accy 85.84
+Task 0, Epoch 134/200 => Loss 0.487, Train_accy 86.10:  66%|██████████████████████████████████▌                 | 133/200 [23:17<10:03,  9.01s/it]2024-04-23 00:17:09,374 [fecam.py] => Task 0, Epoch 134/200 => Loss 0.487, Train_accy 86.10
+Task 0, Epoch 135/200 => Loss 0.459, Train_accy 86.91:  67%|██████████████████████████████████▊                 | 134/200 [23:25<09:41,  8.81s/it]2024-04-23 00:17:17,005 [fecam.py] => Task 0, Epoch 135/200 => Loss 0.459, Train_accy 86.91
+Task 0, Epoch 136/200 => Loss 0.461, Train_accy 86.95, Test_accy 77.06:  68%|███████████████████████▋           | 135/200 [23:36<09:09,  8.46s/it]2024-04-23 00:17:27,536 [fecam.py] => Task 0, Epoch 136/200 => Loss 0.461, Train_accy 86.95, T
+est_accy 77.06
+Task 0, Epoch 137/200 => Loss 0.458, Train_accy 86.92:  68%|███████████████████████████████████▎                | 136/200 [23:43<09:41,  9.08s/it]2024-04-23 00:17:34,751 [fecam.py] => Task 0, Epoch 137/200 => Loss 0.458, Train_accy 86.92
+Task 0, Epoch 138/200 => Loss 0.430, Train_accy 87.88:  68%|███████████████████████████████████▌                | 137/200 [23:52<08:56,  8.52s/it]2024-04-23 00:17:44,207 [fecam.py] => Task 0, Epoch 138/200 => Loss 0.430, Train_accy 87.88
+Task 0, Epoch 139/200 => Loss 0.431, Train_accy 87.72:  69%|███████████████████████████████████▉                | 138/200 [24:03<09:05,  8.80s/it]2024-04-23 00:17:55,389 [fecam.py] => Task 0, Epoch 139/200 => Loss 0.431, Train_accy 87.72
+Task 0, Epoch 140/200 => Loss 0.426, Train_accy 87.88:  70%|████████████████████████████████████▏               | 139/200 [24:13<09:40,  9.52s/it]2024-04-23 00:18:05,287 [fecam.py] => Task 0, Epoch 140/200 => Loss 0.426, Train_accy 87.88
+Task 0, Epoch 141/200 => Loss 0.415, Train_accy 88.30, Test_accy 78.34:  70%|████████████████████████▌          | 140/200 [24:27<09:37,  9.63s/it]2024-04-23 00:18:18,715 [fecam.py] => Task 0, Epoch 141/200 => Loss 0.415, Train_accy 88.30, T
+est_accy 78.34
+Task 0, Epoch 142/200 => Loss 0.411, Train_accy 88.20:  70%|████████████████████████████████████▋               | 141/200 [24:35<10:35, 10.77s/it]2024-04-23 00:18:27,217 [fecam.py] => Task 0, Epoch 142/200 => Loss 0.411, Train_accy 88.20
+Task 0, Epoch 143/200 => Loss 0.398, Train_accy 88.75:  71%|████████████████████████████████████▉               | 142/200 [24:48<09:45, 10.09s/it]2024-04-23 00:18:39,610 [fecam.py] => Task 0, Epoch 143/200 => Loss 0.398, Train_accy 88.75
+Task 0, Epoch 144/200 => Loss 0.394, Train_accy 88.81:  72%|█████████████████████████████████████▏              | 143/200 [24:59<10:14, 10.78s/it]2024-04-23 00:18:51,121 [fecam.py] => Task 0, Epoch 144/200 => Loss 0.394, Train_accy 88.81
+Task 0, Epoch 145/200 => Loss 0.381, Train_accy 89.41:  72%|█████████████████████████████████████▍              | 144/200 [25:11<10:15, 11.00s/it]2024-04-23 00:19:03,325 [fecam.py] => Task 0, Epoch 145/200 => Loss 0.381, Train_accy 89.41
+Task 0, Epoch 146/200 => Loss 0.370, Train_accy 89.62, Test_accy 78.18:  72%|█████████████████████████▍         | 145/200 [25:25<10:24, 11.36s/it]2024-04-23 00:19:16,465 [fecam.py] => Task 0, Epoch 146/200 => Loss 0.370, Train_accy 89.62, T
+est_accy 78.18
+Task 0, Epoch 147/200 => Loss 0.369, Train_accy 89.55:  73%|█████████████████████████████████████▉              | 146/200 [25:35<10:42, 11.89s/it]2024-04-23 00:19:27,040 [fecam.py] => Task 0, Epoch 147/200 => Loss 0.369, Train_accy 89.55
+Task 0, Epoch 148/200 => Loss 0.363, Train_accy 89.86:  74%|██████████████████████████████████████▏             | 147/200 [25:46<10:09, 11.50s/it]2024-04-23 00:19:38,140 [fecam.py] => Task 0, Epoch 148/200 => Loss 0.363, Train_accy 89.86
+Task 0, Epoch 149/200 => Loss 0.357, Train_accy 89.81:  74%|██████████████████████████████████████▍             | 148/200 [25:58<09:51, 11.38s/it]2024-04-23 00:19:49,680 [fecam.py] => Task 0, Epoch 149/200 => Loss 0.357, Train_accy 89.81
+Task 0, Epoch 150/200 => Loss 0.334, Train_accy 90.49:  74%|██████████████████████████████████████▋             | 149/200 [26:08<09:42, 11.43s/it]2024-04-23 00:19:59,830 [fecam.py] => Task 0, Epoch 150/200 => Loss 0.334, Train_accy 90.49
+Task 0, Epoch 151/200 => Loss 0.333, Train_accy 90.66, Test_accy 78.64:  75%|██████████████████████████▎        | 150/200 [26:19<09:12, 11.04s/it]2024-04-23 00:20:10,931 [fecam.py] => Task 0, Epoch 151/200 => Loss 0.333, Train_accy 90.66, T
+est_accy 78.64
+Task 0, Epoch 152/200 => Loss 0.340, Train_accy 90.51:  76%|███████████████████████████████████████▎            | 151/200 [26:31<09:01, 11.06s/it]2024-04-23 00:20:22,789 [fecam.py] => Task 0, Epoch 152/200 => Loss 0.340, Train_accy 90.51
+Task 0, Epoch 153/200 => Loss 0.324, Train_accy 90.90:  76%|███████████████████████████████████████▌            | 152/200 [26:41<09:02, 11.30s/it]2024-04-23 00:20:32,770 [fecam.py] => Task 0, Epoch 153/200 => Loss 0.324, Train_accy 90.90
+Task 0, Epoch 154/200 => Loss 0.311, Train_accy 91.32:  76%|███████████████████████████████████████▊            | 153/200 [26:51<08:32, 10.90s/it]2024-04-23 00:20:42,513 [fecam.py] => Task 0, Epoch 154/200 => Loss 0.311, Train_accy 91.32
+Task 0, Epoch 155/200 => Loss 0.310, Train_accy 91.45:  77%|████████████████████████████████████████            | 154/200 [26:59<08:05, 10.56s/it]2024-04-23 00:20:51,202 [fecam.py] => Task 0, Epoch 155/200 => Loss 0.310, Train_accy 91.45
+Task 0, Epoch 156/200 => Loss 0.312, Train_accy 91.40, Test_accy 80.38:  78%|███████████████████████████▏       | 155/200 [27:10<07:29, 10.00s/it]2024-04-23 00:21:01,409 [fecam.py] => Task 0, Epoch 156/200 => Loss 0.312, Train_accy 91.40, T
+est_accy 80.38
+Task 0, Epoch 157/200 => Loss 0.291, Train_accy 91.82:  78%|████████████████████████████████████████▌           | 156/200 [27:19<07:22, 10.06s/it]2024-04-23 00:21:11,168 [fecam.py] => Task 0, Epoch 157/200 => Loss 0.291, Train_accy 91.82
+Task 0, Epoch 158/200 => Loss 0.294, Train_accy 91.65:  78%|████████████████████████████████████████▊           | 157/200 [27:33<07:08,  9.97s/it]2024-04-23 00:21:25,019 [fecam.py] => Task 0, Epoch 158/200 => Loss 0.294, Train_accy 91.65
+Task 0, Epoch 159/200 => Loss 0.287, Train_accy 92.13:  79%|█████████████████████████████████████████           | 158/200 [27:44<07:47, 11.13s/it]2024-04-23 00:21:35,461 [fecam.py] => Task 0, Epoch 159/200 => Loss 0.287, Train_accy 92.13
+Task 0, Epoch 160/200 => Loss 0.259, Train_accy 92.94:  80%|█████████████████████████████████████████▎          | 159/200 [27:54<07:27, 10.93s/it]2024-04-23 00:21:45,698 [fecam.py] => Task 0, Epoch 160/200 => Loss 0.259, Train_accy 92.94
+Task 0, Epoch 161/200 => Loss 0.263, Train_accy 92.70, Test_accy 80.84:  80%|████████████████████████████       | 160/200 [28:04<07:08, 10.72s/it]2024-04-23 00:21:55,894 [fecam.py] => Task 0, Epoch 161/200 => Loss 0.263, Train_accy 92.70, T
+est_accy 80.84
+Task 0, Epoch 162/200 => Loss 0.258, Train_accy 92.80:  80%|█████████████████████████████████████████▊          | 161/200 [28:14<06:51, 10.56s/it]2024-04-23 00:22:05,752 [fecam.py] => Task 0, Epoch 162/200 => Loss 0.258, Train_accy 92.80
+Task 0, Epoch 163/200 => Loss 0.251, Train_accy 93.10:  81%|██████████████████████████████████████████          | 162/200 [28:26<06:33, 10.35s/it]2024-04-23 00:22:18,330 [fecam.py] => Task 0, Epoch 163/200 => Loss 0.251, Train_accy 93.10
+Task 0, Epoch 164/200 => Loss 0.248, Train_accy 93.07:  82%|██████████████████████████████████████████▍         | 163/200 [28:39<06:47, 11.02s/it]2024-04-23 00:22:31,124 [fecam.py] => Task 0, Epoch 164/200 => Loss 0.248, Train_accy 93.07
+Task 0, Epoch 165/200 => Loss 0.240, Train_accy 93.31:  82%|██████████████████████████████████████████▋         | 164/200 [28:51<06:55, 11.55s/it]2024-04-23 00:22:42,824 [fecam.py] => Task 0, Epoch 165/200 => Loss 0.240, Train_accy 93.31
+Task 0, Epoch 166/200 => Loss 0.232, Train_accy 93.68, Test_accy 82.14:  82%|████████████████████████████▉      | 165/200 [29:06<06:45, 11.60s/it]2024-04-23 00:22:58,346 [fecam.py] => Task 0, Epoch 166/200 => Loss 0.232, Train_accy 93.68, T
+est_accy 82.14
+Task 0, Epoch 167/200 => Loss 0.237, Train_accy 93.50:  83%|███████████████████████████████████████████▏        | 166/200 [29:18<07:14, 12.77s/it]2024-04-23 00:23:09,446 [fecam.py] => Task 0, Epoch 167/200 => Loss 0.237, Train_accy 93.50
+Task 0, Epoch 168/200 => Loss 0.223, Train_accy 94.02:  84%|███████████████████████████████████████████▍        | 167/200 [29:28<06:44, 12.27s/it]2024-04-23 00:23:20,257 [fecam.py] => Task 0, Epoch 168/200 => Loss 0.223, Train_accy 94.02
+Task 0, Epoch 169/200 => Loss 0.208, Train_accy 94.37:  84%|███████████████████████████████████████████▋        | 168/200 [29:40<06:18, 11.83s/it]2024-04-23 00:23:31,622 [fecam.py] => Task 0, Epoch 169/200 => Loss 0.208, Train_accy 94.37
+Task 0, Epoch 170/200 => Loss 0.213, Train_accy 94.16:  84%|███████████████████████████████████████████▉        | 169/200 [29:52<06:02, 11.69s/it]2024-04-23 00:23:44,312 [fecam.py] => Task 0, Epoch 170/200 => Loss 0.213, Train_accy 94.16
+Task 0, Epoch 171/200 => Loss 0.214, Train_accy 94.14, Test_accy 82.18:  85%|█████████████████████████████▊     | 170/200 [30:08<05:59, 11.99s/it]2024-04-23 00:23:59,408 [fecam.py] => Task 0, Epoch 171/200 => Loss 0.214, Train_accy 94.14, T
+est_accy 82.18
+Task 0, Epoch 172/200 => Loss 0.205, Train_accy 94.38:  86%|████████████████████████████████████████████▍       | 171/200 [30:20<06:14, 12.92s/it]2024-04-23 00:24:11,966 [fecam.py] => Task 0, Epoch 172/200 => Loss 0.205, Train_accy 94.38
+Task 0, Epoch 173/200 => Loss 0.207, Train_accy 94.33:  86%|████████████████████████████████████████████▋       | 172/200 [30:34<05:58, 12.81s/it]2024-04-23 00:24:25,646 [fecam.py] => Task 0, Epoch 173/200 => Loss 0.207, Train_accy 94.33
+Task 0, Epoch 174/200 => Loss 0.200, Train_accy 94.49:  86%|████████████████████████████████████████████▉       | 173/200 [30:46<05:52, 13.07s/it]2024-04-23 00:24:38,018 [fecam.py] => Task 0, Epoch 174/200 => Loss 0.200, Train_accy 94.49
+Task 0, Epoch 175/200 => Loss 0.194, Train_accy 94.74:  87%|█████████████████████████████████████████████▏      | 174/200 [30:58<05:34, 12.86s/it]2024-04-23 00:24:49,526 [fecam.py] => Task 0, Epoch 175/200 => Loss 0.194, Train_accy 94.74
+Task 0, Epoch 176/200 => Loss 0.194, Train_accy 94.70, Test_accy 83.02:  88%|██████████████████████████████▋    | 175/200 [31:10<05:11, 12.46s/it]2024-04-23 00:25:01,882 [fecam.py] => Task 0, Epoch 176/200 => Loss 0.194, Train_accy 94.70, T
+est_accy 83.02
+Task 0, Epoch 177/200 => Loss 0.175, Train_accy 95.32:  88%|█████████████████████████████████████████████▊      | 176/200 [31:20<04:58, 12.43s/it]2024-04-23 00:25:11,901 [fecam.py] => Task 0, Epoch 177/200 => Loss 0.175, Train_accy 95.32
+Task 0, Epoch 178/200 => Loss 0.180, Train_accy 95.09:  88%|██████████████████████████████████████████████      | 177/200 [31:30<04:29, 11.70s/it]2024-04-23 00:25:22,312 [fecam.py] => Task 0, Epoch 178/200 => Loss 0.180, Train_accy 95.09
+Task 0, Epoch 179/200 => Loss 0.183, Train_accy 95.00:  89%|██████████████████████████████████████████████▎     | 178/200 [31:41<04:08, 11.32s/it]2024-04-23 00:25:33,021 [fecam.py] => Task 0, Epoch 179/200 => Loss 0.183, Train_accy 95.00
+Task 0, Epoch 180/200 => Loss 0.179, Train_accy 95.12:  90%|██████████████████████████████████████████████▌     | 179/200 [31:53<03:53, 11.13s/it]2024-04-23 00:25:44,495 [fecam.py] => Task 0, Epoch 180/200 => Loss 0.179, Train_accy 95.12
+Task 0, Epoch 181/200 => Loss 0.175, Train_accy 95.18, Test_accy 83.50:  90%|███████████████████████████████▌   | 180/200 [32:02<03:44, 11.24s/it]2024-04-23 00:25:53,469 [fecam.py] => Task 0, Epoch 181/200 => Loss 0.175, Train_accy 95.18, T
+est_accy 83.50
+Task 0, Epoch 182/200 => Loss 0.183, Train_accy 94.95:  90%|███████████████████████████████████████████████     | 181/200 [32:10<03:20, 10.56s/it]2024-04-23 00:26:01,700 [fecam.py] => Task 0, Epoch 182/200 => Loss 0.183, Train_accy 94.95
+Task 0, Epoch 183/200 => Loss 0.165, Train_accy 95.47:  91%|███████████████████████████████████████████████▎    | 182/200 [32:18<02:57,  9.86s/it]2024-04-23 00:26:10,090 [fecam.py] => Task 0, Epoch 183/200 => Loss 0.165, Train_accy 95.47
+Task 0, Epoch 184/200 => Loss 0.171, Train_accy 95.46:  92%|███████████████████████████████████████████████▌    | 183/200 [32:26<02:40,  9.42s/it]2024-04-23 00:26:18,263 [fecam.py] => Task 0, Epoch 184/200 => Loss 0.171, Train_accy 95.46
+Task 0, Epoch 185/200 => Loss 0.174, Train_accy 95.23:  92%|███████████████████████████████████████████████▊    | 184/200 [32:35<02:24,  9.04s/it]2024-04-23 00:26:26,818 [fecam.py] => Task 0, Epoch 185/200 => Loss 0.174, Train_accy 95.23
+Task 0, Epoch 186/200 => Loss 0.170, Train_accy 95.46, Test_accy 83.42:  92%|████████████████████████████████▍  | 185/200 [32:48<02:13,  8.90s/it]2024-04-23 00:26:39,569 [fecam.py] => Task 0, Epoch 186/200 => Loss 0.170, Train_accy 95.46, T
+est_accy 83.42
+Task 0, Epoch 187/200 => Loss 0.159, Train_accy 95.54:  93%|████████████████████████████████████████████████▎   | 186/200 [32:54<02:20, 10.05s/it]2024-04-23 00:26:45,835 [fecam.py] => Task 0, Epoch 187/200 => Loss 0.159, Train_accy 95.54
+Task 0, Epoch 188/200 => Loss 0.157, Train_accy 95.81:  94%|████████████████████████████████████████████████▌   | 187/200 [33:02<01:55,  8.92s/it]2024-04-23 00:26:53,660 [fecam.py] => Task 0, Epoch 188/200 => Loss 0.157, Train_accy 95.81
+Task 0, Epoch 189/200 => Loss 0.152, Train_accy 96.04:  94%|████████████████████████████████████████████████▉   | 188/200 [33:10<01:43,  8.59s/it]2024-04-23 00:27:01,800 [fecam.py] => Task 0, Epoch 189/200 => Loss 0.152, Train_accy 96.04
+Task 0, Epoch 190/200 => Loss 0.153, Train_accy 95.85:  94%|█████████████████████████████████████████████████▏  | 189/200 [33:18<01:33,  8.45s/it]2024-04-23 00:27:09,920 [fecam.py] => Task 0, Epoch 190/200 => Loss 0.153, Train_accy 95.85
+Task 0, Epoch 191/200 => Loss 0.154, Train_accy 95.90, Test_accy 83.64:  95%|█████████████████████████████████▎ | 190/200 [33:29<01:23,  8.35s/it]2024-04-23 00:27:20,512 [fecam.py] => Task 0, Epoch 191/200 => Loss 0.154, Train_accy 95.90, T
+est_accy 83.64
+Task 0, Epoch 192/200 => Loss 0.149, Train_accy 96.04:  96%|█████████████████████████████████████████████████▋  | 191/200 [33:42<01:21,  9.03s/it]2024-04-23 00:27:33,471 [fecam.py] => Task 0, Epoch 192/200 => Loss 0.149, Train_accy 96.04
+Task 0, Epoch 193/200 => Loss 0.161, Train_accy 95.58:  96%|█████████████████████████████████████████████████▉  | 192/200 [33:53<01:21, 10.21s/it]2024-04-23 00:27:44,795 [fecam.py] => Task 0, Epoch 193/200 => Loss 0.161, Train_accy 95.58
+Task 0, Epoch 194/200 => Loss 0.155, Train_accy 95.83:  96%|██████████████████████████████████████████████████▏ | 193/200 [34:04<01:13, 10.54s/it]2024-04-23 00:27:56,317 [fecam.py] => Task 0, Epoch 194/200 => Loss 0.155, Train_accy 95.83
+Task 0, Epoch 195/200 => Loss 0.151, Train_accy 95.94:  97%|██████████████████████████████████████████████████▍ | 194/200 [34:17<01:05, 10.84s/it]2024-04-23 00:28:09,061 [fecam.py] => Task 0, Epoch 195/200 => Loss 0.151, Train_accy 95.94
+Task 0, Epoch 196/200 => Loss 0.148, Train_accy 96.09, Test_accy 83.94:  98%|██████████████████████████████████▏| 195/200 [34:30<00:57, 11.41s/it]2024-04-23 00:28:22,169 [fecam.py] => Task 0, Epoch 196/200 => Loss 0.148, Train_accy 96.09, T
+est_accy 83.94
+Task 0, Epoch 197/200 => Loss 0.142, Train_accy 96.12:  98%|██████████████████████████████████████████████████▉ | 196/200 [34:42<00:47, 11.92s/it]2024-04-23 00:28:33,498 [fecam.py] => Task 0, Epoch 197/200 => Loss 0.142, Train_accy 96.12
+Task 0, Epoch 198/200 => Loss 0.148, Train_accy 95.99:  98%|███████████████████████████████████████████████████▏| 197/200 [34:54<00:35, 11.74s/it]2024-04-23 00:28:46,048 [fecam.py] => Task 0, Epoch 198/200 => Loss 0.148, Train_accy 95.99
+Task 0, Epoch 199/200 => Loss 0.151, Train_accy 95.90:  99%|███████████████████████████████████████████████████▍| 198/200 [35:05<00:23, 11.98s/it]2024-04-23 00:28:56,912 [fecam.py] => Task 0, Epoch 199/200 => Loss 0.151, Train_accy 95.90
+Task 0, Epoch 200/200 => Loss 0.158, Train_accy 95.82: 100%|███████████████████████████████████████████████████▋| 199/200 [35:17<00:11, 11.65s/it]2024-04-23 00:29:09,185 [fecam.py] => Task 0, Epoch 200/200 => Loss 0.158, Train_accy 95.82
+Task 0, Epoch 200/200 => Loss 0.158, Train_accy 95.82: 100%|████████████████████████████████████████████████████| 200/200 [35:17<00:00, 10.59s/it]
+50
+2024-04-23 00:30:22,248 [trainer.py] => CNN: {'total': 83.94, '00-09': 86.8, '10-19': 80.7, '20-29': 86.7, '30-39': 80.2, '40-49': 85.3, 'old': 0, 'new': 83.94}
+2024-04-23 00:30:22,289 [trainer.py] => No NME accuracy
+2024-04-23 00:30:22,289 [trainer.py] => FeCAM: {'total': 83.94, '00-09': 86.8, '10-19': 80.7, '20-29': 86.7, '30-39': 80.2, '40-49': 85.3, 'old': 0, 'new': 83.94}
+2024-04-23 00:30:22,289 [trainer.py] => CNN top1 curve: [83.94]
+2024-04-23 00:30:22,289 [trainer.py] => CNN top5 curve: [96.42]
+2024-04-23 00:30:22,289 [trainer.py] => FeCAM top1 curve: [83.94]
+2024-04-23 00:30:22,289 [trainer.py] => FeCAM top5 curve: [96.42]
+
+2024-04-23 00:30:22,293 [fecam.py] => Learning on 50-60
+60
+/public/home/imgbreaker/Desktop/FeCAM/FeCAM-main/models/base.py:198: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than tor
+ch.tensor(sourceTensor).
+  x = torch.tensor(x)
+2024-04-23 00:30:46,609 [trainer.py] => CNN: {'total': 71.93, '00-09': 80.7, '10-19': 73.8, '20-29': 80.5, '30-39': 75.3, '40-49': 67.4, '50-59': 53.9, 'old': 75.54, 'new': 53.9}
+2024-04-23 00:30:46,610 [trainer.py] => No NME accuracy
+2024-04-23 00:30:46,610 [trainer.py] => FeCAM: {'total': 76.53, '00-09': 84.7, '10-19': 77.3, '20-29': 84.1, '30-39': 79.7, '40-49': 81.9, '50-59': 51.5, 'old': 81.54, 'new': 51.5}
+2024-04-23 00:30:46,610 [trainer.py] => CNN top1 curve: [83.94, 71.93]
+2024-04-23 00:30:46,610 [trainer.py] => CNN top5 curve: [96.42, 89.77]
+2024-04-23 00:30:46,610 [trainer.py] => FeCAM top1 curve: [83.94, 76.53]
+2024-04-23 00:30:46,610 [trainer.py] => FeCAM top5 curve: [96.42, 93.2]
+
+2024-04-23 00:30:46,651 [fecam.py] => Learning on 60-70
+70
+2024-04-23 00:31:18,139 [trainer.py] => CNN: {'total': 64.56, '00-09': 73.0, '10-19': 71.2, '20-29': 78.1, '30-39': 72.0, '40-49': 62.9, '50-59': 46.3, '60-69': 48.4, 'old': 67.25, 'new': 48.4}
+2024-04-23 00:31:18,140 [trainer.py] => No NME accuracy
+2024-04-23 00:31:18,140 [trainer.py] => FeCAM: {'total': 72.43, '00-09': 83.9, '10-19': 75.9, '20-29': 83.9, '30-39': 78.7, '40-49': 80.8, '50-59': 48.3, '60-69': 55.5, 'old': 75.25, 'new': 55.5}
+2024-04-23 00:31:18,140 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56]
+2024-04-23 00:31:18,140 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67]
+2024-04-23 00:31:18,140 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43]
+2024-04-23 00:31:18,140 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24]
+
+2024-04-23 00:31:18,144 [fecam.py] => Learning on 70-80
+80
+2024-04-23 00:31:46,691 [trainer.py] => CNN: {'total': 59.34, '00-09': 71.7, '10-19': 70.4, '20-29': 77.9, '30-39': 70.6, '40-49': 60.6, '50-59': 36.2, '60-69': 44.6, '70-79': 42.7, 'old': 61.71, 'new': 42.7}
+2024-04-23 00:31:46,691 [trainer.py] => No NME accuracy
+2024-04-23 00:31:46,691 [trainer.py] => FeCAM: {'total': 68.34, '00-09': 83.6, '10-19': 75.6, '20-29': 83.3, '30-39': 77.3, '40-49': 79.4, '50-59': 44.2, '60-69': 53.2, '70-79': 50.1, 'old': 70.94, 'new': 50.1}
+2024-04-23 00:31:46,691 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34]
+2024-04-23 00:31:46,691 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25]
+2024-04-23 00:31:46,691 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34]
+2024-04-23 00:31:46,691 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4]
+
+2024-04-23 00:31:46,702 [fecam.py] => Learning on 80-90
+90
+2024-04-23 00:32:18,141 [trainer.py] => CNN: {'total': 54.06, '00-09': 66.7, '10-19': 63.9, '20-29': 73.7, '30-39': 70.5, '40-49': 56.9, '50-59': 31.7, '60-69': 40.6, '70-79': 39.2, '80-89': 43.3, 'old': 55.4, 'new': 43.3}
+2024-04-23 00:32:18,141 [trainer.py] => No NME accuracy
+2024-04-23 00:32:18,141 [trainer.py] => FeCAM: {'total': 64.7, '00-09': 81.8, '10-19': 74.2, '20-29': 82.2, '30-39': 76.5, '40-49': 77.7, '50-59': 42.8, '60-69': 51.7, '70-79': 48.1, '80-89': 47.3, 'old': 66.88, 'new': 47.3}
+2024-04-23 00:32:18,141 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34, 54.06]
+2024-04-23 00:32:18,141 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25, 82.02]
+2024-04-23 00:32:18,141 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34, 64.7]
+2024-04-23 00:32:18,141 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4, 88.01]
+
+2024-04-23 00:32:18,145 [fecam.py] => Learning on 90-100
+100
+2024-04-23 00:32:57,054 [trainer.py] => CNN: {'total': 50.27, '00-09': 57.9, '10-19': 63.6, '20-29': 72.7, '30-39': 69.8, '40-49': 56.6, '50-59': 29.2, '60-69': 38.2, '70-79': 36.5, '80-89': 41.3, '90-99': 36.9, 'old': 51.76, 'new': 36.9}
+2024-04-23 00:32:57,054 [trainer.py] => No NME accuracy
+2024-04-23 00:32:57,054 [trainer.py] => FeCAM: {'total': 62.36, '00-09': 81.2, '10-19': 73.8, '20-29': 81.4, '30-39': 76.0, '40-49': 77.3, '50-59': 40.9, '60-69': 50.9, '70-79': 46.2, '80-89': 46.2, '90-99': 49.7, 'old': 63.77, 'new': 49.7}
+2024-04-23 00:32:57,054 [trainer.py] => CNN top1 curve: [83.94, 71.93, 64.56, 59.34, 54.06, 50.27]
+2024-04-23 00:32:57,054 [trainer.py] => CNN top5 curve: [96.42, 89.77, 86.67, 84.25, 82.02, 79.92]
+2024-04-23 00:32:57,054 [trainer.py] => FeCAM top1 curve: [83.94, 76.53, 72.43, 68.34, 64.7, 62.36]
+2024-04-23 00:32:57,054 [trainer.py] => FeCAM top5 curve: [96.42, 93.2, 91.24, 89.4, 88.01, 86.68]
+
+imgbreaker@gpu1:~/Desktop/FeCAM/FeCAM-main$ ux capture-pane -S -32768
+ux: command not found
+imgbreaker@gpu1:~/Desktop/FeCAM/FeCAM-main$ tmux capture-pane -S -32768
+imgbreaker@gpu1:~/Desktop/FeCAM/FeCAM-main$ ux save-buffer save0.txt
+ux: command not found
+imgbreaker@gpu1:~/Desktop/FeCAM/FeCAM-main$ tmux save-buffer save0.txt
+imgbreaker@gpu1:~/Desktop/FeCAM/FeCAM-main$ tmux capture-pane -S -32768
+

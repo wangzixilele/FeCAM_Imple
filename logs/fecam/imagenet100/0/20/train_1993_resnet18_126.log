@@ -1,0 +1,27 @@
+2024-06-18 20:28:28,872 [trainer.py] => config: exps/FeCAM_imagnet100.json
+2024-06-18 20:28:28,872 [trainer.py] => prefix: train
+2024-06-18 20:28:28,872 [trainer.py] => dataset: imagenet100
+2024-06-18 20:28:28,872 [trainer.py] => memory_size: 0
+2024-06-18 20:28:28,872 [trainer.py] => shuffle: True
+2024-06-18 20:28:28,872 [trainer.py] => init_cls: 20
+2024-06-18 20:28:28,872 [trainer.py] => increment: 20
+2024-06-18 20:28:28,872 [trainer.py] => model_name: fecam
+2024-06-18 20:28:28,872 [trainer.py] => convnet_type: resnet18
+2024-06-18 20:28:28,872 [trainer.py] => device: [device(type='cuda', index=0)]
+2024-06-18 20:28:28,872 [trainer.py] => seed: 1993
+2024-06-18 20:28:28,872 [trainer.py] => init_epochs: 200
+2024-06-18 20:28:28,872 [trainer.py] => init_lr: 0.1
+2024-06-18 20:28:28,872 [trainer.py] => init_weight_decay: 0.0005
+2024-06-18 20:28:28,872 [trainer.py] => batch_size: 128
+2024-06-18 20:28:28,872 [trainer.py] => num_workers: 8
+2024-06-18 20:28:28,872 [trainer.py] => T: 2
+2024-06-18 20:28:28,872 [trainer.py] => beta: 0.5
+2024-06-18 20:28:28,872 [trainer.py] => alpha1: 1
+2024-06-18 20:28:28,872 [trainer.py] => alpha2: 1
+2024-06-18 20:28:28,872 [trainer.py] => ncm: False
+2024-06-18 20:28:28,872 [trainer.py] => tukey: True
+2024-06-18 20:28:28,872 [trainer.py] => diagonal: False
+2024-06-18 20:28:28,872 [trainer.py] => per_class: True
+2024-06-18 20:28:28,872 [trainer.py] => full_cov: True
+2024-06-18 20:28:28,872 [trainer.py] => shrink: True
+2024-06-18 20:28:28,872 [trainer.py] => norm_cov: True
